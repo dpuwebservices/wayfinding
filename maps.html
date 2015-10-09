@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- Bootstrap -->
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<!-- Image Map Size -->
+	<script src="js/jquery.rwdImageMaps.min.js" type="text/javascript"></script>
+	<script src="js/ios-orientationchange-fix.min.js"></script>
+	
+	<!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+	<link href="css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body> 
+<div class="container nav-lg-title">
+	<h1>INFORMATION</h1>
+	<h2>DePaul University Richardson Library</h2>
+</div>
+
+<div class="navbar navbar-default clearfix">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">DePaul University Richardson Library</a>
+		</div>
+			
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="activated"><a class="activated" href="maps.html">Maps</a></li>
+				<li class="nonactive"><a class="nonactive" href="events.html">Events</a></li>
+				<li class="nonactive"><a class="nonactive" href="classes.html">Classes</a></li>
+			</ul>
+		</div><!--/.nav-collapse -->
+	</div>
+</div>
+
+<div class="container col-lg-12 container-margin">
+	<div class="col-lg-9">
+			<!--Image map tutorial. http://jquer.in/responsive/rwdimagemaps/ 
+			Tool for image mapping. http://imagemap-generator.dariodomi.de/-->
+		<div class="row maps-center">
+			<div class="col-lg-6 nopadding max-maps" id="one">
+				<img src="images/maps/firstfloor.png" width="1500" height="1080" usemap="#first" class="max-maps">
+                <map name="first" id="first">
+					<area shape="rect" coords="94,54,352,210" href="#" title="scholarslab" alt="Scholar's Lab" id="scholarslab">
+					<area shape="rect" coords="247,233,348,373" href="#" title="geniussquad" alt="Genius Squad" id="geniussquad">
+					<area shape="rect" coords="194,370,344,517" href="#" title="accessservices" alt="Access Services" id="accessservices">
+					<area shape="rect" coords="837,423,905,511" href="#" title="researchhelp" alt="Research Help Desk" id="researchhelp">
+					<area shape="rect" coords="1027,717,1152,857" href="#" title="learningcommons" alt="Learning Commons" id="learningcommons">
+					<area shape="rect" coords="1146,717,1386,827" href="#" title="libraryinstruction" alt="Library Instruction" id="libraryinstruction">
+                </map>
+			</div>
+			
+			<div class="col-lg-6 nopadding max-maps" id="two">
+				<img src="images/maps/secondfloor.png" width="1500" height="1080" usemap="#second" class="max-maps">
+				<map name="second" id="second">
+					<area shape="rect" coords="45,426,128,677" href="#" title="groupstudy2" alt="Group Study Rooms" id="groupstudy2">
+					<area shape="rect" coords="1334,31,1447,150" href="#" title="microfilm" alt="Microfilm" id="microfilm">
+				</map>
+			</div>
+		</div>
+		
+		<div class="row maps-center">
+			<div class="col-lg-6 nopadding max-maps" id="three">
+				<img src="images/maps/thirdfloor.png" width="1500" height="1080" usemap="#third" class="max-maps">
+                <map name="third" id="third">
+					<area shape="rect" coords="39,707,211,874" href="#" title="rosati" alt="Rosati Room" id="rosati">
+					<area shape="rect" coords="1272,705,1447,875" href="#" title="specialcollections" alt="Special Collections" id="specialcollections">
+                </map>
+			</div>
+			
+			<div class="col-lg-6 nopadding max-maps" id="four">
+				<img src="images/maps/fourthfloor.png" width="1500" height="1080" usemap="#fourth" class="max-maps">
+                <map name="fourth" id="fourth">
+					<area shape="rect" coords="41,270,130,614" href="#" title="groupstudy4" alt="Group Study Rooms" id="groupstudy4">
+					<area shape="rect" coords="37,709,213,875" href="#" title="dorothyday" alt="Dorothy Day Room" id="dorothyday">
+					<area shape="rect" coords="1276,710,1445,873" href="#" title="stvinventdepaul" alt="St. Vincent de Paul Room" id="stvincentdepaul">
+                </map>
+			</div>
+		</div>
+	</div> <!--End of maps-->
+	
+	<div class="col-lg-3" id="mapLinks">
+		<ul class="nav nav-tabs">
+			<li><a href="#hours" data-toggle="tab">Hours</a></li>
+			<li class="active"><a href="#directory" data-toggle="tab">Directory</a></li>
+		</ul>
+		
+		<div class="tab-content">
+			<div id="hours" class="tab-pane">
+				<div id="api_hours_today_iid123_lid60"></div>
+				<script src="http://api.libcal.com/api_hours_today.php?iid=123&lid=60&format=js&context=object"> </script> 	
+			</div>
+		
+			<div id="directory" class="tab-pane active">
+				<div class="info">
+					<h3>Spaces</h3>
+						<ul>
+							<li class="li"><a href="#">Audio-Video Viewing &amp; Listening</a> </li>
+							<li class="li"><a href="#">Bathrooms</a> </li>
+							<li class="li"><a href="#">Dorothy Day Room - JTR 400</a> </li>
+							<li class="li"><a href="#">Group Study Rooms</a> </li>
+							<li class="li"><a href="#">Group Study Zones</a> </li>
+							<li class="li"><a href="#">Instruction Rooms</a> </li>
+							<li class="li"><a href="#">Learning Commons - JTR 111</a> </li>
+							<li class="li"><a href="#">Quiet Study Zones</a> </li>
+							<li class="li"><a href="#">Rosati Room  - JTR 300</a></li>
+							<li class="li"><a href="#">St. Vincent DePaul Room</a> </li>
+						</ul>
+
+					<h3>Services</h3>
+						<ul>
+							<li class="li"><a href="#">Circulation Desk</a> </li>
+							<li class="li"><a href="#">Computers</a> </li>
+							<li class="li"><a href="#">Copy Machines</a> </li>
+							<li class="li"><a href="#">Genius Squad</a> </li>
+							<li class="li"><a href="#">Printers</a> </li>
+							<li class="li"><a href="#">Reference Desk</a> </li>
+							<li class="li"><a href="#">Scholars' Lab</a> </li>
+						</ul>
+			
+					<h3>Collections</h3>
+						<ul>
+							<li class="li"><a href="#">Books (Call Numbers 0-699)</a> </li>
+							<li class="li"><a href="#">Books (Call Numbers 700-999)</a> </li>
+							<li class="li"><a href="#">Career Collection</a> </li>
+							<li class="li"><a href="#">Chicago Collection</a> </li>
+							<li class="li"><a href="#">Curriculum Materials</a> </li>
+							<li class="li"><a href="#">Faculty Publications</a> </li>
+							<li class="li"><a href="#">Graphic Novels</a> </li>
+							<li class="li"><a href="#">Image Collections</a> </li>
+							<li class="li"><a href="#">Media (CDs, Videos, Microfilm)</a> </li>
+							<li class="li"><a href="#">Periodicals</a> </li>
+							<li class="li"><a href="#">Recreational Reading</a> </li>
+							<li class="li"><a href="#">Reference Collection</a> </li>
+							<li class="li"><a href="#">Special Collections</a> </li>
+						</ul>
+				</div>
+			</div>  
+		</div>
+		
+		<!--First Floor-->
+		<div class="test"> This is a div</div>
+		<div id="panel-scholarslab">This is the Scholar's Lab.</div>
+		<div id="panel-geniussquad">This is the Genius Squad.</div>
+		<div id="panel-accessservices">This is the Access Services.</div>
+		<div id="panel-researchhelp">This is the Research Help Desk.</div>
+		<div id="panel-learningcommons">This is the Learning Commons.</div>
+		<div id="panel-libraryinstruction">This is the Library Instruction.</div>
+		
+		<!--Second Floor-->
+		<div id="panel-groupstudy2">These are the second floor Group Study Rooms.</div>
+		<div id="panel-microfilm">This is the Microfilm room.</div>
+		
+		<!--Third Floor-->
+		<div id="panel-rosati">These are the Rosati Room.</div>
+		<div id="panel-specialcollections">This is Special Collections.</div>
+		
+		<!--Fourth Floor-->
+		<div id="panel-groupstudy4">These are the fourth floor Group Study Rooms.</div>
+		<div id="panel-dorothyday">This is Dorothy Day Room.</div>
+		<div id="panel-stvincentdepaul">This is St. Vincent de Paul Room.</div>
+	</div> <!--End of panel-->
+</div> <!--/close container-->
+<script>
+$(document).ready(function(e) {
+    $('img[usemap]').rwdImageMaps();
+});
+</script>
+
+<script>
+//First Floor//
+$("#panel-scholarslab").hide();
+$("map#first").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'scholarslab') {
+		$(".tab-content").hide();
+		$("#panel-scholarslab").show();
+    }
+});
+
+$("#panel-geniussquad").hide();
+$("map#first").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'geniussquad') {
+		$(".tab-content").hide();
+		$("#panel-geniussquad").show();
+    }
+});
+
+$("#panel-accessservices").hide();
+$("map#first").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'accessservices') {
+		$(".tab-content").hide();
+		$("#panel-accessservices").show();
+    }
+});
+
+$("#panel-researchhelp").hide();
+$("map#first").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'researchhelp') {
+		$(".tab-content").hide();
+		$("#panel-researchhelp").show();
+    }
+});
+
+$("#panel-learningcommons").hide();
+$("map#first").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'learningcommons') {
+		$(".tab-content").hide();
+		$("#panel-learningcommons").show();
+    }
+});
+
+$("#panel-libraryinstruction").hide();
+$("map#first").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'libraryinstruction') {
+		$(".tab-content").hide();
+		$("#panel-libraryinstruction").show();
+    }
+});
+
+//Second Floor//
+$("#panel-groupstudy2").hide();
+$("map#second").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'groupstudy2') {
+		$(".tab-content").hide();
+		$("#panel-groupstudy2").show();
+    }
+});
+
+$("#panel-microfilm").hide();
+$("map#second").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'microfilm') {
+		$(".tab-content").hide();
+		$("#panel-microfilm").show();
+    }
+});
+
+//Third Floor//
+$("#panel-rosati").hide();
+$("map#third").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'rosati') {
+		$(".tab-content").hide();
+		$("#panel-rosati").show();
+    }
+});
+
+$("#panel-specialcollections").hide();
+$("map#third").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'specialcollections') {
+		$(".tab-content").hide();
+		$("#panel-specialcollections").show();
+    }
+});
+
+//Fourth Floor//
+$("#panel-groupstudy4").hide();
+$("map#fourth").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'groupstudy4') {
+		$(".tab-content").hide();
+		$("#panel-groupstudy4").show();
+    }
+});
+
+$("#panel-dorothyday").hide();
+$("map#fourth").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'dorothyday') {
+		$(".tab-content").hide();
+		$("#panel-dorothyday").show();
+    }
+});
+
+$("#panel-stvincentdepaul").hide();
+$("map#fourth").click(function(ev){
+	var target = $(ev.target);
+	var targetId = target.attr('id');
+	if(targetId == 'stvincentdepaul') {
+		$(".tab-content").hide();
+		$("#panel-stvincentdepaul").show();
+    }
+});
+</script>
+
+
+</body>
+</html>
