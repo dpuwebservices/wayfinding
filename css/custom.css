@@ -203,6 +203,12 @@
 			max-width:650px;
 			vertical-align:middle;
 		}
+		.mapoverlay{
+			pointer-events: none;
+			position: absolute;
+			top: 0px;
+  			left: 0px;
+		}
 
 		.max-maps img{
 			vertical-align:middle;
@@ -348,7 +354,7 @@ table{
 
 /* maps css */
 
-#one img,#two img,#three img,#four img{width:100%; height:100%; margin-bottom:10px;}
+#one img,#two img,#three img,#four img{width:100%; height:100%; /*margin-bottom:10px;*/}
 
 .nopadding{
 	padding: 0px;
@@ -389,7 +395,7 @@ table{
 }
 
 /* Side Panels */
-#panel-scholarslab {
+#info-panel {
 	position:relative;
 	background-color:#ff6633;
 	color:#FFF;
@@ -399,131 +405,16 @@ table{
 	z-index:1;
 }
 
-#panel-geniussquad{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-accessservices{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-researchhelp{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-learningcommons{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-libraryinstruction{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-groupstudy2{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-microfilm{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-rosati{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-specialcollections{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-groupstudy4{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-dorothyday{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
-}
-
-#panel-stvincentdepaul{
-	position:relative;
-	background-color:#ff6633;
-	color:#FFF;
-	height:auto;
-	width:auto;
-	padding:15px 15px;
-	z-index:1;
+#info-panel .p {
+	display: inline-block;
 }
 
 .close-image{
-    display: block;
+	cursor:pointer;
+    display: inline-block;
     float:right;
     position:relative;
-    top:-10px;
-    right: -10px;
-    height: 25px;
+    top: -35px;
+	right: -5px;
+	height: 40px;
 }

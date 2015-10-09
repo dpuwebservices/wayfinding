@@ -55,21 +55,23 @@
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="one">
 				<img src="images/maps/firstfloor.png" width="1500" height="1080" usemap="#first" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1080">
                 <map name="first" id="first">
-					<area shape="rect" coords="94,54,352,210" href="#" title="scholarslab" alt="Scholar's Lab" id="scholarslab">
-					<area shape="rect" coords="247,233,348,373" href="#" title="geniussquad" alt="Genius Squad" id="geniussquad">
-					<area shape="rect" coords="194,370,344,517" href="#" title="accessservices" alt="Access Services" id="accessservices">
-					<area shape="rect" coords="837,423,905,511" href="#" title="researchhelp" alt="Research Help Desk" id="researchhelp">
-					<area shape="rect" coords="1027,717,1152,857" href="#" title="learningcommons" alt="Learning Commons" id="learningcommons">
-					<area shape="rect" coords="1146,717,1386,827" href="#" title="libraryinstruction" alt="Library Instruction" id="libraryinstruction">
+					<area shape="rect" coords="94,54,352,210" href="#" title="scholarslab" alt="Scholar's Lab" id="1_scholars">
+					<area shape="rect" coords="247,233,348,373" href="#" title="geniussquad" alt="Genius Squad" id="1_geniussquad">
+					<area shape="rect" coords="194,370,344,517" href="#" title="accessservices" alt="Access Services" id="1_circulationdesk">
+					<area shape="rect" coords="837,423,905,511" href="#" title="researchhelp" alt="Research Help Desk" id="1_referencedesk">
+					<area shape="rect" coords="1027,717,1152,857" href="#" title="learningcommons" alt="Learning Commons" id="1_learningcommons">
+					<area shape="rect" coords="1146,717,1386,827" href="#" title="libraryinstruction" alt="Library Instruction" id="1_instruction">
                 </map>
 			</div>
 			
 			<div class="col-lg-6 nopadding max-maps" id="two">
 				<img src="images/maps/secondfloor.png" width="1500" height="1080" usemap="#second" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1080">
 				<map name="second" id="second">
-					<area shape="rect" coords="45,426,128,677" href="#" title="groupstudy2" alt="Group Study Rooms" id="groupstudy2">
-					<area shape="rect" coords="1334,31,1447,150" href="#" title="microfilm" alt="Microfilm" id="microfilm">
+					<area shape="rect" coords="45,426,128,677" href="#" title="groupstudy2" alt="Group Study Rooms" id="groupstudyzones">
+					<area shape="rect" coords="1334,31,1447,150" href="#" title="microfilm" alt="Microfilm" id="2_copycenter">
 				</map>
 			</div>
 		</div>
@@ -77,24 +79,31 @@
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="three">
 				<img src="images/maps/thirdfloor.png" width="1500" height="1080" usemap="#third" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1080">
                 <map name="third" id="third">
-					<area shape="rect" coords="39,707,211,874" href="#" title="rosati" alt="Rosati Room" id="rosati">
-					<area shape="rect" coords="1272,705,1447,875" href="#" title="specialcollections" alt="Special Collections" id="specialcollections">
+					<area shape="rect" coords="39,707,211,874" href="#" title="rosati" alt="Rosati Room" id="3_rosatiroom">
+					<area shape="rect" coords="1272,705,1447,875" href="#" title="specialcollections" alt="Special Collections" id="3_specialcollections">
                 </map>
 			</div>
 			
 			<div class="col-lg-6 nopadding max-maps" id="four">
 				<img src="images/maps/fourthfloor.png" width="1500" height="1080" usemap="#fourth" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1080">
                 <map name="fourth" id="fourth">
-					<area shape="rect" coords="41,270,130,614" href="#" title="groupstudy4" alt="Group Study Rooms" id="groupstudy4">
-					<area shape="rect" coords="37,709,213,875" href="#" title="dorothyday" alt="Dorothy Day Room" id="dorothyday">
-					<area shape="rect" coords="1276,710,1445,873" href="#" title="stvinventdepaul" alt="St. Vincent de Paul Room" id="stvincentdepaul">
+					<area shape="rect" coords="41,270,130,614" href="#" title="groupstudy4" alt="Group Study Rooms" id="groupstudyzones">
+					<area shape="rect" coords="37,709,213,875" href="#" title="dorothyday" alt="Dorothy Day Room" id="4_dorothyday">
+					<area shape="rect" coords="1276,710,1445,873" href="#" title="stvinventdepaul" alt="St. Vincent de Paul Room" id="4_stvincent">
                 </map>
 			</div>
 		</div>
 	</div> <!--End of maps-->
 	
 	<div class="col-lg-3" id="mapLinks">
+		<div id="info-panel">
+			<p id="info-text"></p>
+			<img id="close-img" class="close-image" src="images/maps/close-icon.png"/>
+		</div>
+
 		<ul class="nav nav-tabs">
 			<li><a href="#hours" data-toggle="tab">Hours</a></li>
 			<li class="active"><a href="#directory" data-toggle="tab">Directory</a></li>
@@ -110,212 +119,196 @@
 				<div class="info">
 					<h3>Spaces</h3>
 						<ul>
-							<li class="li"><a href="#">Audio-Video Viewing &amp; Listening</a> </li>
-							<li class="li"><a href="#">Bathrooms</a> </li>
-							<li class="li"><a href="#">Dorothy Day Room - JTR 400</a> </li>
-							<li class="li"><a href="#">Group Study Rooms</a> </li>
-							<li class="li"><a href="#">Group Study Zones</a> </li>
-							<li class="li"><a href="#">Instruction Rooms</a> </li>
-							<li class="li"><a href="#">Learning Commons - JTR 111</a> </li>
-							<li class="li"><a href="#">Quiet Study Zones</a> </li>
-							<li class="li"><a href="#">Rosati Room  - JTR 300</a></li>
-							<li class="li"><a href="#">St. Vincent DePaul Room</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('2_audiovideo');">Audio-Video Viewing &amp; Listening</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('bathrooms');">Bathrooms</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('4_dorothyday');">Dorothy Day Room - JTR 400</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('quietstudyrooms');">Group Study Rooms</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('groupstudyzones');">Group Study Zones</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_instruction');">Instruction Rooms</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_learningcommons');">Learning Commons - JTR 111</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('quietstudyzones');">Quiet Study Zones</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('3_rosatiroom');">Rosati Room  - JTR 300</a></li>
+							<li class="li"><a href="#" onClick="show_info_panel('4_stvincent');">St. Vincent DePaul Room</a> </li>
 						</ul>
 
 					<h3>Services</h3>
 						<ul>
-							<li class="li"><a href="#">Circulation Desk</a> </li>
-							<li class="li"><a href="#">Computers</a> </li>
-							<li class="li"><a href="#">Copy Machines</a> </li>
-							<li class="li"><a href="#">Genius Squad</a> </li>
-							<li class="li"><a href="#">Printers</a> </li>
-							<li class="li"><a href="#">Reference Desk</a> </li>
-							<li class="li"><a href="#">Scholars' Lab</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_circulationdesk');">Circulation Desk</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_computers');">Computers</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_copycenter');">Copy Machines</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_geniussquad');">Genius Squad</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_printcenter');">Printers</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_referencedesk');">Reference Desk</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_scholars');">Scholars' Lab</a> </li>
 						</ul>
 			
 					<h3>Collections</h3>
 						<ul>
-							<li class="li"><a href="#">Books (Call Numbers 0-699)</a> </li>
-							<li class="li"><a href="#">Books (Call Numbers 700-999)</a> </li>
-							<li class="li"><a href="#">Career Collection</a> </li>
-							<li class="li"><a href="#">Chicago Collection</a> </li>
-							<li class="li"><a href="#">Curriculum Materials</a> </li>
-							<li class="li"><a href="#">Faculty Publications</a> </li>
-							<li class="li"><a href="#">Graphic Novels</a> </li>
-							<li class="li"><a href="#">Image Collections</a> </li>
-							<li class="li"><a href="#">Media (CDs, Videos, Microfilm)</a> </li>
-							<li class="li"><a href="#">Periodicals</a> </li>
-							<li class="li"><a href="#">Recreational Reading</a> </li>
-							<li class="li"><a href="#">Reference Collection</a> </li>
-							<li class="li"><a href="#">Special Collections</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('3_callnumbers0699');">Books (Call Numbers 0-699)</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('4_callnumbers700999');">Books (Call Numbers 700-999)</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_career');">Career Collection</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_chicago');">Chicago Collection</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('2_curriculummaterials');">Curriculum Materials</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_facultypublications');">Faculty Publications</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_graphicnovels');">Graphic Novels</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('2_imagecollections');">Image Collections</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('2_media');">Media (CDs, Videos, Microfilm)</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('2_periodicals');">Periodicals</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('1_recreational');">Recreational Reading</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('2_reference');">Reference Collection</a> </li>
+							<li class="li"><a href="#" onClick="show_info_panel('3_specialcollections');">Special Collections</a> </li>
 						</ul>
 				</div>
 			</div>  
 		</div>
-		
-		<!--First Floor-->
-		<div class="test"> This is a div</div>
-		<div id="panel-scholarslab">This is the Scholar's Lab.</div>
-		<div id="panel-geniussquad">This is the Genius Squad.</div>
-		<div id="panel-accessservices">This is the Access Services.</div>
-		<div id="panel-researchhelp">This is the Research Help Desk.</div>
-		<div id="panel-learningcommons">This is the Learning Commons.</div>
-		<div id="panel-libraryinstruction">This is the Library Instruction.</div>
-		
-		<!--Second Floor-->
-		<div id="panel-groupstudy2">These are the second floor Group Study Rooms.</div>
-		<div id="panel-microfilm">This is the Microfilm room.</div>
-		
-		<!--Third Floor-->
-		<div id="panel-rosati">These are the Rosati Room.</div>
-		<div id="panel-specialcollections">This is Special Collections.</div>
-		
-		<!--Fourth Floor-->
-		<div id="panel-groupstudy4">These are the fourth floor Group Study Rooms.</div>
-		<div id="panel-dorothyday">This is Dorothy Day Room.</div>
-		<div id="panel-stvincentdepaul">This is St. Vincent de Paul Room.</div>
+
 	</div> <!--End of panel-->
 </div> <!--/close container-->
 <script>
-$(document).ready(function(e) {
-    $('img[usemap]').rwdImageMaps();
-});
-</script>
 
-<script>
-//First Floor//
-$("#panel-scholarslab").hide();
-$("map#first").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'scholarslab') {
-		$(".tab-content").hide();
-		$("#panel-scholarslab").show();
-    }
-});
+	$(document).ready(function(e) {
+	    $('img[usemap]').rwdImageMaps();
+	});
 
-$("#panel-geniussquad").hide();
-$("map#first").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'geniussquad') {
-		$(".tab-content").hide();
-		$("#panel-geniussquad").show();
-    }
-});
+	// Hide the info-panel and overlay images on page load.
+	$("#info-panel").hide();
+	$("#one .mapoverlay").hide();
+    $("#two .mapoverlay").hide();
+    $("#three .mapoverlay").hide();
+    $("#four .mapoverlay").hide();
 
-$("#panel-accessservices").hide();
-$("map#first").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'accessservices') {
-		$(".tab-content").hide();
-		$("#panel-accessservices").show();
-    }
-});
+    // This is a mapping of element id to the displayed text.
+    // To change what text is displayed, edit or add it here.
+	info_map={
+		"bathrooms": 			["These are the bathrooms.", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
+		"computers": 			["This is...", ["1_computers.png", "2_computerlabs"]],
+		"groupstudyzones": 		["This is...", ["1_groupstudyzone.png", "2_groupstudyzone.png"]],
+		"groupstudyrooms": 		["This is...", ["2_groupstudy.png", "4_groupstudy.png"]],
+		"quietstudyzones": 		["This is...", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
+		"1_career": 			["This is...", ["1_career.png"]],
+		"1_chicago": 			["This is...", ["1_chicago.png"]],
+		"1_circulationdesk": 	["This is...", ["1_circulationdesk.png"]],
+		"1_copycenter": 		["This is...", ["1_copycenter.png"]],
+		"1_facultypublications": ["This is...", ["1_facultypublications.png"]],
+		"1_geniussquad": 		["This is...", ["1_geniussquad.png"]],
+		"1_graphicnovels": 		["This is...", ["1_graphicnovels.png"]],
+		"1_instruction": 		["This is...", ["1_instruction.png"]],
+		"1_learningcommons": 	["This is...", ["1_learningcommons.png"]],
+		"1_recreational": 		["This is...", ["1_recreational.png"]],
+		"1_referencedesk": 		["This is...", ["1_referencedesk.png"]],
+		"1_scholars": 			["This is...", ["1_scholars.png"]],
+		"2_audiovideo": 		["This is...", ["2_audiovideo.png"]],
+		"2_career": 			["This is...", ["2_career.png"]],
+		"2_chicago": 			["This is...", ["2_chicago.png"]],
+		"2_circulationdesk": 	["This is...", ["2_circulationdesk.png"]],
+		"2_copycenter": 		["This is...", ["2_copycenter.png"]],
+		"2_curriculummaterials": ["This is...", ["2_curriculummaterials.png"]],
+		"2_geniussquad": 		["This is...", ["2_geniussquad.png"]],
+		"2_imagecollections": 	["This is...", ["2_imagecollections.png"]],
+		"2_media": 				["This is...", ["2_media.png"]],
+		"2_periodicals": 		["This is...", ["2_periodicals.png"]],
+		"2_printcenter": 		["This is...", ["2_printcenter.png"]],
+		"2_recreational": 		["This is...", ["2_recreational.png"]],
+		"2_reference": 			["This is...", ["2_reference.png"]],
+		"2_referencedesk": 		["This is...", ["2_referencedesk.png"]],
+		"3_callnumbers0699": 	["This is...", ["3_callnumbers0699.png"]],
+		"3_instruction": 		["This is...", ["3_instruction.png"]],
+		"3_rosatiroom": 		["This is...", ["3_rosatiroom.png"]],
+		"3_specialcollections": ["This is...", ["3_specialcollections.png"]],
+		"4_callnumbers700999": 	["This is...", ["4_callnumbers700999.png"]],
+		"4_dorothyday": 		["This is...", ["4_dorothyday.png"]],
+		"4_musicscores": 		["This is...", ["4_musicscores.png"]],
+		"4_stvincent": 			["This is...", ["4_stvincent.png"]]
+	};
 
-$("#panel-researchhelp").hide();
-$("map#first").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'researchhelp') {
-		$(".tab-content").hide();
-		$("#panel-researchhelp").show();
-    }
-});
+	// Note that in order for this to work, the id of each image map location MUST match
+	// the name of the image file. For example, 1_scholars.png
+	function show_overlays(images){
+		// First hide any overlays
+		$("#one .mapoverlay").hide();
+	    $("#two .mapoverlay").hide();
+	    $("#three .mapoverlay").hide();
+	    $("#four .mapoverlay").hide();
 
-$("#panel-learningcommons").hide();
-$("map#first").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'learningcommons') {
-		$(".tab-content").hide();
-		$("#panel-learningcommons").show();
-    }
-});
+	    var i;
+	    for(i = 0; i < images.length; i ++) {
+	    	// Get the element's floor by looking at the first character of its id.
+			var floor = images[i].substring(0, 1);
+			if(floor == "1") {
+				var overlay = $("#one .mapoverlay");
+				var overlay_image = "images/maps/" + images[i];
+				overlay.attr("src", overlay_image);
+				overlay.show();
+			} else if(floor == "2") {
+				var overlay = $("#two .mapoverlay");
+				var overlay_image = "images/maps/" + images[i];
+				overlay.attr("src", overlay_image);
+				overlay.show();
+			} else if(floor == "3") {
+				var overlay = $("#three .mapoverlay");
+				var overlay_image = "images/maps/" + images[i];
+				overlay.attr("src", overlay_image);
+				overlay.show();
+			} else if(floor == "4") {
+				var overlay = $("#four .mapoverlay");
+				var overlay_image = "images/maps/" + images[i];
+				overlay.attr("src", overlay_image);
+				overlay.show();
+			}
+	    }
+	}
 
-$("#panel-libraryinstruction").hide();
-$("map#first").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'libraryinstruction') {
-		$(".tab-content").hide();
-		$("#panel-libraryinstruction").show();
-    }
-});
+	function show_info_panel(id) {
+		var mapping = info_map[id];
+		var info_panel_text = $("#info-panel #info-text");
+		info_panel_text.text(mapping[0]);
+		$("#info-panel").show();
+		show_overlays(mapping[1]);
+	}
 
-//Second Floor//
-$("#panel-groupstudy2").hide();
-$("map#second").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'groupstudy2') {
-		$(".tab-content").hide();
-		$("#panel-groupstudy2").show();
-    }
-});
+	function map_listener(ev) {
+		var target = $(ev.target);
+		var targetId = target.attr('id');
+		show_info_panel(targetId);
+		// We should stop propagating after this function is called
+		// so that we don't hit the document listener.
+		ev.stopPropagation();
+	}
 
-$("#panel-microfilm").hide();
-$("map#second").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'microfilm') {
-		$(".tab-content").hide();
-		$("#panel-microfilm").show();
-    }
-});
+	function hide_info_panel_overlays(ev) {
+		$("#info-panel").hide();
+	    $("#one .mapoverlay").hide();
+	    $("#two .mapoverlay").hide();
+	    $("#three .mapoverlay").hide();
+	    $("#four .mapoverlay").hide();
+	}
 
-//Third Floor//
-$("#panel-rosati").hide();
-$("map#third").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'rosati') {
-		$(".tab-content").hide();
-		$("#panel-rosati").show();
-    }
-});
 
-$("#panel-specialcollections").hide();
-$("map#third").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'specialcollections') {
-		$(".tab-content").hide();
-		$("#panel-specialcollections").show();
-    }
-});
+	$("map#first").click(map_listener);
+	$("map#second").click(map_listener);
+	$("map#third").click(map_listener);
+	$("map#fourth").click(map_listener);
 
-//Fourth Floor//
-$("#panel-groupstudy4").hide();
-$("map#fourth").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'groupstudy4') {
-		$(".tab-content").hide();
-		$("#panel-groupstudy4").show();
-    }
-});
+	// The purpose of this listener is to detect clicks outside
+	// a map element. e.g. if the info panel is open and the user
+	// clicks outside a possible map area then close the panel.
+	$(document).click(function(event) { 
+		// If one of the overlays is visible...
+		if($("#one .mapoverlay").is(":visible") || $("#two .mapoverlay").is(":visible") 
+			|| $("#three .mapoverlay").is(":visible") || $("#four .mapoverlay").is(":visible")){
+			// If the clicked element is not a child of a mapoverlay or the directory...
+			if(!$(event.target).closest('.mapoverlay').length && !$(event.target).closest('#directory').length()) {
+				hide_info_panel_overlays();
+	    	}  
+		}
+	          
+	});
 
-$("#panel-dorothyday").hide();
-$("map#fourth").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'dorothyday') {
-		$(".tab-content").hide();
-		$("#panel-dorothyday").show();
-    }
-});
+	// Listener for info panel close image.
+	$("#close-img").click(function(ev){
+	    hide_info_panel_overlays();
+	});
 
-$("#panel-stvincentdepaul").hide();
-$("map#fourth").click(function(ev){
-	var target = $(ev.target);
-	var targetId = target.attr('id');
-	if(targetId == 'stvincentdepaul') {
-		$(".tab-content").hide();
-		$("#panel-stvincentdepaul").show();
-    }
-});
 </script>
 
 
