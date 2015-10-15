@@ -297,7 +297,7 @@
 		if($("#one .mapoverlay").is(":visible") || $("#two .mapoverlay").is(":visible") 
 			|| $("#three .mapoverlay").is(":visible") || $("#four .mapoverlay").is(":visible")){
 			// If the clicked element is not a child of a mapoverlay or the directory...
-			if(!$(event.target).closest('.mapoverlay').length && !$(event.target).closest('#directory').length()) {
+			if(!$(event.target).closest('.mapoverlay').length && !$(event.target).closest('#directory').length) {
 				hide_info_panel_overlays();
 	    	}  
 		}
