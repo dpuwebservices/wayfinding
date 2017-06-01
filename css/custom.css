@@ -316,13 +316,14 @@ table{
 
 /*override events api css*/
 
-.lwe{width:100%;background-color:#333; font-size:20px; margin-bottom:10px; padding:5px;list-style-type: none;float:left; color:#eee;}
+.lwe{width:100%;background-color:#333; font-size:20px; margin-bottom:15px; padding:5px;list-style-type: none;float:left; color:#eee;}
 
-.lwe a{color:#eee!important; font-weight:bold;}
+.lwe a{color:#eee; font-weight:bold;}
+.lwe a:hover{color:#000; font-weight:bold;text-decoration: none;}
 
 .lwe > a:hover, 
 .lwe > a:active, 
-.lwe > a:focus{color:#eee!important; font-weight:bold;}
+.lwe > a:focus{color:#eee; font-weight:bold;}
 
 .tevent{margin-top:5px;margin-bottom:5px;}
 
@@ -417,4 +418,31 @@ table{
     top: 0px;
 	right: -5px;
 	height: 40px;
+}
+
+/* Custom Style for Classes page */
+h3.s-lc-ea-h3 {
+    color: #eee;
+}
+.s-lc-ea-tb {
+    background-color: #333;
+    color: #eee;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+.s-lc-ea-tb td {
+    padding: 5px;
+}
+.s-lc-ea-tb a {
+    color: #eee;
+    font-weight: bold;
+}
+.s-lc-ea-tb a:hover {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.s-lc-ea-l {
+    width: 20%;
 }
