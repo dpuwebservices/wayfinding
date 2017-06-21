@@ -15,14 +15,14 @@
 	<script src="js/ios-orientationchange-fix.min.js"></script>
 
 	<!-- CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
-	<link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!--<link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">-->
+	<link href="css/custom-style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <div class="container nav-lg-title">
-	<h1>INFORMATION</h1>
+	<h1>INTERACTIVE DIRECTORY</h1>
 	<h2>DePaul University Richardson Library</h2>
 </div>
 
@@ -57,12 +57,14 @@
 				<img src="images/maps/firstfloor.png" width="1500" height="1080" usemap="#first" class="max-maps">
 				<img class="mapoverlay" width="1500" height="1080">
                 <map name="first" id="first">
+                    <area shape="rect" coords="1051,40,1196,144" href="#" title="supplimentalinstruction" alt="Supplimental Instruction" id="1_instruction">
 					<area shape="rect" coords="94,54,352,210" href="#" title="scholarslab" alt="Scholar's Lab" id="1_scholars">
 					<area shape="rect" coords="247,233,348,373" href="#" title="geniussquad" alt="Genius Squad" id="1_geniussquad">
 					<area shape="rect" coords="194,370,344,517" href="#" title="accessservices" alt="Access Services" id="1_circulationdesk">
 					<area shape="rect" coords="837,423,905,511" href="#" title="researchhelp" alt="Research Help Desk" id="1_referencedesk">
 					<area shape="rect" coords="1027,717,1152,857" href="#" title="learningcommons" alt="Learning Commons" id="1_learningcommons">
 					<area shape="rect" coords="1146,717,1386,827" href="#" title="libraryinstruction" alt="Library Instruction" id="1_instruction">
+                    <area shape="rect" coords="628,651,857,752" href="#" title="gerardtest" alt="Gerard Test Area" id="gerardtest">
                 </map>
 			</div>
 
@@ -109,6 +111,7 @@
 			<ul class="nav nav-tabs">
 				<li><a href="#hours" data-toggle="tab">Hours</a></li>
 				<li class="active"><a href="#directory" data-toggle="tab">Directory</a></li>
+                <li><a href="#hours" data-toggle="tab">Information By Floor</a></li>
 			</ul>
 
 			<div class="tab-content">
@@ -201,6 +204,7 @@
 		"1_recreational": 		["", ["1_recreational.png"]],
 		"1_referencedesk": 		["<b>Research Help Desk</b><br/><br/><b>About:</b><br/>The Research Help Desk helps with research based questions and how to navigate through the library’s databases.<br/><br/>Patrons can ask for research help, as well as book look-ups, here. ", ["1_referencedesk.png"]],
 		"1_scholars": 			["<b>Scholar's Lab</b><br/><br/><b>About:</b><br/>The Scholar's Lab is available for use as an open, informal or formal meeting and workshop space by the following members of the DePaul Community.<br/><br/><b>Equipment:</b><br/><b>Media:scape Collaboration Table</b><br/>The Scholar's Lab is equipped with 6 media:scape tables designed to facilitate collaborative research and learning. Each media:scape collaboration table in the Scholar's Lab offers the following:<br/><ul><li>Up to 5 seats per table with a single 42'' monitor for shared viewing</li><li>2 high-powered resident computers, one Windows OS and one Mac OS</li><li>Users may plug in their own devices to the tables such as laptops and tablets, up to 5 devices at a time</li><li>An overhead projector, screen, and instructor's podium with computer or laptop plugin is also available for large group learning purposes</li></ul><b>Print-Scan</b><br/><ul><li>One oversized plotter printer is located in the Scholar's Lab for poster printing</li><li>6 oversized, full color Epson 11000xl scanners for graphic arts and digitization work are attached to Mac computers in the Scholar's Lab</li></ul>", ["1_scholars.png"]],
+        "gerardtest": 		    ["<b>Gerard Test Area</b><br/><br/><b>Dummy text:</b><br/>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.", ["1_gerardtest.png"]],
 		"2_audiovideo": 		["", ["2_audiovideo.png"]],
 		"2_career": 			["", ["2_career.png"]],
 		"2_chicago": 			["", ["2_chicago.png"]],
