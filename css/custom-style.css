@@ -70,7 +70,7 @@ h3 {
 }
 
 /* Status Bar */
-/* line 76, ../sass/custom-style.scss */
+/* line 77, ../sass/custom-style.scss */
 #status-bar {
   background: black;
   color: #eee;
@@ -83,25 +83,25 @@ h3 {
   letter-spacing: 0.11em;
   line-height: 30px;
 }
-/* line 87, ../sass/custom-style.scss */
+/* line 88, ../sass/custom-style.scss */
 #status-bar .date {
   float: left;
   width: 30%;
   padding: 1px 0 0 2%;
 }
-/* line 92, ../sass/custom-style.scss */
+/* line 93, ../sass/custom-style.scss */
 #status-bar .time {
   text-align: center;
   float: left;
   width: 40%;
 }
-/* line 96, ../sass/custom-style.scss */
+/* line 97, ../sass/custom-style.scss */
 #status-bar .time input[type=button] {
   background: black;
   letter-spacing: 0.08em;
   border: 0;
 }
-/* line 102, ../sass/custom-style.scss */
+/* line 103, ../sass/custom-style.scss */
 #status-bar #weather {
   float: left;
   width: 30%;
@@ -109,13 +109,13 @@ h3 {
   text-align: right;
   padding-right: 2%;
 }
-/* line 108, ../sass/custom-style.scss */
+/* line 109, ../sass/custom-style.scss */
 #status-bar #weather h2 {
   margin: 0;
   font-size: 22px;
   padding: 5px 0 0;
 }
-/* line 112, ../sass/custom-style.scss */
+/* line 113, ../sass/custom-style.scss */
 #status-bar #weather h2 i {
   color: white;
   font-family: weather;
@@ -123,12 +123,12 @@ h3 {
   line-height: 21px;
   height: 28px;
   display: inline-block;
-  top: -3px;
+  top: 0;
   position: relative;
 }
 
 /* Top Navigation Buttons */
-/* line 127, ../sass/custom-style.scss */
+/* line 129, ../sass/custom-style.scss */
 .navbar {
   background-image: none;
   border: none;
@@ -145,85 +145,85 @@ h3 {
   /*centers navbar for desktop*/
   /*centers navbar for desktop*/
 }
-/* line 141, ../sass/custom-style.scss */
+/* line 143, ../sass/custom-style.scss */
 .navbar .container {
   width: 100%;
 }
-/* line 143, ../sass/custom-style.scss */
+/* line 145, ../sass/custom-style.scss */
 .navbar .navbar-brand {
   display: none;
 }
-/* line 145, ../sass/custom-style.scss */
+/* line 147, ../sass/custom-style.scss */
 .navbar .navbar-nav {
   width: 100%;
   text-align: center;
 }
-/* line 149, ../sass/custom-style.scss */
+/* line 151, ../sass/custom-style.scss */
 .navbar li {
   margin: 0 1%;
   float: none;
   display: inline-block;
 }
-/* line 153, ../sass/custom-style.scss */
+/* line 155, ../sass/custom-style.scss */
 .navbar li a {
   text-shadow: none;
   color: white;
   font-size: 18px;
   font-weight: bold;
 }
-/* line 160, ../sass/custom-style.scss */
+/* line 162, ../sass/custom-style.scss */
 .navbar .nonactive,
 .navbar .activated {
   border-radius: 8px;
   width: 150px;
 }
-/* line 165, ../sass/custom-style.scss */
+/* line 167, ../sass/custom-style.scss */
 .navbar .nonactive {
   background-color: #31c3e6;
   color: black;
 }
-/* line 169, ../sass/custom-style.scss */
+/* line 171, ../sass/custom-style.scss */
 .navbar .activated {
   background-color: white;
   color: #FFF;
 }
-/* line 173, ../sass/custom-style.scss */
+/* line 175, ../sass/custom-style.scss */
 .navbar a.activated {
   color: black !important;
 }
-/* line 176, ../sass/custom-style.scss */
+/* line 178, ../sass/custom-style.scss */
 .navbar a.nonactive {
   color: white !important;
 }
 
 /* Maps */
-/* line 182, ../sass/custom-style.scss */
+/* line 185, ../sass/custom-style.scss */
 .container-margin {
   margin-right: 15px;
 }
-/* line 185, ../sass/custom-style.scss */
+/* line 188, ../sass/custom-style.scss */
 .container-margin .maps-center {
   vertical-align: middle;
   float: none;
   margin: 0 auto;
 }
-/* line 190, ../sass/custom-style.scss */
+/* line 193, ../sass/custom-style.scss */
 .container-margin .max-maps {
   max-width: 650px;
   vertical-align: middle;
 }
-/* line 194, ../sass/custom-style.scss */
+/* line 197, ../sass/custom-style.scss */
 .container-margin .mapoverlay {
   pointer-events: none;
   position: absolute;
   top: 0px;
   left: 0px;
 }
-/* line 200, ../sass/custom-style.scss */
+/* line 203, ../sass/custom-style.scss */
 .container-margin .max-maps img {
   vertical-align: middle;
 }
-/* line 205, ../sass/custom-style.scss */
+/* line 208, ../sass/custom-style.scss */
 .container-margin #one img,
 .container-margin #two img,
 .container-margin #three img,
@@ -231,27 +231,28 @@ h3 {
   width: 100%;
   height: 100%;
 }
-/* line 213, ../sass/custom-style.scss */
+/* line 216, ../sass/custom-style.scss */
 .container-margin .nopadding {
   padding: 0px;
 }
-/* line 218, ../sass/custom-style.scss */
+/* line 221, ../sass/custom-style.scss */
 .container-margin .info a:focus {
   color: #ff6633;
   text-decoration: none;
 }
-/* line 222, ../sass/custom-style.scss */
+/* line 225, ../sass/custom-style.scss */
 .container-margin .info a:hover {
   color: #ff6633;
   text-decoration: none;
 }
 
 /* Side Panels */
-/* line 230, ../sass/custom-style.scss */
+/* line 234, ../sass/custom-style.scss */
 #mapLinks {
   margin-top: 15px;
+  padding-right: 0;
 }
-/* line 232, ../sass/custom-style.scss */
+/* line 237, ../sass/custom-style.scss */
 #mapLinks #info-panel {
   position: relative;
   background-color: #ff6633;
@@ -261,11 +262,11 @@ h3 {
   padding: 15px 15px;
   z-index: 1;
 }
-/* line 240, ../sass/custom-style.scss */
+/* line 245, ../sass/custom-style.scss */
 #mapLinks #info-panel .p {
   display: inline-block;
 }
-/* line 243, ../sass/custom-style.scss */
+/* line 248, ../sass/custom-style.scss */
 #mapLinks #info-panel .close-image {
   cursor: pointer;
   display: inline-block;
@@ -275,11 +276,11 @@ h3 {
   right: -5px;
   height: 40px;
 }
-/* line 253, ../sass/custom-style.scss */
+/* line 258, ../sass/custom-style.scss */
 #mapLinks .nav-tabs {
   border-bottom: none;
 }
-/* line 255, ../sass/custom-style.scss */
+/* line 260, ../sass/custom-style.scss */
 #mapLinks .nav-tabs li > a {
   color: white;
   background-color: #0c5896;
@@ -287,14 +288,14 @@ h3 {
   border-radius: 0;
   margin: 0 !important;
 }
-/* line 263, ../sass/custom-style.scss */
+/* line 268, ../sass/custom-style.scss */
 #mapLinks .nav-tabs li.active a,
 #mapLinks .nav-tabs li.active a:hover,
 #mapLinks .nav-tabs li.active a:focus {
   border: none;
   border-bottom-color: transparent;
 }
-/* line 269, ../sass/custom-style.scss */
+/* line 274, ../sass/custom-style.scss */
 #mapLinks .nav-tabs li.active a {
   border-color: none;
   border-radius: 0;
@@ -302,61 +303,61 @@ h3 {
   color: #0c5896;
   font-weight: bold;
 }
-/* line 278, ../sass/custom-style.scss */
+/* line 283, ../sass/custom-style.scss */
 #mapLinks .tab-content {
   position: absolute;
   background-color: white;
   width: 95%;
   z-index: 0;
 }
-/* line 283, ../sass/custom-style.scss */
+/* line 288, ../sass/custom-style.scss */
 #mapLinks .tab-content .info {
   height: auto;
   width: auto;
   padding: 15px 15px;
 }
-/* line 288, ../sass/custom-style.scss */
+/* line 293, ../sass/custom-style.scss */
 #mapLinks .tab-content h3 {
   margin: 0;
 }
-/* line 291, ../sass/custom-style.scss */
+/* line 296, ../sass/custom-style.scss */
 #mapLinks .tab-content ul {
   margin-top: 10px;
 }
 
-/* line 297, ../sass/custom-style.scss */
+/* line 302, ../sass/custom-style.scss */
 #info-by-floor {
   padding: 20px 16px;
 }
-/* line 299, ../sass/custom-style.scss */
+/* line 304, ../sass/custom-style.scss */
 #info-by-floor .panel {
   border: 0;
 }
-/* line 303, ../sass/custom-style.scss */
+/* line 308, ../sass/custom-style.scss */
 #info-by-floor .panel-default .panel-heading {
   background-color: #fafafa;
   border: 1px solid #d9d9d9;
   border-radius: 4px;
 }
-/* line 310, ../sass/custom-style.scss */
+/* line 315, ../sass/custom-style.scss */
 #info-by-floor .panel-title a {
   font-weight: bold;
   color: black;
   display: block;
 }
-/* line 315, ../sass/custom-style.scss */
+/* line 320, ../sass/custom-style.scss */
 #info-by-floor .panel-title a:hover {
   color: #ff6633;
   text-decoration: none;
 }
 
 /* Events Page Content Area */
-/* line 325, ../sass/custom-style.scss */
+/* line 330, ../sass/custom-style.scss */
 .container .s-lc-ea-noe {
   color: white;
   line-height: 40px;
 }
-/* line 326, ../sass/custom-style.scss */
+/* line 331, ../sass/custom-style.scss */
 .container ul#lwe {
   width: 100%;
   list-style-type: none;
@@ -364,7 +365,7 @@ h3 {
   margin: 0 0 40px;
   color: black;
 }
-/* line 333, ../sass/custom-style.scss */
+/* line 338, ../sass/custom-style.scss */
 .container li.lwe {
   width: 100%;
   background-color: white;
@@ -372,33 +373,33 @@ h3 {
   margin-bottom: 2px;
   padding: 6px 12px 8px;
 }
-/* line 339, ../sass/custom-style.scss */
+/* line 344, ../sass/custom-style.scss */
 .container li.lwe .lwn a {
-  color: #0c5896;
+  color: #062e4f;
   font-weight: bold;
   font-size: 22px;
 }
-/* line 344, ../sass/custom-style.scss */
+/* line 349, ../sass/custom-style.scss */
 .container li.lwe .lwn a:hover {
   text-decoration: none;
 }
-/* line 347, ../sass/custom-style.scss */
+/* line 352, ../sass/custom-style.scss */
 .container li.lwe .lwn0 {
   float: right;
 }
-/* line 350, ../sass/custom-style.scss */
+/* line 355, ../sass/custom-style.scss */
 .container li.lwe .lwl a {
   color: #0c5896;
   background-color: rgba(204, 204, 204, 0.2);
   padding: 4px 14px;
 }
-/* line 355, ../sass/custom-style.scss */
+/* line 360, ../sass/custom-style.scss */
 .container li.lwe .lwl a:hover {
   text-decoration: none;
 }
 
 /* Classes Page Content Area */
-/* line 364, ../sass/custom-style.scss */
+/* line 369, ../sass/custom-style.scss */
 .container .eventTitle {
   color: white;
   font-size: 34px;
@@ -406,12 +407,12 @@ h3 {
   font-weight: bold;
   margin: 0 0 10px;
 }
-/* line 371, ../sass/custom-style.scss */
+/* line 376, ../sass/custom-style.scss */
 .container .s-lc-ea-h3 {
   color: #e6e6e6;
   margin: 14px 0 12px;
 }
-/* line 375, ../sass/custom-style.scss */
+/* line 380, ../sass/custom-style.scss */
 .container .s-lc-ea-tb {
   background-color: white;
   color: black;
@@ -420,53 +421,53 @@ h3 {
   margin: 0 0 2px;
   width: 100%;
 }
-/* line 382, ../sass/custom-style.scss */
+/* line 387, ../sass/custom-style.scss */
 .container .s-lc-ea-tb td {
   padding: 5px 10px;
 }
-/* line 385, ../sass/custom-style.scss */
+/* line 390, ../sass/custom-style.scss */
 .container .s-lc-ea-tb .s-lc-ea-l {
   width: 20%;
   background-color: rgba(204, 204, 204, 0.2);
   font-weight: bold;
 }
-/* line 390, ../sass/custom-style.scss */
+/* line 395, ../sass/custom-style.scss */
 .container .s-lc-ea-tb a {
-  color: #0c5896;
+  color: #062e4f;
   font-weight: bold;
   font-size: 20px;
 }
-/* line 395, ../sass/custom-style.scss */
+/* line 400, ../sass/custom-style.scss */
 .container .s-lc-ea-tb a:hover {
   text-decoration: none;
 }
-/* line 399, ../sass/custom-style.scss */
+/* line 404, ../sass/custom-style.scss */
 .container .s-lc-ea-tb:last-child {
   margin-bottom: 40px;
 }
 
 /* Hours Side Panel */
-/* line 406, ../sass/custom-style.scss */
+/* line 412, ../sass/custom-style.scss */
 .hours-today,
 .hours-content {
   color: white;
   width: 100%;
   background-color: white;
 }
-/* line 411, ../sass/custom-style.scss */
+/* line 417, ../sass/custom-style.scss */
 .hours-today .hours-row,
 .hours-content .hours-row {
   border-bottom: solid black 1px;
   color: black;
   font-size: 17px;
 }
-/* line 416, ../sass/custom-style.scss */
+/* line 422, ../sass/custom-style.scss */
 .hours-today tbody,
 .hours-content tbody {
   border: solid black 1px;
   font-size: 17px;
 }
-/* line 419, ../sass/custom-style.scss */
+/* line 425, ../sass/custom-style.scss */
 .hours-today tbody .hours-col-loc,
 .hours-content tbody .hours-col-loc {
   padding: 10px 3%;
@@ -476,7 +477,7 @@ h3 {
   width: 55%;
   font-weight: bold;
 }
-/* line 427, ../sass/custom-style.scss */
+/* line 433, ../sass/custom-style.scss */
 .hours-today tbody .hours-col-time,
 .hours-content tbody .hours-col-time {
   padding: 10px 3%;
@@ -484,27 +485,27 @@ h3 {
 
 /* Media Query CSS */
 @media (max-width: 768px) {
-  /* line 437, ../sass/custom-style.scss */
+  /* line 443, ../sass/custom-style.scss */
   .nav-lg-title {
     display: none;
   }
 
   /*hides the title in mobile*/
-  /* line 441, ../sass/custom-style.scss */
+  /* line 447, ../sass/custom-style.scss */
   #status-bar {
     font-size: 16px;
   }
-  /* line 443, ../sass/custom-style.scss */
+  /* line 449, ../sass/custom-style.scss */
   #status-bar #weather h2 {
     font-size: 16px;
   }
-  /* line 445, ../sass/custom-style.scss */
+  /* line 451, ../sass/custom-style.scss */
   #status-bar #weather h2 i {
     font-size: 24px;
     line-height: 18px;
     height: 22px;
   }
-  /* line 451, ../sass/custom-style.scss */
+  /* line 457, ../sass/custom-style.scss */
   #status-bar .date,
   #status-bar .time,
   #status-bar .time input[type=button],
@@ -513,12 +514,12 @@ h3 {
     text-align: center;
   }
 
-  /* line 460, ../sass/custom-style.scss */
+  /* line 466, ../sass/custom-style.scss */
   .navbar {
     width: 100%;
     background-color: #eee;
   }
-  /* line 463, ../sass/custom-style.scss */
+  /* line 469, ../sass/custom-style.scss */
   .navbar .navbar-brand {
     text-align: center;
     display: inline;
@@ -530,7 +531,7 @@ h3 {
     line-height: 30px;
     padding-top: 0;
   }
-  /* line 474, ../sass/custom-style.scss */
+  /* line 480, ../sass/custom-style.scss */
   .navbar li {
     margin: 7px 0;
   }

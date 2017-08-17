@@ -73,6 +73,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 }
 
 /* Status Bar */
+
 #status-bar {
     background: $black;
     color: $lightGray;
@@ -116,7 +117,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
                 line-height: 21px;
                 height: 28px;
                 display: inline-block;
-                top: -3px;
+                top: 0;
                 position: relative;
             }
         }
@@ -124,6 +125,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 }
 
 /* Top Navigation Buttons */
+
 .navbar {
     background-image:none;
     border:none;
@@ -179,6 +181,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 }
 
 /* Maps */
+
 .container-margin {
 		margin-right:15px;
     
@@ -227,8 +230,10 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 }
 
 /* Side Panels */
+
 #mapLinks { 
     margin-top: 15px;
+    padding-right: 0;
     #info-panel {
         position:relative;
         background-color: $orange;
@@ -337,7 +342,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
         margin-bottom:2px; 
         padding: 6px 12px 8px;
         .lwn a {
-            color: $darkBlue;
+            color: darken($darkBlue, 15%);
             font-weight: bold;
             font-size: $font-size-base + 6;
         }
@@ -388,7 +393,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
             font-weight: bold;
         }
         a {
-            color: $darkBlue;
+            color: darken($darkBlue, 15%);
             font-weight: bold;
             font-size: $font-size-base + 4; // ~20px
         }
@@ -403,6 +408,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 
 
 /* Hours Side Panel */
+
 .hours-today,
 .hours-content {
     color:$white;
