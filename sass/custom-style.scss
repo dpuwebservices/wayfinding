@@ -351,11 +351,19 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
         }
         .lwn0{    
             float: right;
+            background-color: $lightGray;
+            padding: 2px 16px;
+            font-size: $font-size-base - 2; // ~14px;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin: 3px 0 0 0;
         }
         .lwl a {
             color: $darkBlue;
             background-color: rgba($gray,0.2);
             padding: 4px 14px;
+            font-weight: 600;
+            font-size: $font-size-base - 1; // ~15px;
         }
         .lwl a:hover {
             text-decoration: none;
