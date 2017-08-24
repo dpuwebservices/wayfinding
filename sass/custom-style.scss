@@ -157,7 +157,32 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
                 color: $white;
                 font-size: $font-size-base + 2; // ~18px
                 font-weight: bold;
+                
+                i {
+                    background-image: url("../images/icons-btns.png");
+                    width: 32px;
+                    height: 32px;
+                    float: left;
+                }
 		    }
+            a.maps {
+                i {
+                    background-position: 132px 123px;
+                    margin: -6px -28px 0 12px;
+                }
+            }
+            a.events {
+                i {
+                    background-position: 86px 123px;
+                    margin: -6px -9px 0 10px;
+                }
+            }
+            a.classes {
+                i {
+                    background-position: 41px 123px;
+                    margin: -6px -3px 0 4px;
+                }
+            }
 		} /*centers navbar for desktop*/
         .nonactive,
         .activated {
@@ -171,6 +196,25 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 		.activated{
 			background-color: $white;
 			color:#FFF;
+            
+            a.maps {
+                i {
+                    background-position: 132px 78px;
+                    margin: -6px -28px 0 12px;
+                }
+            }
+            a.events {
+                i {
+                    background-position: 86px 78px;
+                    margin: -6px -9px 0 10px;
+                }
+            }
+            a.classes {
+                i {
+                    background-position: 41px 78px;
+                    margin: -6px -3px 0 4px;
+                }
+            }
 		}
 		a.activated{
 			color: $black !important;
@@ -234,6 +278,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 #mapLinks { 
     margin-top: 15px;
     padding-right: 0;
+    padding-left: 0;
     #info-panel {
         position:relative;
         background-color: $orange;
@@ -263,6 +308,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
             border:none;
             border-radius:0;
             margin:0 !important;
+            padding: 10px 12px;
         }
         li.active { 
             a,
