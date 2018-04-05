@@ -29,6 +29,8 @@
     <script src="js/jquery.simpleWeather.min.js"></script>
     <script src="js/weather.js"></script>
     <link href="css/weather.css" rel="stylesheet" type="text/css">
+    
+    <meta http-equiv="refresh" content="300" />
 </head>
 
 <body>
@@ -78,28 +80,28 @@
 			Tool for image mapping. http://imagemap-generator.dariodomi.de/-->
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="one">
-				<img src="images/maps/firstfloor.png" width="1500" height="1080" usemap="#first" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1080">
+				<img src="images/maps/firstfloor.png" width="1500" height="1000" usemap="#first" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1000">
                 <map name="first" id="first">
                     <area shape="rect" coords="1084,41,1231,139" href="#/" title="supplimentalinstruction" alt="Supplimental Instruction" id="1_instruction">
 					<area shape="rect" coords="49,41,275,177" href="#/" title="scholarslab" alt="Scholar's Lab" id="1_scholars">
 					<area shape="rect" coords="208,197,286,314" href="#/" title="geniussquad" alt="Genius Squad" id="1_geniussquad">
 					<area shape="rect" coords="152,316,285,468" href="#/" title="accessservices" alt="Access Services" id="1_circulationdesk">
 					<area shape="rect" coords="867,411,934,490" href="#/" title="researchhelp" alt="Research Help Desk" id="1_researchhelpdesk">
-					<area shape="rect" coords="1024,757,1159,866" href="#/" title="learningcommons" alt="Learning Commons" id="1_learningcommons">
-					<area shape="rect" coords="1167,757,1437,867" href="#/" title="libraryinstruction" alt="Library Instruction" id="1_instruction">
+					<area shape="rect" coords="1024,756,1159,866" href="#/" title="learningcommons" alt="Learning Commons" id="1_learningcommons">
+					<area shape="rect" coords="1166,756,1439,867" href="#/" title="libraryinstruction" alt="Library Instruction" id="1_instruction">
                 </map>
 			</div>
 
 			<div class="col-lg-6 nopadding max-maps" id="two">
-				<img src="images/maps/secondfloor.png" width="1500" height="1080" usemap="#second" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1080">
+				<img src="images/maps/secondfloor.png" width="1500" height="1000" usemap="#second" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1000">
 				<map name="second" id="second">
                     <area shape="rect" coords="502,88,984,631" href="#/" title="core" alt="CoRE – Collaborative Research Environment" id="2_core">
                     <area shape="rect" coords="50,317,149,631" href="#/" title="studios" alt="Studios A-G" id="2_studios">
                     <area shape="rect" coords="50,224,148,309" href="#/" title="studiox" alt="Studios X" id="2_studiox">
-                    <area shape="rect" coords="150,40,240,176" href="#/" title="idealab" alt="Idea Lab" id="2_idealab">
-                    <area shape="rect" coords="249,40,474,177" href="#/" title="learninglab" alt="Learning Lab" id="2_learninglab">
+                    <area shape="rect" coords="150,40,240,176" href="#/" title="idealab" alt="Idea Lab 1" id="2_idealab">
+                    <area shape="rect" coords="249,40,474,177" href="#/" title="learninglab" alt="Idea Lab 2" id="2_learninglab">
                     <area shape="rect" coords="1369,211,1437,631" href="#/" title="researchinformation" alt="Research & Instruction Services" id="2_researchinformation">
                     <area shape="rect" coords="178,200,475,365" href="#/" title="theforum" alt="The Forum" id="2_theforum">
 				</map>
@@ -108,8 +110,8 @@
 
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="three">
-				<img src="images/maps/thirdfloor.png" width="1500" height="1080" usemap="#third" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1080">
+				<img src="images/maps/thirdfloor.png" width="1500" height="1000" usemap="#third" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1000">
                 <map name="third" id="third">
 					<area shape="rect" coords="50,767,244,865" href="#/" title="rosati" alt="Rosati Room" id="3_rosatiroom">
 					<area shape="rect" coords="1242,768,1436,866" href="#/" title="specialcollections" alt="Special Collections" id="3_specialcollections">
@@ -118,11 +120,12 @@
 			</div>
 
 			<div class="col-lg-6 nopadding max-maps" id="four">
-				<img src="images/maps/fourthfloor.png" width="1500" height="1080" usemap="#fourth" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1080">
+				<img src="images/maps/fourthfloor.png" width="1500" height="1000" usemap="#fourth" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1000">
                 <map name="fourth" id="fourth">
 					<area shape="rect" coords="49,308,121,469" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
                     <area shape="rect" coords="1366,489,1438,561" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
+                    <area shape="rect" coords="1367,768,1437,866" href="#/" title="4_stvincent" alt="Group Study Rooms" id="4_stvincent">
                 </map>
 			</div>
 		</div>
@@ -156,10 +159,10 @@
                                 <li class="li"><a href="#/" onClick="show_info_panel('2_core');">Collaborative Research Enviroment</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('groupstudyrooms');">Group Study Rooms</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('groupstudyzones');">Group Study Zones</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_idealab');">Idea Lab</a> </li>
+                                <li class="li"><a href="#/" onClick="show_info_panel('2_idealab');">Idea Lab 1</a> </li>
+                                <li class="li"><a href="#/" onClick="show_info_panel('2_learninglab');">Idea Lab 2</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('1_instruction');">Instruction Rooms</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('1_learningcommons');">Learning Commons - JTR 111</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_learninglab');">Learning Lab</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('quietstudyzones');">Quiet Study Zones</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('2_researchinformation');">Research & Instruction Services</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
@@ -173,6 +176,7 @@
 						<h3>Services</h3>
 							<ul>
 								<li class="li"><a href="#/" onClick="show_info_panel('1_circulationdesk');">Access Services</a> </li>
+                                <li class="li"><a href="#/" onClick="show_info_panel('1_assistivetechnology');">Assistive Technology Workstation</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('copycenters');">Copy Centers</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('1_geniussquad');">Genius Squad</a> </li>
@@ -180,6 +184,7 @@
 								<li class="li"><a href="#/" onClick="show_info_panel('1_laptoplockers');">Laptop Lockers</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('printers');">Printers</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('1_researchhelpdesk');">Research Help Desk</a> </li>
+                                <li class="li"><a href="#/" onClick="show_info_panel('2_selfcheckout');">Self Checkout Station</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('1_scholars');">Scholars' Lab</a> </li>
 							</ul>
 
@@ -216,6 +221,7 @@
                         <div id="collapse1" class="panel-collapse collapse in">
                           <ul>
 								<li class="li"><a href="#/" onClick="show_info_panel('1_circulationdesk');">Access Services</a> </li>
+                                <li class="li"><a href="#/" onClick="show_info_panel('1_assistivetechnology');">Assistive Technology Workstation</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('1_career');">Career Collection</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('1_chicago');">Chicago Collection</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
@@ -251,14 +257,15 @@
 								<li class="li"><a href="#/" onClick="show_info_panel('copycenters');">Copy Centers</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('2_curriculummaterials');">Curriculum Materials</a> </li>
 				                <li class="li"><a href="#/" onClick="show_info_panel('groupstudyzones');">Group Study Zones</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_idealab');">Idea Lab</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_learninglab');">Learning Lab</a> </li>
+                                <li class="li"><a href="#/" onClick="show_info_panel('2_idealab');">Idea Lab 1</a> </li>
+                                <li class="li"><a href="#/" onClick="show_info_panel('2_learninglab');">Idea Lab 2</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('2_audiovisual');">Media (CDs, Videos, Microforms)</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('2_periodicals');">Periodicals</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('printers');">Printers</a> </li>
 								<li class="li"><a href="#/" onClick="show_info_panel('2_reference');">Reference Collection</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('2_researchinformation');">Research & Instruction Services</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
+                                <li class="li"><a href="#/" onClick="show_info_panel('2_selfcheckout');">Self Checkout Station</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('2_studios');">Studios A-G</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('2_studiox');">Studio X</a> </li>
                                 <li class="li"><a href="#/" onClick="show_info_panel('2_theforum');">The Forum</a> </li>

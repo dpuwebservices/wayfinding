@@ -16,6 +16,7 @@
 		"computers": 			["", ["1_computers.png", "2_computerlabs.png"]],
 		"copycenters": 		    ["", ["1_copycenter.png", "2_copycenter.png"]],
 		"groupstudyzones": 		["", ["1_groupstudyzone.png", "2_groupstudy.png"]],
+        "1_assistivetechnology": 	["", ["1_assistivetechnology.png"]],
 		"groupstudyrooms": 		["<b>Group Study Rooms</b><br/><br/><b>Instructions:</b><br/>Reservable for up to 60 minutes. Visit library.depaul.edu/services/Pages/Room-Reservations to make a room reservation, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>10 People<br/><br/><b>Equipment:</b><br/>Screen - No projector", ["3_groupstudy.png", "4_groupstudy.png"]],
 		"printers":				["", ["1_printcenter.png", "2_printcenter.png"]],
 		"quietstudyzones": 		["", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
@@ -39,12 +40,13 @@
 		"2_copycenter": 		["<b>Microform Equipment (Microfilm)</b><br/><br/><b>About:</b><br/>Microfilm preserves fragile documents such as rare books, newspapers and other periodicals by using micro-photography to reduce am image onto a roll of plastic film. Microfiche serves the same purpose but the format is a 4x6'' plastic card.<br/><br/><b>Instructions:</b><br/>Lenses for the microfilm readers are available for check-out at the Access Services desk on the 1st floor, and microfilm and microfiche are located in the cabinets adjacent to room 207.<br/><br/>Ask a library staff member for assistance.", ["2_copycenter.png"]],
 		"2_curriculummaterials": ["", ["2_curriculummaterials.png"]],
 		"2_geniussquad": 		["", ["2_geniussquad.png"]],
-        "2_idealab": 		    ["<b>Idea Lab</b><br/><br/>Small group brainstorming/ideation equipped with laptops, digital panel, whiteboards, Legos, papercrafting tools and other supplies to help groups come together to discuss problems and sketch potential solutions.", ["2_idealab.png"]],
-        "2_learninglab": 		    ["<b>Learning Lab</b><br/><br/>Community event, teaching, and workshop space on topics such as digital mapping, text and data mining, 3-D modelling, and data visualization.  Seats up to 30 people and tables may be reconfigured. Includes laptop cart, surround sound, and high-resolution, oversized digitized panel.", ["2_learninglab.png"]],
+        "2_idealab": 		    ["<b>Idea Lab 1</b><br/><br/>Small group brainstorming/ideation equipped with laptops, digital panel, whiteboards, Legos, papercrafting tools and other supplies to help groups come together to discuss problems and sketch potential solutions.", ["2_idealab.png"]],
+        "2_learninglab": 		    ["<b>Idea Lab 2</b><br/><br/>Community event, teaching, and workshop space on topics such as digital mapping, text and data mining, 3-D modelling, and data visualization.  Seats up to 30 people and tables may be reconfigured. Includes laptop cart, surround sound, and high-resolution, oversized digitized panel.", ["2_learninglab.png"]],
 		"2_periodicals": 		["", ["2_periodicals.png"]],
         "2_audiovisual": 		["", ["2_audiovisual.png"]],
 		"2_printcenter": 		["", ["2_printcenter.png"]],
 		"2_recreational": 		["", ["2_recreational.png"]],
+        "2_selfcheckout": 		["", ["2_selfcheckout.png"]],
 		"2_reference": 			["", ["2_reference.png"]],
 		"2_researchinformation":["<b>Research & Instruction Services</b><br/><br/>Research and Instruction Librarians help researchers explore their topics. Research and Instruction librarians also work directly with faculty and students in classes with assignments which require locating and using information in books, articles and other formats. The best way to reach them is at the Research Help Desk, online via chat/IM (“Ask a Librarian”) and by appointment.", ["2_researchinformation.png"]],
         "2_studios": 		    ["<b>Studios A-G</b><br/><br/><b>Maker Hub</b><br/>(also known as Studio A) group, seminar, and independent work space with 3D printers, scanners, laser cutter, soldering station, and sewing machine.<br/><br/><b>Studios B - F</b><br/>All include MacPros with single or double screens conducive to video and sound editing.  Microphones, cameras, keyboards, analog media players and other hardware can be attached to workstations to serve different purposes such as sound or video recording, presentation practice, podcasting, digitization, and digital preservation.<br/><br/><b>Usability Studio</b><br/>(also known as Studio E) for observation/recording of up to 3 people interacting with computers in a controlled environment.<br/><br/><b>Studio G</b><br/>Production space with professional, pre-set light system and green screen", ["2_studios.png"]],
@@ -53,12 +55,12 @@
 		"3_callnumbers0699": 	["", ["3_callnumbers0699.png"]],
 		"3_instruction": 		["", ["3_instruction.png"]],
 		"3_rosatiroom": 		["<b>Rosati Room</b><br/><br/><b>Instructions:</b><br/>Reservable for up to 60 minutes. Visit library.depaul.edu/services/Pages/Room-Reservations to make a room reservation, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>40 People<br/><br/><b>Equipment:</b><br/>Screen – with Projector<br/>Podium<br/>PC", ["3_rosatiroom.png"]],
-		"3_specialcollections": ["<b>Special Collections</b><br/><br/>DePaul Special Collections and Archives collects, preserves, and shares rich primary source materials in support of engaged teaching, active student learning, and scholarly and community research.", ["3_specialcollections.png"]],
+		"3_specialcollections": ["<b>Special Collections</b><br/><br/>DePaul Special Collections and Archives collects, preserves, and shares rich primary source materials in support of engaged teaching, active student learning, and scholarly and community research.  Students, faculty, and community members are welcome to consult our rare books and archival collections in our Reading Room. <br/><br/>Instruction sessions with Special Collections and Archives are usually scheduled one floor above, in the St. Vincent de Paul Room, 417.", ["3_specialcollections.png"]],
 		"4_audiovideo": 	    ["", ["4_audiovideo.png"]],
         "4_callnumbers700999": 	["", ["4_callnumbers700999.png"]],
 		"4_imagecollections": 	["", ["4_imagecollections.png"]],
         "4_musicscores": 		["", ["4_musicscores.png"]],
-		"4_stvincent": 			["", ["4_stvincent.png"]]
+		"4_stvincent": 			["<b>St. Vincent de Paul Room</b><br/><br/><!--<img src='images/image.jpg' width='100%' height='auto' />-->The St. Vincent de Paul room is reserved for Special Collections and Archives instruction sessions.", ["4_stvincent.png"]]
 	};
 
 	// Note that in order for this to work, the id of each image map location MUST match
