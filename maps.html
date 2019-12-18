@@ -17,7 +17,6 @@
 	<!-- Image Map Size -->
 	<script src="js/jquery.rwdImageMaps.min.js" type="text/javascript"></script>
 	<script src="js/ios-orientationchange-fix.min.js"></script>
-    
 	<!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="css/custom-style.css" rel="stylesheet" type="text/css">
@@ -72,6 +71,9 @@
     </div>
 </div>
 
+<!--  Use https://www.image-map.net/ to get coordinates-->
+  
+  
 <div class="container col-lg-12 container-margin">
 	<div class="col-lg-9">
 			<!--Image map tutorial. http://jquer.in/responsive/rwdimagemaps/
@@ -79,7 +81,7 @@
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="one">
 				<img src="images/maps/firstfloor.png" width="1500" height="1080" usemap="#first" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1080">
+				<img class="mapoverlay" width="1500" height="1204">
                 <map name="first" id="first">
                     <area shape="rect" coords="1084,41,1231,139" href="#/" title="supplimentalinstruction" alt="Supplimental Instruction" id="1_instruction">
 					<area shape="rect" coords="49,41,275,177" href="#/" title="scholarslab" alt="Scholar's Lab" id="1_scholars">
@@ -313,5 +315,8 @@
 	</div> <!--End of panel-->
 </div> <!--/close container-->
 <script src="js/wayfinding.js"></script>
+<script>
+    <button onclick="location.reload();">Refresh Page</button>
+</script>    
 </body>
 </html>
