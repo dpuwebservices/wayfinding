@@ -2,7 +2,7 @@
 	    $('img[usemap]').rwdImageMaps();
 	});
 
-
+//first floor
     var $scholarsLabText      = "<p><strong>Scholar's Lab</strong><p><strong>About:</strong><br>The Scholar's Lab is available for use as an open, informal or formal meeting and workshop space by the following members of the DePaul Community.<br><br><strong>Equipment:</strong><br><strong>Media:scape Collaboration Table</strong><br>The Scholar's Lab is equipped with 6 media:scape tables designed to facilitate collaborative research and learning. \n\ Each media:scape collaboration table in the Scholar's Lab offers the following:<ul><li>Up to 5 seats per table with a single 42'' monitor for shared viewing<li>2 high-powered resident computers, one Windows OS and one Mac OS<li>Users may plug in their own devices to the tables such as laptops and tablets, up to 5 devices at a time<li>An overhead projector, screen, and instructor's podium with computer or laptop plugin is also available for large group learning purposes</ul><p><strong>Print-Scan</strong><ul><li>6 oversized, full color Epson 11000xl scanners for graphic arts and digitization work are attached to Mac computers in the Scholar's Lab</ul>";
     var $groupWorkTablesText  = "<p><strong>Group Work Tables</strong><br><br><strong>About:</strong><br>These tables seat from 6 to 8 people and exist in open areas of the Richardson Library. Powered by media:scape technology, the tables allow users plug in computers and other devices and share content on single or double screens. Reservable by current students, staff and faculty from <strong><strong>libcal.depaul.edu</strong></strong><p><strong>Equipment:</strong><br><strong>Media:scape Collaboration Table</strong><br>The Scholar's Lab is equipped with 6 media:scape tables designed to facilitate collaborative research and learning. \n\ Each media:scape collaboration table in the Scholar's Lab offers the following:<ul><li>Up to 5 seats per table with a single 42'' monitor for shared viewing<li>2 high-powered resident computers, one Windows OS and one Mac OS<li>Users may plug in their own devices to the tables such as laptops and tablets, up to 5 devices at a time</ul>";
     var $instructionText      = "<b>Library Instruction</b><br/><br/>Library Instruction works with faculty to create customized research instruction sessions based on the needs of courses and assignments. The goal of the instruction program is to help students develop the critical thinking and information literacy skills necessary to conduct effective library research.";
@@ -10,6 +10,7 @@
     var $accessServicesText   = "<b>Access Services</b><br/><br/><b>About:</b><br/>Patrons can check-out and renew books here.";
     var $researchHelpText     = "<b>Research Help Desk</b><br/><br/><b>About:</b><br/>Research Librarians and Peer Research Tutors help you explore your topic and show you how to search effectively for books, articles and other information (like statistics) in library databases and the web. Researchers can ask for in-depth help, or just get assistance finding a single item.";
     var $learningCommonsText  = "<b>Learning Commons</b><br/><br/><b>About:</b><br/>The Learning Commons is a student-centered learning environment that provides collaborative peer-education in a central location surrounded by academic resources.<br/><br/><b>Services Offered:</b><br/><ul><li>Tutoring in Chemistry, Math, Psychology, and Languages (Arabic, Chinese, French, Italian, Japanese, Ancient Greek, Russian, and Spanish)</li><li>Study Jams via OMSS<br/><li>Resume, Internship & Job Help through the Career Center</li><li>Supplemental Instruction</li><li>Workshops</li></ul>";
+    var $adminText            = "<b>Administrative Offices</b><br/><br/><b>About:</b><br/>The administrative offices for the DePaul University Library ..... ??? receive deliveries here and ";
     
 	// Hide the info-panel and overlay images on page load.
 	$("#info-panel").hide();
@@ -21,13 +22,14 @@
     // This is a mapping of element id to the displayed text.
     // To change what text is displayed, edit or add it here.
 	info_map={
-		"1_accessservices":   [$accessServicesText, ["1_accessservices.png"]],
-		"1_geniussquad":      [$geniusSquadText, ["1_geniussquad.png"]],
-		"1_groupworktables": 	[$groupWorkTablesText, ["1_groupworktables.png"]],
-    "1_instruction":      [$instructionText, ["1_instruction.png"]],
-		"1_learningcommons": 	[$learningCommonsText, ["1_learningcommons.png"]],
-    "1_researchhelpdesk": [$researchHelpText, ["1_researchhelpdesk.png"]],
-		"1_scholars":         [$scholarsLabText, ["1_scholars.png"]],
+		"1_accessservices": [$accessServicesText, ["1_accessservices.png"]],
+    "1_admin":          [$adminText, ["1_admin.png"]],
+		"1_geniussquad":    [$geniusSquadText, ["1_geniussquad.png"]],
+		"1_groupworktables":[$groupWorkTablesText, ["1_groupworktables.png"]],
+    "1_instruction":    [$instructionText, ["1_instruction.png"]],
+		"1_learningcommons":[$learningCommonsText, ["1_learningcommons.png"]],
+    "1_researchhelpdesk":[$researchHelpText, ["1_researchhelpdesk.png"]],
+		"1_scholars":        [$scholarsLabText, ["1_scholars.png"]],
 
     "bathrooms": 			["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
 		"computers": 			["", ["1_computers.png", "2_computerlabs.png"]],
