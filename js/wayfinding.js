@@ -2,6 +2,11 @@
 	    $('img[usemap]').rwdImageMaps();
 	});
 
+
+    var $ScholarsLabText;
+    $ScholarsLabText="<p><strong>Scholar's Lab</strong><p><strong>About:</strong><br>The Scholar's Lab is available for use as an open, informal or formal meeting and workshop space by the following members of the DePaul Community.<br><br><strong>Equipment:</strong><br><strong>Media:scape Collaboration Table</strong><br>The Scholar's Lab is equipped with 6 media:scape tables designed to facilitate collaborative research and learning. \n\ Each media:scape collaboration table in the Scholar's Lab offers the following:<ul><li>Up to 5 seats per table with a single 42'' monitor for shared viewing<li>2 high-powered resident computers, one Windows OS and one Mac OS<li>Users may plug in their own devices to the tables such as laptops and tablets, up to 5 devices at a time<li>An overhead projector, screen, and instructor's podium with computer or laptop plugin is also available for large group learning purposes</ul><p><strong>Print-Scan</strong><ul><li>6 oversized, full color Epson 11000xl scanners for graphic arts and digitization work are attached to Mac computers in the Scholar's Lab</ul>";
+
+
 	// Hide the info-panel and overlay images on page load.
 	$("#info-panel").hide();
 	$("#one .mapoverlay").hide();
@@ -32,8 +37,8 @@
         "1_recreational": 		["", ["1_recreational.png"]],
 		"1_readyreference":		["", ["1_readyreference.png"]],
         "1_researchhelpdesk": 		["<b>Research Help Desk</b><br/><br/><b>About:</b><br/>Research Librarians and Peer Research Tutors help you explore your topic and show you how to search effectively for books, articles and other information (like statistics) in library databases and the web. Researchers can ask for in-depth help, or just get assistance finding a single item.", ["1_researchhelpdesk.png"]],
-		"1_scholars": 			["<b>Scholar's Lab</b><br/><br/><b>About:</b><br/>The Scholar's Lab is available for use as an open, informal or formal meeting and workshop space by the following members of the DePaul Community.<br/><br/><b>Equipment:</b><br/><b>Media:scape Collaboration Table</b><br/>The Scholar's Lab is equipped with 6 media:scape tables designed to facilitate collaborative research and learning. Each media:scape collaboration table in the Scholar's Lab offers the following:<br/><ul><li>Up to 5 seats per table with a single 42'' monitor for shared viewing</li><li>2 high-powered resident computers, one Windows OS and one Mac OS</li><li>Users may plug in their own devices to the tables such as laptops and tablets, up to 5 devices at a time</li><li>An overhead projector, screen, and instructor's podium with computer or laptop plugin is also available for large group learning purposes</li></ul><b>Print-Scan</b><br/><ul><li>One oversized plotter printer is located in the Scholar's Lab for poster printing</li><li>6 oversized, full color Epson 11000xl scanners for graphic arts and digitization work are attached to Mac computers in the Scholar's Lab</li></ul>", ["1_scholars.png"]],
-		"1_groupworktables": 			["<b>Group Work Tables</b><br/><br/><b>About:</b><br/>NEED TEXT</li></ul>", ["1_groupworktables.png"]],
+		"1_scholars": 			[$ScholarsLabText, ["1_scholars.png"]],
+		"1_groupworktables": 			["<b>Group Work Tables</b><br/><br/><b>About:</b><br/>These tables seat from 6 to 8 people and exist in open areas of the Richardson Library.  Powered by media:scape technology, the tables allow users plug in computers and other devices and share content on single or double screens. Reservable by current students, staff and faculty from <strong>libcal.depaul.edu<strongu>.</li></ul>", ["1_groupworktables.png"]],
 		"2_chicago": 			["", ["2_chicago.png"]],
 		"2_circulationdesk": 	["", ["2_circulationdesk.png"]],
         "2_core": 			    ["<b>CoRE - Collaborative Research Enviroment</b><br/><br/><br/>Open plan computing with high-powered, dedicated computer workstations (Mac & PC) conducive to digital mapping, text and data mining, 3-D modelling, and data visualization by single users or small groups.  Includes double, high-solution screens and Cintiq screens.", ["2_core.png"]],
@@ -149,8 +154,11 @@
 		}
 
 	});
+  
+  
 
 	// Listener for info panel close image.
 	$("#close-img").click(function(ev){
 	    hide_info_panel_overlays();
 	});
+
