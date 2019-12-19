@@ -7,6 +7,7 @@
     var $groupWorkTablesText  = "<p><strong>Group Work Tables</strong><br><br><strong>About:</strong><br>These tables seat from 6 to 8 people and exist in open areas of the Richardson Library. Powered by media:scape technology, the tables allow users plug in computers and other devices and share content on single or double screens. Reservable by current students, staff and faculty from <strong><strong>libcal.depaul.edu</strong></strong><p><strong>Equipment:</strong><br><strong>Media:scape Collaboration Table</strong><br>The Scholar's Lab is equipped with 6 media:scape tables designed to facilitate collaborative research and learning. \n\ Each media:scape collaboration table in the Scholar's Lab offers the following:<ul><li>Up to 5 seats per table with a single 42'' monitor for shared viewing<li>2 high-powered resident computers, one Windows OS and one Mac OS<li>Users may plug in their own devices to the tables such as laptops and tablets, up to 5 devices at a time</ul>";
     var $instructionText      = "<b>Library Instruction</b><br/><br/>Library Instruction works with faculty to create customized research instruction sessions based on the needs of courses and assignments. The goal of the instruction program is to help students develop the critical thinking and information literacy skills necessary to conduct effective library research.";
     var $geniusSquadText      = "<b>Genius Squad</b><br/><br/><b>About:</b><br/>Staffed by current DePaul students, the Genius Squad can assist with:<br/><ul><li>Wireless setup</li><li>Virus and malware removal</li><li>Hardware repair</li><li>RAM upgrades</li><li>Phone configuration for access to e-mail</li><li>A variety of other technical services</li></ul>";
+    var $accessServicesText   = "<b>Access Services</b><br/><br/><b>About:</b><br/>Patrons can check-out and renew books here.";
     
 	// Hide the info-panel and overlay images on page load.
 	$("#info-panel").hide();
@@ -21,6 +22,7 @@
 		"1_geniussquad": 		[$geniusSquadText, ["1_geniussquad.png"]],
 		"1_groupworktables": 			[$groupWorkTablesText, ["1_groupworktables.png"]],
     "1_instruction": 		[$instructionText, ["1_instruction.png"]],
+		"1_accessservices": 	[$accessServicesText, ["1_accessservices.png"]],
 		"1_scholars": 			[$scholarsLabText, ["1_scholars.png"]],
 		"bathrooms": 			["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
 		"computers": 			["", ["1_computers.png", "2_computerlabs.png"]],
@@ -31,7 +33,6 @@
 		"quietstudyzones": 		["", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
 		"1_career": 			["", ["1_career.png"]],
         "1_chicago": 			["", ["1_chicago.png"]],
-		"1_circulationdesk": 	["<b>Access Services</b><br/><br/><b>About:</b><br/>Patrons can check-out and renew books here.", ["1_circulationdesk.png"]],
 		"1_facultypublications": ["", ["1_facultypublications.png"]],
 		"1_graphicnovels": 		["", ["1_graphicnovels.png"]],
 		"guestcomputers":		["", ["1_guestcomputers.png", "3_guestcomputers.png", "4_guestcomputers.png"]],
