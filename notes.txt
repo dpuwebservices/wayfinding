@@ -5,8 +5,7 @@
     <area target="" alt="scholarslab" title="scholarslab" href="" coords="63,83,284,212" shape="rect">
     <area target="" alt="groupworktables" title="groupworktables" href="" coords="454,83,1050,176" shape="rect">
     <area target="" alt="instruction105" title="instruction105" href="" coords="1086,89,1218,174" shape="rect">
-    <area target="" alt="instruction110" title="instruction110" href="" coords="1161,791,1289,893" shape="rect">
-    <area target="" alt="instruction109" title="instruction109" href="" coords="1305,792,1428,893" shape="rect">
+    <area target="" alt="instruction110" title="instruction110 and 109" href="" coords="1163,789,1428,901" shape="rect">
     <area target="" alt="geniussquad" title="geniussquad" href="" coords="221,238,292,350" shape="rect">
     <area target="" alt="accessservices" title="accessservices" href="" coords="166,355,290,499" shape="rect">
     <area target="" alt="researchhelp" title="researchhelp" href="" coords="862,442,922,515" shape="rect">
