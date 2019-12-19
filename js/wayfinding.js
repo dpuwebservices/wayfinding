@@ -18,6 +18,10 @@
     // This is a mapping of element id to the displayed text.
     // To change what text is displayed, edit or add it here.
 	info_map={
+		"1_geniussquad": 		[$geniusSquadText, ["1_geniussquad.png"]],
+		"1_groupworktables": 			[$groupWorkTablesText, ["1_groupworktables.png"]],
+    "1_instruction": 		[$instructionText, ["1_instruction.png"]],
+		"1_scholars": 			[$scholarsLabText, ["1_scholars.png"]],
 		"bathrooms": 			["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
 		"computers": 			["", ["1_computers.png", "2_computerlabs.png"]],
 		"copycenters": 		    ["", ["1_copycenter.png", "2_copycenter.png"]],
@@ -29,17 +33,13 @@
         "1_chicago": 			["", ["1_chicago.png"]],
 		"1_circulationdesk": 	["<b>Access Services</b><br/><br/><b>About:</b><br/>Patrons can check-out and renew books here.", ["1_circulationdesk.png"]],
 		"1_facultypublications": ["", ["1_facultypublications.png"]],
-		"1_geniussquad": 		[$geniusSquadText, ["1_geniussquad.png"]],
 		"1_graphicnovels": 		["", ["1_graphicnovels.png"]],
 		"guestcomputers":		["", ["1_guestcomputers.png", "3_guestcomputers.png", "4_guestcomputers.png"]],
-        "1_instruction": 		[$instructionText, ["1_instruction.png"]],
 		"1_learningcommons": 	["<b>Learning Commons</b><br/><br/><b>About:</b><br/>The Learning Commons is a student-centered learning environment that provides collaborative peer-education in a central location surrounded by academic resources.<br/><br/><b>Services Offered:</b><br/><ul><li>Tutoring in Chemistry, Math, Psychology, and Languages (Arabic, Chinese, French, Italian, Japanese, Ancient Greek, Russian, and Spanish)</li><li>Study Jams via OMSS<br/><li>Resume, Internship & Job Help through the Career Center</li><li>Supplemental Instruction</li><li>Workshops</li></ul>", ["1_learningcommons.png"]],
         "1_laptoplockers": 		["", ["1_laptoplockers.png"]],
         "1_recreational": 		["", ["1_recreational.png"]],
 		"1_readyreference":		["", ["1_readyreference.png"]],
         "1_researchhelpdesk": 		["<b>Research Help Desk</b><br/><br/><b>About:</b><br/>Research Librarians and Peer Research Tutors help you explore your topic and show you how to search effectively for books, articles and other information (like statistics) in library databases and the web. Researchers can ask for in-depth help, or just get assistance finding a single item.", ["1_researchhelpdesk.png"]],
-		"1_scholars": 			[$scholarsLabText, ["1_scholars.png"]],
-		"1_groupworktables": 			[$groupWorkTablesText, ["1_groupworktables.png"]],
 		"2_chicago": 			["", ["2_chicago.png"]],
 		"2_circulationdesk": 	["", ["2_circulationdesk.png"]],
         "2_core": 			    ["<b>CoRE - Collaborative Research Enviroment</b><br/><br/><br/>Open plan computing with high-powered, dedicated computer workstations (Mac & PC) conducive to digital mapping, text and data mining, 3-D modelling, and data visualization by single users or small groups.  Includes double, high-solution screens and Cintiq screens.", ["2_core.png"]],
