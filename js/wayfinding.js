@@ -12,13 +12,16 @@
     var $learningCommonsText  = "<b>Learning Commons</b><br/><br/><b>About:</b><br/>The Learning Commons is a student-centered learning environment that provides collaborative peer-education in a central location surrounded by academic resources.<br/><br/><b>Services Offered:</b><br/><ul><li>Tutoring in Chemistry, Math, Psychology, and Languages (Arabic, Chinese, French, Italian, Japanese, Ancient Greek, Russian, and Spanish)</li><li>Study Jams via OMSS<br/><li>Resume, Internship & Job Help through the Career Center</li><li>Supplemental Instruction</li><li>Workshops</li></ul>";
     var $adminText            = "<b>Administrative Offices</b><br/><br/><b>About:</b><br/>The Administrative Office supports the daily operations of the Richardson and Loop libraries.";
     var $programRoomText      = "<b>Richardson Art Gallery</b><br/><br/><b>About:</b><br/>Formerly called the Program Room, this space is currently being developed into the Richardson Art Gallery, a space for student art exhibitions.";
+    var $206Text              = "<b>JTR 206</b><br/><br/>This is a small group brainstorming/ideation equipped with laptops, digital panel, whiteboards, Legos, papercrafting tools and other supplies to help groups come together to discuss problems and sketch potential solutions.";
+    var $207Text              = "<b>JTR 207</b><br/><br/>This is a community event, teaching, and workshop space on topics such as digital mapping, text and data mining, 3-D modelling, and data visualization.  Seats up to 30 people and tables may be reconfigured. Includes laptop cart, surround sound, and high-resolution, oversized digitized panel.";
+    
             
 	// Hide the info-panel and overlay images on page load.
-	$("#info-panel").hide();
-	$("#one .mapoverlay").hide();
-    $("#two .mapoverlay").hide();
-    $("#three .mapoverlay").hide();
-    $("#four .mapoverlay").hide();
+  $("#info-panel").hide();
+  $("#one .mapoverlay").hide();
+  $("#two .mapoverlay").hide();
+  $("#three .mapoverlay").hide();
+  $("#four .mapoverlay").hide();
 
     // This is a mapping of element id to the displayed text.
     // To change what text is displayed, edit or add it here.
@@ -32,6 +35,10 @@
     "1_programroom":    [$programRoomText, ["1_programroom.png"]],
     "1_researchhelpdesk":[$researchHelpText, ["1_researchhelpdesk.png"]],
 		"1_scholars":        [$scholarsLabText, ["1_scholars.png"]],
+
+    "2_206": 		    [$206Text, ["2_206.png"]],
+    "2_207": 		    [$207Text, ["2_207.png"]],
+
 
     "bathrooms": 			["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
 		"computers": 			["", ["1_computers.png", "2_computerlabs.png"]],
@@ -54,8 +61,6 @@
 		"2_copycenter": 		["<b>Microform Equipment (Microfilm)</b><br/><br/><b>About:</b><br/>Microfilm preserves fragile documents such as rare books, newspapers and other periodicals by using micro-photography to reduce am image onto a roll of plastic film. Microfiche serves the same purpose but the format is a 4x6'' plastic card.<br/><br/><b>Instructions:</b><br/>Lenses for the microfilm readers are available for check-out at the Access Services desk on the 1st floor, and microfilm and microfiche are located in the cabinets adjacent to room 207.<br/><br/>Ask a library staff member for assistance.", ["2_copycenter.png"]],
 		"2_curriculummaterials": ["", ["2_curriculummaterials.png"]],
 		"2_geniussquad": 		["", ["2_geniussquad.png"]],
-        "2_206": 		    ["<b>JTR 206</b><br/><br/>This is a small group brainstorming/ideation equipped with laptops, digital panel, whiteboards, Legos, papercrafting tools and other supplies to help groups come together to discuss problems and sketch potential solutions.", ["2_206.png"]],
-        "2_207": 		    ["<b>JTR 207</b><br/><br/>This is a community event, teaching, and workshop space on topics such as digital mapping, text and data mining, 3-D modelling, and data visualization.  Seats up to 30 people and tables may be reconfigured. Includes laptop cart, surround sound, and high-resolution, oversized digitized panel.", ["2_207.png"]],
 		"2_periodicals": 		["", ["2_periodicals.png"]],
         "2_audiovisual": 		["", ["2_audiovisual.png"]],
 		"2_printcenter": 		["", ["2_printcenter.png"]],
