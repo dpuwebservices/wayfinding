@@ -1,334 +1,308 @@
+
+
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-	<!-- Bootstrap -->
-	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="0">
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-	<!-- Image Map Size -->
-	<script src="js/jquery.rwdImageMaps.min.js" type="text/javascript"></script>
-	<script src="js/ios-orientationchange-fix.min.js"></script>
-	<!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="css/custom-style.css" rel="stylesheet" type="text/css">
-
-    <!-- Time -->
-    <script src="js/time.js"></script>
-    
-    <!-- Weather -->
-    <script src="js/jquery.simpleWeather.min.js"></script>
-    <script src="js/weather.js"></script>
-    <link href="css/weather.css" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-
-<div id="status-bar">
-    <div class="date">
-        <script src="js/date.js"></script> <!-- Date -->
-    </div>
-    <form name="clockForm" class="time">
-        <input type="button" name="clockButton" value="" disabled />
-    </form>
-    <div id="weather"></div>
-</div>
-    
-<div class="container nav-lg-title">
-    <div class="title-header">
-       <h1>INTERACTIVE DIRECTORY</h1>
-	   <h2>D<i>e</i>Paul University Richardson Library</h2>
-    </div>
-
-    <div class="navbar navbar-default clearfix">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#/">DePaul University Richardson Library</a>
+   <head>
+      <!-- Bootstrap -->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Expires" content="0">
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js" type="text/javascript"></script>
+      <!-- Image Map Size -->
+      <script src="js/jquery.rwdImageMaps.min.js" type="text/javascript"></script>
+      <script src="js/ios-orientationchange-fix.min.js"></script>
+      <!-- CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+      <link href="css/custom-style.css" rel="stylesheet" type="text/css">
+      <!-- Time -->
+      <script src="js/time.js"></script>
+      <!-- Weather -->
+      <script src="js/jquery.simpleWeather.min.js"></script>
+      <script src="js/weather.js"></script>
+      <link href="css/weather.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <div id="status-bar">
+         <div class="date">
+            <script src="js/date.js"></script> <!-- Date -->
+         </div>
+         <form name="clockForm" class="time">
+            <input type="button" name="clockButton" value="" disabled />
+         </form>
+         <div id="weather"></div>
+      </div>
+      <div class="container nav-lg-title">
+         <div class="title-header">
+            <h1>INTERACTIVE DIRECTORY</h1>
+            <h2>D<i>e</i>Paul University Richardson Library</h2>
+         </div>
+         <div class="navbar navbar-default clearfix">
+            <div class="container">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#/">DePaul University Richardson Library</a>
+               </div>
+               <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                     <li class="activated"><a class="activated maps" href="maps.html"><i></i>Maps</a></li>
+                     <li class="nonactive"><a class="nonactive events" href="events.html"><i></i>Events</a></li>
+                     <li class="nonactive"><a class="nonactive classes" href="classes.html"><i></i>Classes</a></li>
+                  </ul>
+               </div>
+               <!--/.nav-collapse -->
             </div>
-
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="activated"><a class="activated maps" href="maps.html"><i></i>Maps</a></li>
-                    <li class="nonactive"><a class="nonactive events" href="events.html"><i></i>Events</a></li>
-                    <li class="nonactive"><a class="nonactive classes" href="classes.html"><i></i>Classes</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </div>
-</div>
-
-<!--  Use https://www.image-map.net/ to get coordinates-->
-  
-  
-<div class="container col-lg-12 container-margin">
-	<div class="col-lg-9">
-			<!--Image map tutorial. http://jquer.in/responsive/rwdimagemaps/
-			Tool for image mapping. http://imagemap-generator.dariodomi.de/-->
-		<div class="row maps-center">
-			<div class="col-lg-6 nopadding max-maps" id="one">
-				<img src="images/maps/firstfloor.png" width="1500" height="1204" usemap="#first" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1204">
-           <map name="first" id="first">
-            <area shape="rect" coords="62,28,286,162" href="#/" title="scholarslab" alt="Scholar's Lab" id="1_scholars">
-            <area shape="rect" coords="453,30,1057,125" href="#/" title="groupworktables" alt="Group Work Tables" id="1_groupworktables">
-            <area shape="rect" coords="1083,27,1224,123" href="#/" title="supplimentalinstruction" alt="Supplimental Instruction" id="1_instruction">
-            <area shape="rect" coords="221,180,291,292" href="#/" title="geniussquad" alt="Genius Squad" id="1_geniussquad">
-            <area shape="rect" coords="164,298,291,445" href="#/" title="accessservices" alt="Access Services" id="1_accessservices">
-            <area shape="rect" coords="863,388,923,460" href="#/" title="researchhelp" alt="Research Help Desk" id="1_researchhelpdesk">
-            <area shape="rect" coords="1017,736,1143,843" href="#/" title="learningcommons" alt="Learning Commons" id="1_learningcommons">
-            <area shape="rect" coords="1163,736,1429,842" href="#/" title="libraryinstruction" alt="Library Instruction" id="1_instruction">
-            <area shape="rect" coords="1169,998,1274,1107" href="#/" title="admin" alt="Administrative Office" id="1_admin">
-            <area shape="rect" coords="1302,1002,1405,1106" href="#/" title="richardsongallery" alt="Richardson Gallery" id="1_richardsongallery">
-         </map>
-			</div>
-
-			<div class="col-lg-6 nopadding max-maps" id="two">
-				<img src="images/maps/secondfloor.png" width="1500" height="1204" usemap="#second" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1204">
-				<map name="second" id="second">
-                    <area shape="rect" coords="156,29,239,162" href="#/" title="206" alt="JTR206" id="2_206">
-                    <area shape="rect" coords="252,30,468,162" href="#/" title="207" alt="JTR207" id="2_207">
-                    <area shape="rect" coords="570,45,1000,146" href="#/" title="groupworktables" alt="Group Work Tables" id="2_groupworktables">
-                    <area shape="rect" coords="54,180,146,260" href="#/" title="studiox" alt="Studios X" id="2_studiox">
-                    <area shape="rect" coords="52,268,148,578" href="#/" title="makerhub" alt="Maker Hub and Media Studios" id="2_makerhub">
-                    <area shape="rect" coords="182,187,474,343" href="#/" title="forum" alt="The Forum" id="2_forum">
-                    <area shape="rect" coords="503,186,976,649" href="#/" title="core" alt="CoRE – Collaborative Research Environment" id="2_core">
-                    <area shape="rect" coords="1366,193,1429,610" href="#/" title="researchinformation" alt="Research & Instruction Services" id="2_researchinformation">
-				</map>
-			</div>
-		</div>
-
-		<div class="row maps-center">
-			<div class="col-lg-6 nopadding max-maps" id="three">
-				<img src="images/maps/thirdfloor.png" width="1500" height="1000" usemap="#third" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1000">
-            <map name="third" id="third">
-              <area shape="rect" coords="59,766,248,860" href="#/" title="rosati" alt="Rosati Room" id="3_rosatiroom">
-              <area shape="rect" coords="1248,767,1438,862" href="#/" title="specialcollections" alt="Special Collections" id="3_specialcollections">
-              <area shape="rect" coords="1369,228,1433,292" href="#/" title="groupstudy306" alt="Group Study Rooms" id="groupstudyrooms">
-              <area shape="rect" coords="1369,403,1434,468" href="#/" title="groupstudy308" alt="Group Study Rooms" id="groupstudyrooms">
-            </map>
-			</div>
-
-			<div class="col-lg-6 nopadding max-maps" id="four">
-				<img src="images/maps/fourthfloor.png" width="1500" height="1080" usemap="#fourth" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1080">
-            <map name="fourth" id="fourth">
-              <area shape="rect" coords="58,300,124,455" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
-              <area shape="rect" coords="1362,391,1428,545" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
-              <area shape="rect" coords="1363,710,1429,803" href="#/" title="groupstudy4" alt="St Vincent de Paul Room" id="4_stvincent">
-            </map>
-			</div>
-		</div>
-	</div> <!--End of maps-->
-
-	<div class="col-lg-3" id="mapLinks">
-		<div id="info-panel">
-			<img id="close-img" class="close-image" src="images/maps/close-icon.png"/>
-			<p id="info-text"></p>
-		</div>
-
-		<div id="directory-container">
-
-			<ul class="nav nav-tabs">
-				<li><a href="#hours" data-toggle="tab">Hours</a></li>
-				<li class="active"><a href="#directory" data-toggle="tab">Directory</a></li>
-                <li><a href="#info-by-floor" data-toggle="tab">Information By Floor</a></li>
-			</ul>
-
-			<div class="tab-content">
-				<div id="hours" class="tab-pane">
-					<div id="api_hours_today_iid123_lid2437"></div>
-					<script src="https://api3.libcal.com/api_hours_today.php?iid=123&lid=2437&format=js&context=object"> </script> 	
-				</div>
-
-				<div id="directory" class="tab-pane active">
-					<div class="info">
-						<h3>Spaces</h3>
-							<ul>
-								<li class="li"><a href="#/" onClick="show_info_panel('4_audiovideo');">Audio-Video Viewing & Listening</a></li>
-                <li class="li"><a href="#/" onClick="show_info_panel('2_forum');">The Forum</a> </li>
-                <li class="li"><a href="#/" onClick="show_info_panel('2_core');">Collaborative Research Enviroment</a> </li>
-                <li class="li"><a href="#/" onClick="show_info_panel('groupstudyrooms');">Group Study Rooms</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('groupstudyzones');">Group Study Zones</a> </li>
-                <li class="li"><a href="#/" onClick="show_info_panel('2_206');">JTR 206</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_instruction');">Instruction Rooms</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_learningcommons');">Learning Commons - JTR 111</a> </li>
-                <li class="li"><a href="#/" onClick="show_info_panel('2_207');">JTR 207</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('quietstudyzones');">Quiet Study Zones</a> </li>
-                <li class="li"><a href="#/" onClick="show_info_panel('2_researchinformation');">Research & Instruction Services</a> </li>
-                <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('3_rosatiroom');">Rosati Room  - JTR 300</a></li>
-								<li class="li"><a href="#/" onClick="show_info_panel('4_stvincent');">St. Vincent DePaul Room</a> </li>
-                <li class="li"><a href="#/" onClick="show_info_panel('2_makerhub');">Maker Hub and Media Studios</a> </li>
-                <li class="li"><a href="#/" onClick="show_info_panel('2_studiox');">Studio X</a> </li>
-							</ul>
-
-						<h3>Services</h3>
-							<ul>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_accessservices');">Access Services</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('copycenters');">Copy Centers</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_geniussquad');">Genius Squad</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('guestcomputers');">Guest Computers</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_laptoplockers');">Laptop Lockers</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('printers');">Printers</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_researchhelpdesk');">Research Help Desk</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_scholars');">Scholars' Lab</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_groupworktables');">Group Work Tables</a> </li>
-							</ul>
-
-						<h3>Collections</h3>
-							<ul>
-								<li class="li"><a href="#/" onClick="show_info_panel('3_callnumbers0699');">Books (Call Numbers 0-699)</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('4_callnumbers700999');">Books (Call Numbers 700-999)</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_career');">Career Collection</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_chicago');">Chicago Collection</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('2_curriculummaterials');">Curriculum Materials</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_facultypublications');">Faculty Publications</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_graphicnovels');">Graphic Novels</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('4_imagecollections');">Image Collections</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_audiovisual');">Media (CDs, Videos, Microforms)</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('4_musicscores');">Music Scores</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('2_periodicals');">Periodicals</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_recreational');">Recreational Reading</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_readyreference');">Reference Desk</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('2_reference');">Reference Collection</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('3_specialcollections');">Special Collections</a> </li>
-							</ul>
-					</div>
-				</div>
-                
-                <div id="info-by-floor" class="tab-pane">
-                    <div class="panel-group" id="accordion">
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                            1st Floor</a>
-                          </h4>
-                        </div>
-                        <div id="collapse1" class="panel-collapse collapse in">
-                          <ul>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_accessservices');">Access Services</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_career');">Career Collection</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_chicago');">Chicago Collection</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('copycenters');">Copy Centers</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_facultypublications');">Faculty Publications</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_geniussquad');">Genius Squad</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_graphicnovels');">Graphic Novels</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('groupstudyzones');">Group Study Zones</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('guestcomputers');">Guest Computers</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_instruction');">Instruction Rooms</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_laptoplockers');">Laptop Lockers</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_learningcommons');">Learning Commons - JTR 111</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('printers');">Printers</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_readyreference');">Reference Desk</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_recreational');">Recreational Reading</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_researchhelpdesk');">Research Help Desk</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_scholars');">Scholars' Lab</a> </li>
-							</ul>
-                        </div>
-                      </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                            2nd Floor</a>
-                          </h4>
-                        </div>
-                        <div id="collapse2" class="panel-collapse collapse">
-                          <ul>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_forum');">The Forum</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_core');">Collaborative Research Enviroment</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('copycenters');">Copy Centers</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_curriculummaterials');">Curriculum Materials</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('groupstudyzones');">Group Study Zones</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_206');">JTR 206</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_207');">JTR 207</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_audiovisual');">Media (CDs, Videos, Microforms)</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_periodicals');">Periodicals</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('printers');">Printers</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_reference');">Reference Collection</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_researchinformation');">Research & Instruction Services</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_makerhub');">Maker Hub and Media Studios</a> </li>
-                             <li class="li"><a href="#/" onClick="show_info_panel('2_studiox');">Studio X</a> </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                            3rd Floor</a>
-                          </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse">
-                          <ul>
-								<li class="li"><a href="#/" onClick="show_info_panel('3_callnumbers0699');">Books (Call Numbers 0-699)</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('guestcomputers');">Guest Computers</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('groupstudyrooms');">Group Study Rooms</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('quietstudyzones');">Quiet Study Zones</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('3_rosatiroom');">Rosati Room  - JTR 300</a></li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('3_specialcollections');">Special Collections</a> </li>
-							</ul>
-                        </div>
-                      </div>
+         </div>
+      </div>
+      <!--  Use https://www.image-map.net/ to get coordinates-->
+      <div class="container col-lg-12 container-margin">
+         <div class="col-lg-9">
+            <!--Image map tutorial. http://jquer.in/responsive/rwdimagemaps/
+               Tool for image mapping. http://imagemap-generator.dariodomi.de/-->
+            <div class="row maps-center">
+               <div class="col-lg-6 nopadding max-maps" id="one">
+                  <img src="images/maps/firstfloor.png" width="1500" height="1204" usemap="#first" class="max-maps">
+                  <img class="mapoverlay" width="1500" height="1204">
+                  <map name="first" id="first">
+                     <area shape="rect" coords="62,28,286,162" href="#/" title="scholarslab" alt="Scholar's Lab" id="1_scholars">
+                     <area shape="rect" coords="453,30,1057,125" href="#/" title="groupworktables" alt="Group Work Tables" id="1_groupworktables">
+                     <area shape="rect" coords="1083,27,1224,123" href="#/" title="supplimentalinstruction" alt="Supplimental Instruction" id="1_instruction">
+                     <area shape="rect" coords="221,180,291,292" href="#/" title="geniussquad" alt="Genius Squad" id="1_geniussquad">
+                     <area shape="rect" coords="164,298,291,445" href="#/" title="accessservices" alt="Access Services" id="1_accessservices">
+                     <area shape="rect" coords="863,388,923,460" href="#/" title="researchhelp" alt="Research Help Desk" id="1_researchhelpdesk">
+                     <area shape="rect" coords="1017,736,1143,843" href="#/" title="learningcommons" alt="Learning Commons" id="1_learningcommons">
+                     <area shape="rect" coords="1163,736,1429,842" href="#/" title="libraryinstruction" alt="Library Instruction" id="1_instruction">
+                     <area shape="rect" coords="1169,998,1274,1107" href="#/" title="admin" alt="Administrative Office" id="1_admin">
+                     <area shape="rect" coords="1302,1002,1405,1106" href="#/" title="richardsongallery" alt="Richardson Gallery" id="1_richardsongallery">
+                  </map>
+               </div>
+               <div class="col-lg-6 nopadding max-maps" id="two">
+                  <img src="images/maps/secondfloor.png" width="1500" height="1204" usemap="#second" class="max-maps">
+                  <img class="mapoverlay" width="1500" height="1204">
+                  <map name="second" id="second">
+                     <area shape="rect" coords="156,29,239,162" href="#/" title="206" alt="JTR206" id="2_206">
+                     <area shape="rect" coords="252,30,468,162" href="#/" title="207" alt="JTR207" id="2_207">
+                     <area shape="rect" coords="570,45,1000,146" href="#/" title="groupworktables" alt="Group Work Tables" id="2_groupworktables">
+                     <area shape="rect" coords="54,180,146,260" href="#/" title="studiox" alt="Studios X" id="2_studiox">
+                     <area shape="rect" coords="52,268,148,578" href="#/" title="makerhub" alt="Maker Hub and Media Studios" id="2_makerhub">
+                     <area shape="rect" coords="182,187,474,343" href="#/" title="forum" alt="The Forum" id="2_forum">
+                     <area shape="rect" coords="503,186,976,649" href="#/" title="core" alt="CoRE – Collaborative Research Environment" id="2_core">
+                     <area shape="rect" coords="1366,193,1429,610" href="#/" title="researchinformation" alt="Research & Instruction Services" id="2_researchinformation">
+                  </map>
+               </div>
+            </div>
+            <div class="row maps-center">
+               <div class="col-lg-6 nopadding max-maps" id="three">
+                  <img src="images/maps/thirdfloor.png" width="1500" height="1000" usemap="#third" class="max-maps">
+                  <img class="mapoverlay" width="1500" height="1000">
+                  <map name="third" id="third">
+                     <area shape="rect" coords="59,766,248,860" href="#/" title="rosati" alt="Rosati Room" id="3_rosatiroom">
+                     <area shape="rect" coords="1248,767,1438,862" href="#/" title="specialcollections" alt="Special Collections" id="3_specialcollections">
+                     <area shape="rect" coords="1369,228,1433,292" href="#/" title="groupstudy306" alt="Group Study Rooms" id="groupstudyrooms">
+                     <area shape="rect" coords="1369,403,1434,468" href="#/" title="groupstudy308" alt="Group Study Rooms" id="groupstudyrooms">
+                  </map>
+               </div>
+               <div class="col-lg-6 nopadding max-maps" id="four">
+                  <img src="images/maps/fourthfloor.png" width="1500" height="1080" usemap="#fourth" class="max-maps">
+                  <img class="mapoverlay" width="1500" height="1080">
+                  <map name="fourth" id="fourth">
+                     <area shape="rect" coords="58,300,124,455" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
+                     <area shape="rect" coords="1362,391,1428,545" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
+                     <area shape="rect" coords="1363,710,1429,803" href="#/" title="groupstudy4" alt="St Vincent de Paul Room" id="4_stvincent">
+                  </map>
+               </div>
+            </div>
+         </div>
+         <!--END OF MAPS -->
+         <div class="col-lg-3" id="mapLinks">
+            <div id="info-panel">
+               <img id="close-img" class="close-image" src="images/maps/close-icon.png"/>
+               <p id="info-text"></p>
+            </div>
+            <div id="directory-container">
+               <ul class="nav nav-tabs">
+                  <li><a href="#hours" data-toggle="tab">Hours</a></li>
+                  <li class="active"><a href="#directory" data-toggle="tab">Directory</a></li>
+                  <li><a href="#info-by-floor" data-toggle="tab">Information By Floor</a></li>
+               </ul>
+               <div class="tab-content">
+                  <div id="hours" class="tab-pane">
+                     <div id="api_hours_today_iid123_lid2437"></div>
+                     <script src="https://api3.libcal.com/api_hours_today.php?iid=123&lid=2437&format=js&context=object"> </script> 	
+                  </div>
+                  <div id="directory" class="tab-pane active">
+                     <div class="info">
+                        <h3>Spaces</h3>
+                        <ul>
+                           <li class="li"><a href="#/" onClick="show_info_panel('4_audiovideo');">Audio-Video Viewing & Listening</a></li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_forum');">The Forum</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_core');">Collaborative Research Enviroment</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('groupstudyrooms');">Group Study Rooms</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('groupstudyzones');">Group Study Zones</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_206');">JTR 206</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_instruction');">Instruction Rooms</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_learningcommons');">Learning Commons - JTR 111</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_207');">JTR 207</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('quietstudyzones');">Quiet Study Zones</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_researchinformation');">Research & Instruction Services</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('3_rosatiroom');">Rosati Room  - JTR 300</a></li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('4_stvincent');">St. Vincent DePaul Room</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_makerhub');">Maker Hub and Media Studios</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_studiox');">Studio X</a> </li>
+                        </ul>
+                        <h3>Services</h3>
+                        <ul>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_accessservices');">Access Services</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('copycenters');">Copy Centers</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_geniussquad');">Genius Squad</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('guestcomputers');">Guest Computers</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_laptoplockers');">Laptop Lockers</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('printers');">Printers</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_researchhelpdesk');">Research Help Desk</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_scholars');">Scholars' Lab</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_groupworktables');">Group Work Tables</a> </li>
+                        </ul>
+                        <h3>Collections</h3>
+                        <ul>
+                           <li class="li"><a href="#/" onClick="show_info_panel('3_callnumbers0699');">Books (Call Numbers 0-699)</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('4_callnumbers700999');">Books (Call Numbers 700-999)</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_chicago');">Chicago Collection</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_curriculummaterials');">Curriculum Materials</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_facultypublications');">Faculty Publications</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_graphicnovels');">Graphic Novels</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('4_imagecollections');">Image Collections</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_audiovisual');">Media (CDs, Videos, Microforms)</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('4_musicscores');">Music Scores</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_periodicals');">Periodicals</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_recreational');">Recreational Reading</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('1_readyreference');">Reference Desk</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('2_reference');">Reference Collection</a> </li>
+                           <li class="li"><a href="#/" onClick="show_info_panel('3_specialcollections');">Special Collections</a> </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!--END OF DIRECTORY -->        
+                  <div id="info-by-floor" class="tab-pane">
+                     <div class="panel-group" id="accordion">
                         <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                            4th Floor</a>
-                          </h4>
+                           <div class="panel-heading">
+                              <h4 class="panel-title">
+                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                 1st Floor</a>
+                              </h4>
+                           </div>
+                           <div id="collapse1" class="panel-collapse collapse in">
+                              <ul>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_accessservices');">Access Services</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_chicago');">Chicago Collection</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('copycenters');">Copy Centers</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_facultypublications');">Faculty Publications</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_geniussquad');">Genius Squad</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_graphicnovels');">Graphic Novels</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('groupstudyzones');">Group Study Zones</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('guestcomputers');">Guest Computers</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_instruction');">Instruction Rooms</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_laptoplockers');">Laptop Lockers</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_learningcommons');">Learning Commons - JTR 111</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('printers');">Printers</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_readyreference');">Reference Desk</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_recreational');">Recreational Reading</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_researchhelpdesk');">Research Help Desk</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('1_scholars');">Scholars' Lab</a> </li>
+                              </ul>
+                           </div>
                         </div>
-                        <div id="collapse4" class="panel-collapse collapse">
-                          <ul>
-								<li class="li"><a href="#/" onClick="show_info_panel('4_audiovideo');">Audio-Video Viewing & Listening</a></li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('4_callnumbers700999');">Books (Call Numbers 700-999)</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('groupstudyrooms');">Group Study Rooms</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('guestcomputers');">Guest Computers</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('4_imagecollections');">Image Collections</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('4_musicscores');">Music Scores</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('quietstudyzones');">Quiet Study Zones</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('4_stvincent');">St. Vincent DePaul Room</a> </li>
-							</ul>
+                        <div class="panel panel-default">
+                           <div class="panel-heading">
+                              <h4 class="panel-title">
+                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                 2nd Floor</a>
+                              </h4>
+                           </div>
+                           <div id="collapse2" class="panel-collapse collapse">
+                              <ul>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_forum');">The Forum</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_core');">Collaborative Research Enviroment</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('copycenters');">Copy Centers</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_curriculummaterials');">Curriculum Materials</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('groupstudyzones');">Group Study Zones</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_206');">JTR 206</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_207');">JTR 207</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_audiovisual');">Media (CDs, Videos, Microforms)</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_periodicals');">Periodicals</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('printers');">Printers</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_reference');">Reference Collection</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_researchinformation');">Research & Instruction Services</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_makerhub');">Maker Hub and Media Studios</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('2_studiox');">Studio X</a> </li>
+                              </ul>
+                           </div>
                         </div>
-                      </div>
-                    </div>
-                </div>
-			</div>
-		</div>
-
-	</div> <!--End of panel-->
-</div> <!--/close container-->
-
-<p>
-  &nbsp;
-</p>
-<p>
-<button onclick="location.reload();">Reload Page</button>
-</p>
-<script src="js/wayfinding.js"></script>
-  
-</body>
+                        <div class="panel panel-default">
+                           <div class="panel-heading">
+                              <h4 class="panel-title">
+                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                 3rd Floor</a>
+                              </h4>
+                           </div>
+                           <div id="collapse3" class="panel-collapse collapse">
+                              <ul>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('3_callnumbers0699');">Books (Call Numbers 0-699)</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('guestcomputers');">Guest Computers</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('groupstudyrooms');">Group Study Rooms</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('quietstudyzones');">Quiet Study Zones</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('3_rosatiroom');">Rosati Room  - JTR 300</a></li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('3_specialcollections');">Special Collections</a> </li>
+                              </ul>
+                           </div>
+                        </div>
+                        <div class="panel panel-default">
+                           <div class="panel-heading">
+                              <h4 class="panel-title">
+                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                 4th Floor</a>
+                              </h4>
+                           </div>
+                           <div id="collapse4" class="panel-collapse collapse">
+                              <ul>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('4_audiovideo');">Audio-Video Viewing & Listening</a></li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('4_callnumbers700999');">Books (Call Numbers 700-999)</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('groupstudyrooms');">Group Study Rooms</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('guestcomputers');">Guest Computers</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('4_imagecollections');">Image Collections</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('4_musicscores');">Music Scores</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('quietstudyzones');">Quiet Study Zones</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
+                                 <li class="li"><a href="#/" onClick="show_info_panel('4_stvincent');">St. Vincent DePaul Room</a> </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--END OF INFORMATION BY FLOOR -->
+      </div>
+      <!--/close container-->
+      <script src="js/wayfinding.js"></script>
+   </body>
 </html>
+

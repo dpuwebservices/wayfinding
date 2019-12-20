@@ -66,7 +66,6 @@
     "groupstudyzones": 		["", ["1_groupstudyzone.png", "2_groupstudy.png"]],
     "printers":				["", ["1_printcenter.png", "2_printcenter.png"]],
     "quietstudyzones": 		["", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
-    "1_career": 			["", ["1_career.png"]],
         "1_chicago": 			["", ["1_chicago.png"]],
     "1_facultypublications": ["", ["1_facultypublications.png"]],
     "1_graphicnovels": 		["", ["1_graphicnovels.png"]],
