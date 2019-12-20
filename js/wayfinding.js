@@ -42,6 +42,7 @@
     "1_allcomputers":  	["", ["1_allcomputers.png"]],
     "1_copyprintscan":  ["", ["1_copyprintscan.png"]],
 		"1_geniussquad":    [$geniusSquadText, ["1_geniussquad.png"]],
+    "1_groupstudyzones":  ["", ["1_groupstudyzones.png"]],
 		"1_groupworktables":[$groupWorkTablesText, ["1_groupworktables.png"]],
     "1_instruction":    [$instructionText, ["1_instruction.png"]],
 		"1_learningcommons":[$learningCommonsText, ["1_learningcommons.png"]],
