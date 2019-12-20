@@ -40,6 +40,7 @@
     "1_assistivetechnology":["", ["1_assistivetechnology.png"]],
     "1_chicago":      	["", ["1_chicago.png"]],
     "1_allcomputers":  	["", ["1_allcomputers.png"]],
+    "1_copyprintscan":  ["", ["1_copyprintscan.png"]],
 		"1_geniussquad":    [$geniusSquadText, ["1_geniussquad.png"]],
 		"1_groupworktables":[$groupWorkTablesText, ["1_groupworktables.png"]],
     "1_instruction":    [$instructionText, ["1_instruction.png"]],
@@ -65,7 +66,7 @@
 
 
     "bathrooms": 			["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
-    "copycenters": 		    ["", ["1_copycenter.png", "2_copycenter.png"]],
+    "copycenters": 		    ["", ["1_copyprintscan.png", "2_copycenter.png"]],
     "groupstudyzones": 		["", ["1_groupstudyzone.png", "2_groupstudy.png"]],
     "printers":				["", ["1_printcenter.png", "2_printcenter.png"]],
     "quietstudyzones": 		["", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
