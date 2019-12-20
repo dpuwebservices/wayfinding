@@ -11,7 +11,7 @@
     var $researchHelpText     = "<b>Research Help Desk</b><br/><br/><b>About:</b><br/>Research Librarians and Peer Research Tutors help you explore your topic and show you how to search effectively for books, articles and other information (like statistics) in library databases and the web. Researchers can ask for in-depth help, or just get assistance finding a single item.";
     var $learningCommonsText  = "<b>Learning Commons</b><br/><br/><b>About:</b><br/>The Learning Commons is a student-centered learning environment that provides collaborative peer-education in a central location surrounded by academic resources.<br/><br/><b>Services Offered:</b><br/><ul><li>Tutoring in Chemistry, Math, Psychology, and Languages (Arabic, Chinese, French, Italian, Japanese, Ancient Greek, Russian, and Spanish)</li><li>Study Jams via OMSS<br/><li>Resume, Internship & Job Help through the Career Center</li><li>Supplemental Instruction</li><li>Workshops</li></ul>";
     var $adminText            = "<b>Administrative Offices</b><br/><br/><b>About:</b><br/>The Administrative Office supports the daily operations of the Richardson and Loop libraries.";
-    var $programRoomText      = "<b>Richardson Art Gallery</b><br/><br/><b>About:</b><br/>Formerly called the Program Room, this space is currently being developed into the Richardson Art Gallery, a space for student art exhibitions.";
+    var $richardsonGalleryText= "<b>Richardson Gallery</b><br/><br/><b>About:</b><br/>Formerly called the Program Room, this space is currently being developed into a space for student art exhibitions.";
     var $206Text              = "<b>JTR 206</b><br/><br/>This is a small group brainstorming/ideation equipped with laptops, digital panel, whiteboards, Legos, papercrafting tools and other supplies to help groups come together to discuss problems and sketch potential solutions.";
     var $207Text              = "<b>JTR 207</b><br/><br/>This is a community event, teaching, and workshop space on topics such as digital mapping, text and data mining, 3-D modelling, and data visualization.  Seats up to 30 people and tables may be reconfigured. Includes laptop cart, surround sound, and high-resolution, oversized digitized panel.";
     var $studioXText          = "<b>Studio χ</b><br/><br/>This is a Center for faculty development to foster and support research at the intersection between humanities and computing. Also known as Studio Chi.";
@@ -41,7 +41,7 @@
 		"1_groupworktables":[$groupWorkTablesText, ["1_groupworktables.png"]],
     "1_instruction":    [$instructionText, ["1_instruction.png"]],
 		"1_learningcommons":[$learningCommonsText, ["1_learningcommons.png"]],
-    "1_programroom":    [$programRoomText, ["1_programroom.png"]],
+    "1_richardsongallery":[$richardsonGalleryText, ["1_richardsongallery.png"]],
     "1_researchhelpdesk":[$researchHelpText, ["1_researchhelpdesk.png"]],
 		"1_scholars":        [$scholarsLabText, ["1_scholars.png"]],
 
