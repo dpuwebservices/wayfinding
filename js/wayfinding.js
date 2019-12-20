@@ -17,6 +17,11 @@
     var $studioXText          = "<b>Studio χ</b><br/><br/>This is a Center for faculty development to foster and support research at the intersection between humanities and computing. Also known as Studio Chi.";
     var $makerHubText         = "<b>Maker Hub and Media Studios</b><br/><br/><b>Maker Hub</b><br/>(also known as Studio A) group, seminar, and independent work space with 3D printers, scanners, laser cutter, soldering station, and sewing machine.<br/><br/><b>Studios B - F</b><br/>All include MacPros with single or double screens conducive to video and sound editing.  Microphones, cameras, keyboards, analog media players and other hardware can be attached to workstations to serve different purposes such as sound or video recording, presentation practice, podcasting, digitization, and digital preservation.<br/><br/><b>Usability Studio</b><br/>(also known as Studio E) for observation/recording of up to 3 people interacting with computers in a controlled environment.<br/><br/><b>Studio G</b><br/>Production space with professional, pre-set light system and green screen";
     var $forumText            = "<b>The Forum</b><br/><br/>Public event and learning area with mixture of comfortable and work table seating near visualization wall.  Visualization Wall functionalities & specs are currently based on similar installations at Indiana, Montana State, and UNC.";
+    var $groupStudyText       = "<b>Group Study Rooms</b><br/><br/><b>Instructions:</b><br/>Reservable for up to 60 minutes. Visit library.depaul.edu/services/Pages/Room-Reservations to make a room reservation, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>10 People<br/><br/><b>Equipment:</b><br/>Screen - No projector";
+    var $rosatiText           = "<b>Rosati Room</b><br/><br/><b>Instructions:</b><br/>Reservable for up to 60 minutes. Visit library.depaul.edu/services/Pages/Room-Reservations to make a room reservation, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>40 People<br/><br/><b>Equipment:</b><br/>Screen – with Projector<br/>Podium<br/>PC";
+    var $spcaText             = "<b>Special Collections</b><br/><br/>DePaul Special Collections and Archives collects, preserves, and shares rich primary source materials in support of engaged teaching, active student learning, and scholarly and community research.";
+      
+    
     
             
 	// Hide the info-panel and overlay images on page load.
@@ -46,11 +51,16 @@
     "2_makerhub": 		  [$makerHubText, ["2_makerhub.png"]],
     "2_forum":          [$forumText, ["2_forum.png"]],
 
+    "3_rosatiroom": 		[$rosatiText, ["3_rosatiroom.png"]],
+    "groupstudyrooms": 		[$groupStudyText, ["3_groupstudyrooms.png", "4_groupstudyrooms.png"]],
+    "3_specialcollections": [$spcaText, ["3_specialcollections.png"]],
+
+
+
     "bathrooms": 			["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
     "computers": 			["", ["1_computers.png", "2_computerlabs.png"]],
     "copycenters": 		    ["", ["1_copycenter.png", "2_copycenter.png"]],
     "groupstudyzones": 		["", ["1_groupstudyzone.png", "2_groupstudy.png"]],
-    "groupstudyrooms": 		["<b>Group Study Rooms</b><br/><br/><b>Instructions:</b><br/>Reservable for up to 60 minutes. Visit library.depaul.edu/services/Pages/Room-Reservations to make a room reservation, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>10 People<br/><br/><b>Equipment:</b><br/>Screen - No projector", ["3_groupstudy.png", "4_groupstudy.png"]],
     "printers":				["", ["1_printcenter.png", "2_printcenter.png"]],
     "quietstudyzones": 		["", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
     "1_career": 			["", ["1_career.png"]],
@@ -75,8 +85,6 @@
     "2_researchinformation":["<b>Research & Instruction Services</b><br/><br/>Research and Instruction Librarians help researchers explore their topics. Research and Instruction librarians also work directly with faculty and students in classes with assignments which require locating and using information in books, articles and other formats. The best way to reach them is at the Research Help Desk, online via chat/IM (“Ask a Librarian”) and by appointment.", ["2_researchinformation.png"]],
     "3_callnumbers0699": 	["", ["3_callnumbers0699.png"]],
     "3_instruction": 		["", ["3_instruction.png"]],
-    "3_rosatiroom": 		["<b>Rosati Room</b><br/><br/><b>Instructions:</b><br/>Reservable for up to 60 minutes. Visit library.depaul.edu/services/Pages/Room-Reservations to make a room reservation, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>40 People<br/><br/><b>Equipment:</b><br/>Screen – with Projector<br/>Podium<br/>PC", ["3_rosatiroom.png"]],
-    "3_specialcollections": ["<b>Special Collections</b><br/><br/>DePaul Special Collections and Archives collects, preserves, and shares rich primary source materials in support of engaged teaching, active student learning, and scholarly and community research.", ["3_specialcollections.png"]],
     "4_audiovideo": 	    ["", ["4_audiovideo.png"]],
         "4_callnumbers700999": 	["", ["4_callnumbers700999.png"]],
     "4_imagecollections": 	["", ["4_imagecollections.png"]],
