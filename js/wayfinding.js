@@ -15,6 +15,7 @@
     var $206Text              = "<b>JTR 206</b><br/><br/>This is a small group brainstorming/ideation equipped with laptops, digital panel, whiteboards, Legos, papercrafting tools and other supplies to help groups come together to discuss problems and sketch potential solutions.";
     var $207Text              = "<b>JTR 207</b><br/><br/>This is a community event, teaching, and workshop space on topics such as digital mapping, text and data mining, 3-D modelling, and data visualization.  Seats up to 30 people and tables may be reconfigured. Includes laptop cart, surround sound, and high-resolution, oversized digitized panel.";
     var $studioXText          = "<b>Studio χ</b><br/><br/>This is a Center for faculty development to foster and support research at the intersection between humanities and computing. Also known as Studio Chi.";
+    var $makerHubText         = "<b>Maker Hub and Media Studios</b><br/><br/><b>Maker Hub</b><br/>(also known as Studio A) group, seminar, and independent work space with 3D printers, scanners, laser cutter, soldering station, and sewing machine.<br/><br/><b>Studios B - F</b><br/>All include MacPros with single or double screens conducive to video and sound editing.  Microphones, cameras, keyboards, analog media players and other hardware can be attached to workstations to serve different purposes such as sound or video recording, presentation practice, podcasting, digitization, and digital preservation.<br/><br/><b>Usability Studio</b><br/>(also known as Studio E) for observation/recording of up to 3 people interacting with computers in a controlled environment.<br/><br/><b>Studio G</b><br/>Production space with professional, pre-set light system and green screen";
     
     
             
@@ -42,6 +43,7 @@
     "2_207":            [$207Text, ["2_207.png"]],
     "2_groupworktables":[$groupWorkTablesText, ["2_groupworktables.png"]],
     "2_studiox": 		    [$studioXText, ["2_studiox.png"]],
+    "2_makerhub": 		    [$makerHubText, ["2_makerhub.png"]],
 
     "bathrooms": 			["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
 		"computers": 			["", ["1_computers.png", "2_computerlabs.png"]],
@@ -70,7 +72,6 @@
 		"2_recreational": 		["", ["2_recreational.png"]],
 		"2_reference": 			["", ["2_reference.png"]],
 		"2_researchinformation":["<b>Research & Instruction Services</b><br/><br/>Research and Instruction Librarians help researchers explore their topics. Research and Instruction librarians also work directly with faculty and students in classes with assignments which require locating and using information in books, articles and other formats. The best way to reach them is at the Research Help Desk, online via chat/IM (“Ask a Librarian”) and by appointment.", ["2_researchinformation.png"]],
-        "2_studios": 		    ["<b>Studios A-G</b><br/><br/><b>Maker Hub</b><br/>(also known as Studio A) group, seminar, and independent work space with 3D printers, scanners, laser cutter, soldering station, and sewing machine.<br/><br/><b>Studios B - F</b><br/>All include MacPros with single or double screens conducive to video and sound editing.  Microphones, cameras, keyboards, analog media players and other hardware can be attached to workstations to serve different purposes such as sound or video recording, presentation practice, podcasting, digitization, and digital preservation.<br/><br/><b>Usability Studio</b><br/>(also known as Studio E) for observation/recording of up to 3 people interacting with computers in a controlled environment.<br/><br/><b>Studio G</b><br/>Production space with professional, pre-set light system and green screen", ["2_studios.png"]],
         "2_theforum": 		    ["<b>The Forum</b><br/><br/>Public event and learning area with mixture of comfortable and work table seating near visualization wall.  Visualization Wall functionalities & specs are currently based on similar installations at Indiana, Montana State, and UNC.", ["2_theforum.png"]],
 		"3_callnumbers0699": 	["", ["3_callnumbers0699.png"]],
 		"3_instruction": 		["", ["3_instruction.png"]],
