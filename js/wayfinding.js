@@ -47,6 +47,7 @@
     "1_instruction":    [$instructionText, ["1_instruction.png"]],
 		"1_learningcommons":[$learningCommonsText, ["1_learningcommons.png"]],
     "1_richardsongallery":[$richardsonGalleryText, ["1_richardsongallery.png"]],
+    "1_popular": 		["", ["1_popular.png"]],
     "1_researchhelpdesk":[$researchHelpText, ["1_researchhelpdesk.png"]],
 		"1_scholars":        [$scholarsLabText, ["1_scholars.png"]],
 
@@ -75,7 +76,6 @@
     "1_graphicnovels": 		["", ["1_graphicnovels.png"]],
     "guestcomputers":		["", ["1_guestcomputers.png", "3_guestcomputers.png", "4_guestcomputers.png"]],
         "1_laptoplockers": 		["", ["1_laptoplockers.png"]],
-        "1_recreational": 		["", ["1_recreational.png"]],
     "1_readyreference":		["", ["1_readyreference.png"]],
     "2_chicago": 			["", ["2_chicago.png"]],
     "2_circulationdesk": 	["", ["2_circulationdesk.png"]],
