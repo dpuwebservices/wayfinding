@@ -20,6 +20,7 @@
     var $groupStudyText       = "<b>Group Study Rooms</b><br/><br/><b>Instructions:</b><br/>Reservable for up to 60 minutes. Visit library.depaul.edu/services/Pages/Room-Reservations to make a room reservation, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>10 People<br/><br/><b>Equipment:</b><br/>Screen - No projector";
     var $rosatiText           = "<b>Rosati Room</b><br/><br/><b>Instructions:</b><br/>Reservable for up to 60 minutes. Visit library.depaul.edu/services/Pages/Room-Reservations to make a room reservation, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>40 People<br/><br/><b>Equipment:</b><br/>Screen – with Projector<br/>Podium<br/>PC";
     var $spcaText             = "<b>Special Collections</b><br/><br/>DePaul Special Collections and Archives collects, preserves, and shares rich primary source materials in support of engaged teaching, active student learning, and scholarly and community research.";
+    var $stVincentText        = "<p><strong>St. Vincent de Paul Room</strong><br /><br />The St. Vincent de Paul room is reserved for Special Collections and Archives instruction sessions.</p>";
       
     
     
@@ -52,9 +53,11 @@
     "2_forum":          [$forumText, ["2_forum.png"]],
 
     "3_rosatiroom": 		[$rosatiText, ["3_rosatiroom.png"]],
-    "groupstudyrooms": 		[$groupStudyText, ["3_groupstudyrooms.png", "4_groupstudyrooms.png"]],
     "3_specialcollections": [$spcaText, ["3_specialcollections.png"]],
 
+    "groupstudyrooms": 		[$groupStudyText, ["3_groupstudyrooms.png", "4_groupstudyrooms.png"]],
+
+    "4_stvincent": 			[$stVincentText, ["4_stvincent.png"]],
 
 
     "bathrooms": 			["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
@@ -88,8 +91,7 @@
     "4_audiovideo": 	    ["", ["4_audiovideo.png"]],
         "4_callnumbers700999": 	["", ["4_callnumbers700999.png"]],
     "4_imagecollections": 	["", ["4_imagecollections.png"]],
-        "4_musicscores": 		["", ["4_musicscores.png"]],
-    "4_stvincent": 			["", ["4_stvincent.png"]]
+        "4_musicscores": 		["", ["4_musicscores.png"]]
 	};
 
 	// Note that in order for this to work, the id of each image map location MUST match

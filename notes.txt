@@ -44,9 +44,7 @@
 <img src="fourthfloor.png" usemap="#image-map">
 
 <map name="image-map">
-    <area target="" alt="405" title="405" href="" coords="60,313,123,379" shape="rect">
-    <area target="" alt="404" title="404" href="" coords="60,399,124,465" shape="rect">
-    <area target="" alt="411" title="411" href="" coords="1364,400,1428,465" shape="rect">
-    <area target="" alt="412" title="412" href="" coords="1366,486,1429,558" shape="rect">
-    <area target="" alt="stvincent" title="stvincent" href="" coords="1363,717,1430,811" shape="rect">
+    <area target="" alt="404 and 405" title="404 and 405" href="" coords="58,300,124,455" shape="rect">
+    <area target="" alt="411 and 412" title="411 and 412" href="" coords="1362,391,1428,545" shape="rect">
+    <area target="" alt="417" title="417" href="" coords="1363,710,1429,803" shape="rect">
 </map>
