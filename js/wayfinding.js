@@ -37,6 +37,7 @@
 	info_map={
 		"1_accessservices": [$accessServicesText, ["1_accessservices.png"]],
     "1_admin":          [$adminText, ["1_admin.png"]],
+    "1_bathrooms":      ["", ["1_bathrooms.png"]],
     "1_assistivetechnology":["", ["1_assistivetechnology.png"]],
     "1_chicago":      	["", ["1_chicago.png"]],
     "1_allcomputers":  	["", ["1_allcomputers.png"]],
