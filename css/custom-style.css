@@ -2,7 +2,7 @@
 /* Typography */
 /* Colors */
 .highlight {
-  color: #661a00;
+  color: #330d00;
 }
 
 /* Breakpoints */
@@ -14,9 +14,8 @@
 
 body, html {
   margin: 0;
-  background: #0c5896;
+  background: #002a54;
   font-family: "Open Sans", sans-serif;
-  background-image: url(../images/blue-bg.jpg);
   font-size: 16px;
 }
 
@@ -294,7 +293,7 @@ h3 {
 }
 #mapLinks .nav-tabs li > a {
   color: white;
-  background-color: #0c5896;
+  background-color: #002a54;
   border: none;
   border-radius: 0;
   margin: 0 !important;
@@ -311,7 +310,7 @@ h3 {
   border-color: none;
   border-radius: 0;
   background-color: white;
-  color: #0c5896;
+  color: #002a54;
   font-weight: bold;
 }
 #mapLinks .tab-content {
@@ -379,7 +378,7 @@ h3 {
   padding: 6px 12px 8px;
 }
 .container li.lwe .lwn a {
-  color: #062e4f;
+  color: #000408;
   font-weight: bold;
   font-size: 22px;
 }
@@ -397,7 +396,7 @@ h3 {
   color: white;
 }
 .container li.lwe .lwl a {
-  color: #0c5896;
+  color: #002a54;
   background-color: rgba(204, 204, 204, 0.2);
   padding: 4px 14px;
   font-weight: 600;
@@ -436,7 +435,7 @@ h3 {
   font-weight: bold;
 }
 .container .s-lc-ea-tb a {
-  color: #062e4f;
+  color: #000408;
   font-weight: bold;
   font-size: 20px;
 }
@@ -521,7 +520,7 @@ h3 {
   .navbar .navbar-brand {
     text-align: left;
     display: inline;
-    color: #0c5896;
+    color: #002a54;
     font-size: 26px;
     font-weight: 600;
     text-transform: uppercase;
