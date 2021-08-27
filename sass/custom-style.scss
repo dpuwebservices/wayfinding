@@ -22,6 +22,8 @@ $lightGray: #eee;
 $white: rgb(255,255,255);
 $transparent: transparent;
 
+.highlight{color:darken($orange,50%);}
+
 /* Breakpoints */
 
 $tablet-width: 768px;
