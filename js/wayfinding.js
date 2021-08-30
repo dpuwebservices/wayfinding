@@ -17,7 +17,9 @@
 		"copycenters": 		    ["", ["1_copycenter.png", "2_copycenter.png"]],
 		"groupstudyzones": 		["", ["1_groupstudyzone.png", "2_groupstudy.png"]],
         "1_assistivetechnology": 	["", ["1_assistivetechnology.png"]],
-		"groupstudyrooms": 		["<b>Group Study Rooms</b><br/><br/><b>Instructions:</b><br/>Reservable for up to 60 minutes. <span class=\"highlight\">libcal.depaul.edu</span> to make a room reservation, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>10 People<br/><br/><b>Equipment:</b><br/>Screen - No projector", ["3_groupstudy.png", "4_groupstudy.png"]],
+		"groupstudyrooms": ["<b>Group Study Rooms</b><br/><br/><b>Instructions:</b><br/>Reservable for up to 60 minutes. Scan below or go to <span class=\"highlight\">libcal.depaul.edu</span> to make a room reservation, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>10 People<br/><br/><b>Equipment:</b><br/>Screen - No projector<br><br> <img src=\"http://libservices.org/wayfinding/images/group-study-qr-code.png\" width=\"200\" height=\"200\">"
+			
+			, ["3_groupstudy.png", "4_groupstudy.png"]],
 		"printers":				["", ["1_printcenter.png", "2_printcenter.png"]],
 		"quietstudyzones": 		["", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
 		"1_career": 			["", ["1_career.png"]],
