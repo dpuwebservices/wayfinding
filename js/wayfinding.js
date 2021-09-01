@@ -23,7 +23,7 @@
 		"quietstudyzones": 		["", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
 		"1_admin": 			["", ["1_admin.png"]],
         "1_chicago": 			["", ["1_chicago.png"]],
-		"1_circulationdesk": 	["<b>Access Services</b><br/><br/>Patrons can check-out and renew books here.", ["1_circulationdesk.png"]],
+		"1_circulationdesk": 	["<b>Access Services</b><br/><br/>Come to Access Services to check out your items, pay a fine, or access a book on reserve for your class. We also have phone chargers, calculators, video games and consoles and more available to check out with your DePaul ID card.", ["1_circulationdesk.png"]],
 		"1_facultypublications": ["", ["1_facultypublications.png"]],
         "1_gallery": 			["", ["1_gallery.png"]],
 		"1_graphicnovels": 		["", ["1_graphicnovels.png"]],
