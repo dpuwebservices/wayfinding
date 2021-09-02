@@ -359,6 +359,10 @@ h3 {
 
 /* Hours Page Content Area */
 /* Events Page Content Area */
+#lw li {
+  color: white;
+}
+
 .container .s-lc-ea-noe {
   color: white;
   line-height: 40px;
