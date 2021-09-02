@@ -23,8 +23,10 @@
     <script src="js/weather.js"></script>
     <link href="css/weather.css" rel="stylesheet" type="text/css">
 	
-	<title>Events</title>
-	
+	<title>Hours</title>
+<style>
+    #hours, #hours table{background: rgb(0,13,26);}
+</style>
 </head>
 
 <body>  
@@ -111,6 +113,14 @@
 
 }) 
 </script>
+
+<script>
+    $(document).ready(function(){
+        $(".hours-col-loc a").each(function(){
+            $( this ).replaceWith( "<p>" + $( this ).text() + "</p>" );
+        });
+    });
+    </script>
 
 <script>
 	$().ready(function() {
