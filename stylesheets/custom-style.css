@@ -447,8 +447,6 @@ h3 {
 }
 
 /* Hours Side Panel */
-#hours{
-  background:black;
 .hours-today,
 .hours-content {
   color: white;
@@ -479,7 +477,6 @@ h3 {
 .hours-today tbody .hours-col-time,
 .hours-content tbody .hours-col-time {
   padding: 10px 3%;
-}
 }
 
 .classes-page {
