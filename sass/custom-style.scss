@@ -416,10 +416,28 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 
 
 /* Hours Page Content Area */
-// #hours{
-// not working? investigate later. for now, put in page
-// }
 
+    #hours{ 
+        .hours-today{
+            width:600px; 
+            margin: 40px 0 0 0;
+        }
+        background: #001d3b;
+
+        th {color:#2f94fa;}
+
+        .hours-col-loc {width:400px;}
+        tr.loc12626 th{
+            color:white; 
+            font-size:24px;
+            padding: 0 0 20px 0;
+        }
+        .hours-col-time, .s-lc-time{
+            text-align:left;
+            color:white;
+        }
+        
+    }
 /* Events Page Content Area */
 
 

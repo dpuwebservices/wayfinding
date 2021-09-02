@@ -358,6 +358,29 @@ h3 {
 }
 
 /* Hours Page Content Area */
+#hours {
+  background: #001d3b;
+}
+#hours .hours-today {
+  width: 600px;
+  margin: 40px 0 0 0;
+}
+#hours th {
+  color: #2f94fa;
+}
+#hours .hours-col-loc {
+  width: 400px;
+}
+#hours tr.loc12626 th {
+  color: white;
+  font-size: 24px;
+  padding: 0 0 20px 0;
+}
+#hours .hours-col-time, #hours .s-lc-time {
+  text-align: left;
+  color: white;
+}
+
 /* Events Page Content Area */
 #lw li {
   color: white;
