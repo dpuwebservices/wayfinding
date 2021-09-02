@@ -200,6 +200,10 @@ h3 {
   background-color: white;
   color: #FFF;
 }
+.navbar .activated a.hours i {
+  background-position: 132px 78px;
+  margin: -5px -52px 0 48px;
+}
 .navbar .activated a.maps i {
   background-position: 132px 78px;
   margin: -5px -52px 0 48px;
@@ -447,38 +451,6 @@ h3 {
 }
 
 /* Hours Side Panel */
-.hours-today,
-.hours-content {
-  color: white;
-  width: 100%;
-  background-color: white;
-  margin-top: 45px;
-}
-.hours-today .hours-row,
-.hours-content .hours-row {
-  border-bottom: solid black 1px;
-  color: black;
-  font-size: 17px;
-}
-.hours-today tbody,
-.hours-content tbody {
-  border: solid black 1px;
-  font-size: 17px;
-}
-.hours-today tbody .hours-col-loc,
-.hours-content tbody .hours-col-loc {
-  padding: 10px 3%;
-  background-color: rgba(204, 204, 204, 0.2);
-  padding-left: 3%;
-  color: black;
-  width: 55%;
-  font-weight: bold;
-}
-.hours-today tbody .hours-col-time,
-.hours-content tbody .hours-col-time {
-  padding: 10px 3%;
-}
-
 .classes-page {
   margin-top: 80px;
 }

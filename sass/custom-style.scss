@@ -219,7 +219,13 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 	.activated{
 		background-color: $white;
 		color:#FFF;
-            
+
+        a.hours {
+            i {
+                background-position: 132px 78px;
+                margin: -5px -52px 0 48px;
+            }
+        }        
         a.maps {
             i {
                 background-position: 132px 78px;
@@ -495,33 +501,35 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 
 /* Hours Side Panel */
 
-.hours-today,
-.hours-content {
-    color:$white;
-    width:100%;
-    background-color: $white;
-    margin-top: 45px;
-    .hours-row {
-        border-bottom:solid $black 1px;
-        color: $black;
-        font-size: $font-size-base + 1; // ~17px
-    }
-    tbody {
-        border:solid $black 1px;
-        font-size: $font-size-base + 1; // ~17px
-        .hours-col-loc {
-            padding: 10px 3%;
-            background-color: rgba($gray,0.2); 
-            padding-left:3%;
-            color: $black;
-            width: 55%;
-            font-weight: bold;
-        }
-        .hours-col-time { 
-            padding: 10px 3%;
-        }
-    }
-}
+// .hours-today,
+// .hours-content {
+//     color:$white;
+//     width:100%;
+//     background-color: $white;
+//     margin-top: 45px;
+//     .hours-row {
+//         border-bottom:solid $black 1px;
+//         color: $black;
+//         font-size: $font-size-base + 1; // ~17px
+//     }
+//     tbody {
+//         border:solid $black 1px;
+//         font-size: $font-size-base + 1; // ~17px
+//         .hours-col-loc {
+//             padding: 10px 3%;
+//             background-color: rgba($gray,0.2); 
+//             padding-left:3%;
+//             color: $black;
+//             width: 55%;
+//             font-weight: bold;
+//         }
+//         .hours-col-time { 
+//             padding: 10px 3%;
+//         }
+//     }
+// }
+
+
 .classes-page {margin-top: 80px;}
 
 /* Media Query CSS */
