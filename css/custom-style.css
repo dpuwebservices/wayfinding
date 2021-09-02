@@ -170,7 +170,6 @@ h3 {
   padding: 8px 0;
 }
 .navbar li a i {
-  background-image: url("../images/icons-btns.png");
   width: 32px;
   height: 32px;
   float: left;
@@ -358,6 +357,7 @@ h3 {
   text-decoration: none;
 }
 
+/* Hours Page Content Area */
 /* Events Page Content Area */
 .container .s-lc-ea-noe {
   color: white;
@@ -447,38 +447,6 @@ h3 {
 }
 
 /* Hours Side Panel */
-.hours-today,
-.hours-content {
-  color: white;
-  width: 100%;
-  background-color: white;
-  margin-top: 45px;
-}
-.hours-today .hours-row,
-.hours-content .hours-row {
-  border-bottom: solid black 1px;
-  color: black;
-  font-size: 17px;
-}
-.hours-today tbody,
-.hours-content tbody {
-  border: solid black 1px;
-  font-size: 17px;
-}
-.hours-today tbody .hours-col-loc,
-.hours-content tbody .hours-col-loc {
-  padding: 10px 3%;
-  background-color: rgba(204, 204, 204, 0.2);
-  padding-left: 3%;
-  color: black;
-  width: 55%;
-  font-weight: bold;
-}
-.hours-today tbody .hours-col-time,
-.hours-content tbody .hours-col-time {
-  padding: 10px 3%;
-}
-
 .classes-page {
   margin-top: 80px;
 }
