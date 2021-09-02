@@ -188,12 +188,19 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
                 float: left;
             }
 	  }
-        a.maps {
-            i {
-                background-position: 132px 123px;
-                margin: -5px -52px 0 48px;
+        a.hours {
+                i {
+                    // background-position: 0;
+                    // margin: 0;
+                }
             }
-        }
+
+        a.maps {
+                i {
+                    background-position: 132px 123px;
+                    margin: -5px -52px 0 48px;
+                }
+            }
         a.events {
             i {
                 background-position: 86px 123px;
@@ -222,8 +229,8 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 
         a.hours {
             i {
-                background-position: 132px 78px;
-                margin: -5px -52px 0 48px;
+                // background-position: 0;
+                // margin: 0;
             }
         }        
         a.maps {

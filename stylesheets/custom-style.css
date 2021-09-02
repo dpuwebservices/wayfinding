@@ -200,10 +200,6 @@ h3 {
   background-color: white;
   color: #FFF;
 }
-.navbar .activated a.hours i {
-  background-position: 132px 78px;
-  margin: -5px -52px 0 48px;
-}
 .navbar .activated a.maps i {
   background-position: 132px 78px;
   margin: -5px -52px 0 48px;
