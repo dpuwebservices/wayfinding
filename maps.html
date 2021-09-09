@@ -150,72 +150,59 @@
 			</ul>
 
 			<div class="tab-content">
-				<div id="hours" class="tab-pane">
-					<div id="api_hours_today_iid123_lid2437"></div>
-					<script src="https://api3.libcal.com/api_hours_today.php?iid=123&lid=2437&format=js&context=object"> </script> 	
-				</div>
 
 				<div id="directory" class="tab-pane active">
-					<div class="info">
-						<h3>Spaces</h3>
-							<ul>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_admin');">Administrative Offices</a></li>
-								<li class="li"><a href="#/" onClick="show_info_panel('4_audiovideo');">Audio-Video Viewing & Listening</a></li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_core');">Collaborative Research Enviroment</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('groupstudyrooms');">Group Study Areas (reservable)</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('groupstudyzones');">Group Study Zones</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_studios');">Maker Hub & Media Studios</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('quietstudyzones');">Quiet Study Zones</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_researchinformation');">Research & Instruction Services (Room 211)</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('bathrooms');">Restrooms</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_gallery');">Richrdson Art Gallery</a></li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_103');">Room 103</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_109');">Room 109</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_110');">Room 110</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_111');">Room 111</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_206');">Room 206</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_207');">Room 207</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('3_300room');">Room 300</a></li>
-								<li class="li"><a href="#/" onClick="show_info_panel('4_stvincent');">St. Vincent DePaul Room (Room 417)</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_theforum');">The Forum</a> </li>
-							</ul>
+                    <div class="panel-group" id="accordion1">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion1" href="#collapseSpaces">
+                              Spaces</a>
+                            </h4>
+                          </div>
+                          <div id="collapseSpaces" class="panel-collapse collapse in">
+                            <ul>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('1_circulationdesk');">Access Services</a> </li>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('1_admin');">Administrative Offices</a></li>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('1_assistivetechnology');">Assistive Technology Workstation</a> </li>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('1_chicago');">Chicago Collection</a> </li>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
 
-						<h3>Services</h3>
-							<ul>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_circulationdesk');">Access Services</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_assistivetechnology');">Assistive Technology Workstation</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('copycenters');">Copy Centers</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_geniussquad');">Genius Squad</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('guestcomputers');">Guest Computers</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_laptoplockers');">Laptop Lockers</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_103');">Library Instruction</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('printers');">Printers</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_researchhelpdesk');">Research Help Desk</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_selfcheckout');">Self Checkout Station</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_supplemental');">Supplemental Instruction</a> </li>                                
-							</ul>
-
-						<h3>Collections</h3>
-							<ul>
-								<li class="li"><a href="#/" onClick="show_info_panel('3_callnumbers0699');">Books (Call Numbers 0-699)</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('4_callnumbers700999');">Books (Call Numbers 700-999)</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_career');">Career Collection</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_chicago');">Chicago Collection</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('2_curriculummaterials');">Curriculum Materials</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_facultypublications');">Faculty Publications</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('1_graphicnovels');">Graphic Novels</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('4_imagecollections');">Image Collections</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('2_audiovisual');">Media (CDs, Videos, Microforms)</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('4_musicscores');">Music Scores</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('2_periodicals');">Periodicals</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_readyreference');">Reference Desk</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('reference');">Reference Collection</a> </li>
-								<li class="li"><a href="#/" onClick="show_info_panel('3_specialcollections');">Special Collections</a> </li>
-                                <li class="li"><a href="#/" onClick="show_info_panel('1_recreational');">Unwind the Mind (Popular Reading)</a> </li>
-							</ul>
-					</div>
-				</div>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('1_videogames');">Video Games and Consoles</a> </li>                                
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion1" href="#collapseServices">
+                              Services</a>
+                            </h4>
+                          </div>
+                          <div id="collapseServices" class="panel-collapse collapse">
+                            <ul>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('2_core');">Collaborative Research Enviroment</a> </li>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('computers');">Computers</a> </li>
+                              </ul>
+                          </div>
+                        </div>
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion1" href="#collapseCollectons">
+                              Collections</a>
+                            </h4>
+                          </div>
+                          <div id="collapseCollectons" class="panel-collapse collapse">
+                            <ul>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('3_callnumbers0699');">Books (Call Numbers 0-699)</a> </li>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('3_300room');">Room 300</a></li>
+                                  <li class="li"><a href="#/" onClick="show_info_panel('3_specialcollections');">Special Collections</a> </li>
+                              </ul>
+                          </div>
+                        </div>
+                      </div>
+				</div>                
                 
                 <div id="info-by-floor" class="tab-pane">
                     <div class="panel-group" id="accordion">
