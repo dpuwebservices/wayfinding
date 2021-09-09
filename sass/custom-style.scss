@@ -180,6 +180,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
             font-size: $font-size-base;
             font-weight: bold;
             padding: 8px 0;
+            float:right;
                 
             i {
                 background-image: url("../images/icons-btns.png");
@@ -188,6 +189,13 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
                 float: left;
             }
 	  }
+        a.start {
+                i {
+                    background-position: 2px 50px;
+                    margin: -5px -52px 0 48px;
+                }
+            }
+
         a.hours {
                 i {
                     background-position: 172px 121px;
@@ -226,6 +234,13 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 	.activated{
 		background-color: $white;
 		color:#FFF;
+
+        a.start {
+            i {
+                background-position: 5px 36px;
+                margin: -5px -52px 0 48px;
+            }
+        }
 
         a.hours {
             i {

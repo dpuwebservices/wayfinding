@@ -168,12 +168,17 @@ h3 {
   font-size: 16px;
   font-weight: bold;
   padding: 8px 0;
+  float: right;
 }
 .navbar li a i {
   background-image: url("../images/icons-btns.png");
   width: 32px;
   height: 32px;
   float: left;
+}
+.navbar li a.start i {
+  background-position: 2px 50px;
+  margin: -5px -52px 0 48px;
 }
 .navbar li a.hours i {
   background-position: 172px 121px;
@@ -203,6 +208,10 @@ h3 {
 .navbar .activated {
   background-color: white;
   color: #FFF;
+}
+.navbar .activated a.start i {
+  background-position: 5px 36px;
+  margin: -5px -52px 0 48px;
 }
 .navbar .activated a.hours i {
   background-position: 172px 78px;
