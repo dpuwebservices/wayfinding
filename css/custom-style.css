@@ -375,6 +375,21 @@ h3 {
   text-decoration: none;
 }
 
+#started {
+  color: white;
+}
+#started img {
+  width: 200px;
+  margin: 40px 0 0 20px;
+}
+#started h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#started .highlight {
+  color: #ff6633;
+}
+
 /* Hours Page Content Area */
 #hours {
   background: #001d3b;
