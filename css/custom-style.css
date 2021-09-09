@@ -170,9 +170,14 @@ h3 {
   padding: 8px 0;
 }
 .navbar li a i {
+  background-image: url("../images/icons-btns-with clock.png");
   width: 32px;
   height: 32px;
   float: left;
+}
+.navbar li a.hours i {
+  background-position: 172px 121px;
+  margin: -5px -52px 0 48px;
 }
 .navbar li a.maps i {
   background-position: 132px 123px;
@@ -198,6 +203,10 @@ h3 {
 .navbar .activated {
   background-color: white;
   color: #FFF;
+}
+.navbar .activated a.hours i {
+  background-position: 172px 78px;
+  margin: -5px -52px 0 48px;
 }
 .navbar .activated a.maps i {
   background-position: 132px 78px;

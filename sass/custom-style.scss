@@ -182,7 +182,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
             padding: 8px 0;
                 
             i {
-                // background-image: url("../images/icons-btns.png");
+                background-image: url("../images/icons-btns-with clock.png");
                 width: 32px;
                 height: 32px;
                 float: left;
@@ -190,8 +190,8 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 	  }
         a.hours {
                 i {
-                    // background-position: 0;
-                    // margin: 0;
+                    background-position: 172px 121px;
+                    margin: -5px -52px 0 48px;
                 }
             }
 
@@ -229,8 +229,8 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 
         a.hours {
             i {
-                // background-position: 0;
-                // margin: 0;
+                background-position: 172px 78px;
+                margin: -5px -52px 0 48px;
             }
         }        
         a.maps {
