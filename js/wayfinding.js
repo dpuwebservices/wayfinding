@@ -31,7 +31,7 @@
 		"1_facultypublications": ["", ["1_facultypublications.png"]],
         "1_gallery": 			["", ["1_gallery.png"]],
 		"1_graphicnovels": 		["", ["1_graphicnovels.png"]],
-		"guestcomputers":		["", ["1_guestcomputers.png", "3_guestcomputers.png", "4_guestcomputers.png"]],
+		"guestcomputers":		["", ["1_guestcomputers.png","2_guestcomputers.png", "3_guestcomputers.png", "4_guestcomputers.png"]],
         "1_instruction": 		["<p><strong>Library Instruction</strong><br /><br />Library Instruction works with faculty to create customized research instruction sessions based on the needs of courses and assignments. The goal of the instruction program is to help students develop the critical thinking and information literacy skills necessary to conduct effective library research.</p>", ["1_instruction.png"]],
         "1_laptoplockers": 		["", ["1_laptoplockers.png"]],
         "1_recreational": 		["", ["1_recreational.png"]],
