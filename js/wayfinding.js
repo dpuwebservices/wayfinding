@@ -37,6 +37,7 @@
         "1_recreational": 		["", ["1_recreational.png"]],
         "1_researchhelpdesk": 		["<b>Research Help Desk</b><br/><br/>Research Librarians and Peer Research Tutors help you explore your topic and show you how to search effectively for books, articles and other information (like statistics) in library databases and the web. Researchers can ask for in-depth help, or just get assistance finding a single item.<br><br>There is also lab support available to help with printing and scanning issues.", ["1_researchhelpdesk.png"]],
         "1_supplemental": 		["<p><strong>Supplemental Instruction</strong><br><br>Supplemental Instruction aims to help students successfully complete historically difficult classes through weekly&nbsp;peer-assisted&nbsp;study sessions. It is offered free program offered by the Center for Teaching and Learning.</p>", ["1_supplemental.png"]],
+		"2_bathroomgn": 			["", ["2_bathroomgn.png"]],
 		"2_chicago": 			["", ["2_chicago.png"]],
 		"2_circulationdesk": 	["", ["2_circulationdesk.png"]],
         "2_core": 			    ["<b>CoRE - Collaborative Research Enviroment</b><br/><br/><br/>Open plan computing with high-powered, dedicated computer workstations (Mac & PC) conducive to digital mapping, text and data mining, 3-D modelling, and data visualization by single users or small groups.  Includes double, high-solution screens and Cintiq screens.", ["2_core.png"]],
