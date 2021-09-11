@@ -432,7 +432,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 // Get Started Page
 #started{
     img {
-        width:200px;
+        max-width:200px;
         margin: 40px 0 0 20px;
     }
 
