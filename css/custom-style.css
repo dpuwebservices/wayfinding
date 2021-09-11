@@ -27,7 +27,7 @@ h1 {
   font-size: 40px; }
 
 h2 {
-  font-size: 23px; }
+  font-size: 16px; }
 
 h3 {
   font-size: 20px;
@@ -59,7 +59,7 @@ h3 {
       line-height: 16px; }
       .nav-lg-title .title-header h2 i {
         font-style: normal;
-        font-size: 19px; }
+        font-size: 12px; }
 
 /* Status Bar */
 #status-bar {
