@@ -165,7 +165,7 @@ h3 {
   .navbar .nonactive,
   .navbar .activated {
     border-radius: 16px;
-    width: 182px; }
+    width: 120px; }
   .navbar .nonactive {
     background-color: #117cc1;
     color: black; }
