@@ -74,6 +74,10 @@ h3 {
   font-style: normal;
   font-size: 12px;
 }
+.nav-lg-title .datetime {
+  margin: 0 0 0 20px;
+  display: inline-block;
+}
 
 /* Status Bar */
 #status-bar {
