@@ -1,4 +1,5 @@
 var Today = new Date()
+    var curInfo = "";
     var year = Today.getYear()
     var month = Today.getMonth()
     var date = Today.getDate()
@@ -8,8 +9,10 @@ var Today = new Date()
     year += 1900
     }
 
-    var monthArray = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec")	
+    var monthArray = new Array("Jan.", "Feb.", "Mar.", "Apr.", "May.", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec.")	
 
-    var dayArray = new Array("Sun","Mon","Tue","Wed", "Thu","Fri","Sat")
+var dayArray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+    
+curInfo = dayArray[day] + ", " + monthArray[month] + " " + date;
 
-    document.write( monthArray[month] + " " + date + " " + dayArray[day] )
+document.write(curInfo);
