@@ -19,5 +19,5 @@ if (hours >= 12) {
 if (hours == 0) {
     hours = 12;
 }
-curInfo = dayArray[day] + ", " + monthArray[month] + " " + date + " | " + hours + ":" + minutes + " " + suffix;
+curInfo = dayArray[day] + ", " + monthArray[month] + " " + date + "&nbsp;&nbsp;|&nbsp;&nbsp;" + hours + ":" + minutes + " " + suffix;
 document.write(curInfo);
