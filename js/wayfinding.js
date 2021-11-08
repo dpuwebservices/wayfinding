@@ -20,7 +20,7 @@
 		"groupstudyrooms": ["<b>Group Study Rooms and Work Tables</b><br/><br/>The DePaul Library supports group study by providing a variety of spaces and technologies. Your group can reserve a room for studying in a group, or collaborate on a project by sharing share computer screens at one of our group work tables. <br> <br><b>Instructions:</b><br/>Reservable for up to two hours. To make a reservation, scan below, go to <span class=\"highlight\">libcal.depaul.edu</span>, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>10 People<br/><br/><br><br> <img src=\"http://libservices.org/wayfinding/images/group-study-qr-code.png\" width=\"200\" height=\"200\">", ["1_groupstudy.png","2_groupstudy.png", "3_groupstudy.png", "4_groupstudy.png"]],
 		"printers":				["", ["1_printcenter.png", "2_printcenter.png"]],
 		"reference":				["", ["1_reference.png", "2_reference.png"]],
-		"quietstudyzones": 		["<strong>Quiet Study Zones</strong><br/><br/>The third and fourth floors are for quiet study, with the exception of the \"Zoom-friendly\" section of the third floor. Whispering only, please. ", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
+		"quietstudyzones": 		["<strong>Quiet Study Zones</strong><br/><br/>The third and fourth floors are for quiet study, with the exception of the \"Zoom-friendly\" section of the third floor. Whispering only. Talking and group work are not permitted. ", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
 		"1_admin": 			["", ["1_admin.png"]],
 		"1_103": 			["", ["1_103.png"]],
 		"1_109": 			["", ["1_109.png"]],
