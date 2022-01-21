@@ -79,7 +79,7 @@
 	</div> <!--End of maps-->
 
 <?php 
-  include ("./includes/infopanel.html");
+  include ("./includes/infopanel.php");
 ?>
 
 </div> <!--/close container-->
