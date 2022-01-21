@@ -30,7 +30,6 @@
     
 <!-- JavaScript plugins (requires jQuery) -->
 
-<script src="js/jquery-latest.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
 <script type="text/javascript"> 
