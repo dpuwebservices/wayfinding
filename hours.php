@@ -54,20 +54,24 @@
         $(".hours-col-loc a").each(function(){
             $( this ).replaceWith( "<p>" + $( this ).text() + "</p>" );
         });
+
     });
-    </script>
+
+</script>
+
 
 <script>
-	$().ready(function() {
-		var $scrollingDiv = $("#navDiv");
- 
-		$(window).scroll(function(){			
-			$scrollingDiv
-				.stop()
-				.animate({"marginTop": ($(window).scrollTop() + 30) + "px"}, "slow" );			
-		});
-	});
+    $(document).ready(function(){
+        $("#navBar a").each(function(){
+            $( this ).removeClass("activated");
+            $( this ).addClass("nonactive");
+        });
+
+    });
+
 </script>
+
+
     
 <script type="text/javascript">
 setTimeout(function(){var a=document.createElement("script");
@@ -76,5 +80,7 @@ a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
    
+
+
 </body>
 </html>
