@@ -3,17 +3,7 @@ include ("includes/head.html");
 ?>
 
 <body>
-<!--     
-<div id="status-bar">
-    <div class="date">
-        <script src="js/date.js"></script> 
-    </div>
-    <form name="clockForm" class="time">
-        <input type="button" name="clockButton" value="" disabled />
-    </form>
-    <div id="weather"></div>
-</div>
- -->
+
     
 <div class="container nav-lg-title">
     <div class="title-header">
