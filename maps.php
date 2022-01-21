@@ -1,50 +1,12 @@
 <?php 
-include ("includes/head.html");
+include ("./includes/head.html");
 ?>
 
 <body>
 
-    
-<div class="container nav-lg-title">
-    <div class="title-header">
-       <h1>INTERACTIVE DIRECTORY</h1>
-	   <h2>D<i>e</i>Paul University Richardson Library</h2>
-     <div class="datetime">
-      <script src="js/date.js"></script> 
-    </div>
-    </div>
-
-    <div class="navbar navbar-default clearfix">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#/">DePaul University Richardson Library</a>
-            </div>
-
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                  <!-- <li class="nonactive"><a class="nonactive start" href="get-started.html"><i></i>Get Started</a></li>
-                  <li class="nonactive"><a class="nonactive hours" href="hours.html"><i></i>Hours</a></li>                    
-                    <li class="activated"><a class="activated maps" href="maps.html"><i></i>Maps</a></li>
-                    <li class="nonactive"><a class="nonactive events" href="events.html"><i></i>Events</a></li>
-                    <li class="nonactive"><a class="nonactive classes" href="classes.html"><i></i>Classes</a></li> -->
-
-                    <li class="nonactive"><a class="nonactive start" href="get-started.html">Get Started</a></li>
-                    <li class="nonactive"><a class="nonactive hours" href="hours.html">Hours</a></li>                    
-                      <li class="activated"><a class="activated maps" href="maps.html">Maps</a></li>
-                      <li class="nonactive"><a class="nonactive events" href="events.html">Events</a></li>
-                      <li class="nonactive"><a class="nonactive classes" href="classes.html">Classes</a></li>
-                                          
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </div>
-</div>
+<?php 
+include ("./includes/mainnav.html");
+?>
 
 <div class="container col-lg-12 container-margin">
 	<div class="col-lg-9">
