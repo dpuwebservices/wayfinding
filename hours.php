@@ -66,6 +66,8 @@
             $( this ).addClass("nonactive");
         });
 
+        $("#navBar .hours").removeClass("nonactive").addClass("activated");
+
     });
 
 </script>
