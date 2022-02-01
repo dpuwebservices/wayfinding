@@ -84,5 +84,17 @@
 
 </div> <!--/close container-->
 <script src="js/wayfinding.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#navBar a").each(function(){
+            $( this ).removeClass("activated");
+            $( this ).addClass("nonactive");
+        });
+
+        $("#navBar .maps").removeClass("nonactive").addClass("activated");
+
+    });
+
+</script>
 </body>
 </html>
