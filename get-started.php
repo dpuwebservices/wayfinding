@@ -26,7 +26,7 @@
 		</div>
         <div class="col-lg-4">
 			<h4 class="">Need Help?</h4> 
-            <p>Visit a Genius Squad location. They can assist with things like:</p>
+            <p>Visit a <span class="highlight">Genius Squad</span> location. They can assist with things like:</p>
 
             <ul>
                 <li>Wireless setup</li>
@@ -37,7 +37,7 @@
                 <li>and more!</li>
                 </ul>            
 
-            <p>The closest one is in <span class="highlight">room 259 </span> in the Schmitt Academic Center.</p> 	
+            <p>The closest one is in <span class="highlight">room 205 </span> in the Schmitt Academic Center.</p> 	
 		</div>
 	</div>
 
