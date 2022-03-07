@@ -57,7 +57,6 @@
 				<img class="mapoverlay" width="1500" height="1000">
           <map name="third" id="third">
             <area shape="rect" coords="58,745,248,842" href="#/" title="jtr300" alt="Room 300" id="3_300room">
-            <area shape="rect" coords="958,116,1096,607" href="#/" title="zoom area" alt="Room 300" id="3_zoom">
             <area shape="rect" coords="1246,749,1436,844" href="#/" title="specialcollections" alt="Special Collections" id="3_specialcollections">
             <area shape="rect" coords="1225,210,1438,366" href="#/" title="groupstudy3" alt="Group Study Rooms" id="groupstudyrooms">
             <area shape="rect" coords="461,742,1037,844" href="#/" title="O'Neil Reading Room" alt="O'Neil Reading Room" id="quietstudyzones">
