@@ -37,8 +37,8 @@
 			</div>
 
 			<div class="col-lg-6 nopadding max-maps" id="two">
-				<img src="images/maps/secondfloor.png" width="1500" height="1000" usemap="#second" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1000">
+				<img src="images/maps/secondfloor.png" width="1500" height="1016" usemap="#second" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1016">
 				<map name="second" id="second">
                     <area shape="rect" coords="511,195,971,642" href="#/" title="core" alt="CoRE – Collaborative Research Environment" id="2_core">
                     <area shape="rect" coords="54,270,146,575" href="#/" title="studios" alt="Studios A-G" id="2_studios">
@@ -54,8 +54,8 @@
 
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="three">
-				<img src="images/maps/thirdfloor.png" width="1500" height="1000" usemap="#third" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1000">
+				<img src="images/maps/thirdfloor.png" width="1500" height="1016" usemap="#third" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1016">
           <map name="third" id="third">
             <area shape="rect" coords="58,745,248,842" href="#/" title="jtr300" alt="Room 300" id="3_300room">
             <area shape="rect" coords="1246,749,1436,844" href="#/" title="specialcollections" alt="Special Collections" id="3_specialcollections">
