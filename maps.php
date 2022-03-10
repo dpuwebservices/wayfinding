@@ -14,14 +14,15 @@
 			Tool for image mapping. http://imagemap-generator.dariodomi.de/-->
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="one">
-				<img src="images/maps/firstfloor.png" width="1500" height="1000" usemap="#first" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1000">
+				<img src="images/maps/firstfloor.png" width="1500" height="1132" usemap="#first" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1132">
 
           <map name="first" id="first">
             <area shape="rect" coords="1084,41,1231,139" href="#/" title="supplimentalinstruction" alt="Supplimental Instruction" id="1_supplemental">
-            <area shape="rect" coords="990,665,1136,848" href="#/" title="room 111" alt="Supplimental Instruction Room 111" id="1_supplemental">
+            <area shape="rect" coords="1016,715,1157,854" href="#/" title="room 111" alt="Supplimental Instruction Room 111" id="1_supplemental">
             <area shape="rect" coords="65,30,282,148" href="#/" title="room103" alt="Instruction Room 103" id="1_instruction">
-            <area shape="rect" coords="1169,679,1431,840"  href="#/" title="rooms 109-11" alt="Instruction Rooms 109-110" id="1_instruction">
+            <area shape="rect" coords="1172,636,1444,802"  href="#/" title="rooms 109-11" alt="Instruction Rooms 109-110" id="1_instruction">
+            <area shape="rect" coords="1304,878,1434,1101"  href="#/" title="gallery" alt="Richardson Art Gallery" id="1_gallery">            
             <area shape="rect" coords="151,310,385,445"  href="#/" title="accessservices" alt="Access Services" id="1_circulationdesk">
             <area shape="rect" coords="220,181,428,289" href="#/" title="researchhelp" alt="Research Help Desk" id="1_researchhelpdesk">
             <area shape="rect" coords="384,38,510,121" href="#/" title="researchhelp" alt="Research Help Desk" id="1_researchhelpdesk">
