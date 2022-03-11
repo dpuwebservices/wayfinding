@@ -62,7 +62,7 @@
 		"3_callnumbers0699": 	["", ["3_callnumbers0699.png"]],
 		"3_300room": 		["<p><strong>Room 300</strong></p><p>A large room with projector screen and PC. Reservable by student organizations, staff and faculty (Not reservable for student study groups).<br /><br /><strong>Max Capacity:</strong><br />40 People<br /><br /><p><strong>Instructions:</strong><br />To make a reservation, scan below, go to <span class=\"highlight\">libcal.depaul.edu</span>, or talk to a library staff member for assistance.<br><br> <img src=\"http://libservices.org/wayfinding/images/group-study-qr-code.png\" width=\"200\" height=\"200\">", ["3_300room.png"]],
 		"3_specialcollections": ["<b>Special Collections</b><br/><br/>DePaul Special Collections and Archives collects, preserves, and shares rich primary source materials in support of engaged teaching, active student learning, and scholarly and community research.  Students, faculty, and community members are welcome to consult our rare books and archival collections in our Reading Room. <br/><br/>Instruction sessions with Special Collections and Archives are usually scheduled one floor above, in the St. Vincent de Paul Room, 417.", ["3_specialcollections.png"]],
-		"4_audiovideo": 	    ["", ["4_audiovideo.png"]],
+		"4_audiovideo": 	    ["<b>Media Room</b><br/><br/>Need to listen to a record, watch a Blu-Ray, DVD or even a VHS tape? Ask an Access Services staff member to let you into the media room.", ["4_audiovideo.png"]],
         "4_callnumbers700999": 	["", ["4_callnumbers700999.png"]],
 		"4_imagecollections": 	["", ["4_imagecollections.png"]],
         "4_musicscores": 		["", ["4_musicscores.png"]],
