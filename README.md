@@ -2,7 +2,7 @@
 This is the 2021 version of the Wayfinding display map for DePaul JTR Library.
 
 ## To do:
-- actual stacks for 3rd and 4th floors
+- X actual stacks for 3rd and 4th floors
  
  Second floor
  - X 2nd floor cirriculum highlights
@@ -16,13 +16,17 @@ This is the 2021 version of the Wayfinding display map for DePaul JTR Library.
 3rd floor
  - X 3rd floor stacks highlights
 - X 3rd floor stacks highlight
+- image map
 
 4th floor
  - X fix 4th floor stairs, guest pc, etc. to match 3rd
-- image collections (?)
- - collections - ref desk link
- - periodicals highlights
+ - X periodicals highlights
+ - image map
 
+Misc
+- X image collections (?)
+ - collections - ref desk link
+ - Check faculty publications
 
 
 
