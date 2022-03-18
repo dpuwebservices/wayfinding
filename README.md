@@ -11,12 +11,13 @@ This is the 2021 version of the Wayfinding display map for DePaul JTR Library.
  - X 2nd floor riae highlight
  - X 2nd floor computing and highlight
  - X 2nd floor reference collection highlight
+ -   2nd floor make shelving match
 
 
 3rd floor
  - X 3rd floor stacks highlights
-- X 3rd floor stacks highlight
-- image map
+ - X 3rd floor stacks highlight
+ - image map
 
 4th floor
  - X fix 4th floor stairs, guest pc, etc. to match 3rd
