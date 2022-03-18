@@ -24,6 +24,7 @@
             <area shape="rect" coords="1172,636,1444,802"  href="#/" title="rooms 109-11" alt="Instruction Rooms 109-110" id="1_instruction">
             <area shape="rect" coords="1304,878,1434,1101"  href="#/" title="gallery" alt="Richardson Art Gallery" id="1_gallery">            
             <area shape="rect" coords="151,310,385,445"  href="#/" title="accessservices" alt="Access Services" id="1_circulationdesk">
+            <area shape="rect" coords="921,548,1074,639" href="#/" title="popup" alt="Pop Up Desk" id="1_popup">
             <area shape="rect" coords="220,181,428,289" href="#/" title="researchhelp" alt="Research Help Desk" id="1_researchhelpdesk">
             <area shape="rect" coords="384,38,510,121" href="#/" title="researchhelp" alt="Research Help Desk" id="1_researchhelpdesk">
             <area shape="rect" coords="542,35,992,121" href="#/" title="groupstudy1" alt="Group Study Tables" id="groupstudyrooms">
