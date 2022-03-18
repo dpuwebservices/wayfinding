@@ -23,7 +23,7 @@
 		"reference":				["", ["1_reference.png", "2_reference.png"]],
 		"quietstudyzones": 		["<strong>Quiet Study Zones</strong><br/><br/>The third and fourth floors are for quiet study.  Whispering only--talking and group work are not permitted. ", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
 		"1_admin": 			["", ["1_admin.png"]],
-		"1_gallery": 	["<b>Richardson Art Gallery</b><br/><br/>This space showcases student work from The Art School at DePaul.", ["1_gallery.png"]],
+		"1_gallery": 	["<b>Richardson Art Gallery</b><br/><br/>The gallery showcases student and faculty work from The Art School at DePaul.", ["1_gallery.png"]],
 		"1_103": 			["", ["1_103.png"]],
 		"1_109": 			["", ["1_109.png"]],
 		"1_110": 			["", ["1_110.png"]],
