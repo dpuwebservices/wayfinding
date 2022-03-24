@@ -30,8 +30,7 @@
         "1_chicago": 			["", ["1_chicago.png"]],
 		"1_circulationdesk": 	["<b>Access Services</b><br/><br/>Come to Access Services to check out your items, pay a fine, or access a book on reserve for your class. We also have phone chargers, calculators, video games and consoles and more available to check out with your DePaul ID card.", ["1_circulationdesk.png"]],
 		"1_facultypublications": ["", ["1_facultypublications.png"]],
-
-		"1_gallery": 	["<b>Richardson Art Gallery</b><br/><br/>The gallery showcases student and faculty work from The Art School at DePaul.", ["1_gallery.png"]],
+		"1_gallery": 	["", ["1_gallery.png"]],
 		"1_graphicnovels": 		["", ["1_graphicnovels.png"]],
 		"guestcomputers":		["", ["1_guestcomputers.png","2_guestcomputers.png", "3_guestcomputers.png", "4_guestcomputers.png"]],
         "1_instruction": 		["<p><strong>Library Instruction</strong><br /><br />Library Instruction works with faculty to create customized research instruction sessions based on the needs of courses and assignments. The goal of the instruction program is to help students develop the critical thinking and information literacy skills necessary to conduct effective library research.</p>", ["1_instruction.png"]],
