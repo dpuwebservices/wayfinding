@@ -29,7 +29,7 @@
             </div>
             &nbsp;
             <h4 class="text-center eventTitle">View More Hours</h4>
-            <img id="qr-hours" src="images/hours.png" width="200" height="200">
+            <img id="qr-hours" src="images/hours.png">
 		</div>
         <div class="col-lg-4">	
             &nbsp;

@@ -417,6 +417,11 @@ h3 {
   text-align: left;
   color: white;
 }
+#hours #qr-hours {
+  display: block;
+  width: 20%;
+  margin: auto;
+}
 
 /* Events Page Content Area */
 #lw li {
