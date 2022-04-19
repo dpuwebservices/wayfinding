@@ -20,7 +20,7 @@ body, html {
 }
 
 a {
-  color: #337ab7;
+  color: rgb(51, 122, 183);
 }
 
 img.map,
@@ -43,7 +43,7 @@ h3 {
 }
 
 .nav-lg-title {
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 0 auto 20px;
   float: none;
   padding: 10px 0 10px 0;
@@ -53,7 +53,7 @@ h3 {
 .nav-lg-title h1, .nav-lg-title h2 {
   text-align: left;
   margin: 0;
-  color: white;
+  color: rgb(255, 255, 255);
   display: inline-block;
 }
 .nav-lg-title .title-header {
@@ -81,7 +81,7 @@ h3 {
 
 /* Status Bar */
 #status-bar {
-  background: black;
+  background: rgb(0, 0, 0);
   color: #eee;
   display: inline-block;
   width: 100%;
@@ -103,7 +103,7 @@ h3 {
   width: 40%;
 }
 #status-bar .time input[type=button] {
-  background: black;
+  background: rgb(0, 0, 0);
   letter-spacing: 0.08em;
   border: 0;
 }
@@ -120,7 +120,7 @@ h3 {
   padding: 3px 0 0;
 }
 #status-bar #weather h2 i {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: weather;
   font-size: 32px;
   line-height: 24px;
@@ -168,7 +168,7 @@ h3 {
 }
 .navbar li a {
   text-shadow: none;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: bold;
   padding: 8px 0;
@@ -206,11 +206,11 @@ h3 {
   width: 120px;
 }
 .navbar .nonactive {
-  background-color: #117cc1;
-  color: black;
+  background-color: rgb(17, 124, 193);
+  color: rgb(0, 0, 0);
 }
 .navbar .activated {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: #FFF;
 }
 .navbar .activated a.start i {
@@ -234,10 +234,10 @@ h3 {
   margin: -6px -32px 0 40px;
 }
 .navbar a.activated {
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
 }
 .navbar a.nonactive {
-  color: white !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 /* Maps */
@@ -274,11 +274,11 @@ h3 {
   padding: 0px;
 }
 .container-margin .info a:focus {
-  color: #ff6633;
+  color: rgb(255, 102, 51);
   text-decoration: none;
 }
 .container-margin .info a:hover {
-  color: #ff6633;
+  color: rgb(255, 102, 51);
   text-decoration: none;
 }
 
@@ -290,8 +290,8 @@ h3 {
 }
 #mapLinks #info-panel {
   position: relative;
-  background-color: #ff6633;
-  color: white;
+  background-color: rgb(255, 102, 51);
+  color: rgb(255, 255, 255);
   height: auto;
   width: auto;
   padding: 15px 15px;
@@ -313,7 +313,7 @@ h3 {
   border-bottom: none;
 }
 #mapLinks .nav-tabs li > a {
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: #001d3b;
   border: none;
   border-radius: 0;
@@ -330,13 +330,13 @@ h3 {
 #mapLinks .nav-tabs li.active a {
   border-color: none;
   border-radius: 0;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: #001d3b;
   font-weight: bold;
 }
 #mapLinks .tab-content {
   position: absolute;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   width: 95%;
   z-index: 0;
 }
@@ -371,11 +371,11 @@ h3 {
 }
 #info-by-floor .panel-title a, #directory .panel-title a {
   font-weight: bold;
-  color: black;
+  color: rgb(0, 0, 0);
   display: block;
 }
 #info-by-floor .panel-title a:hover, #directory .panel-title a:hover {
-  color: #ff6633;
+  color: rgb(255, 102, 51);
   text-decoration: none;
 }
 
@@ -419,8 +419,9 @@ h3 {
 }
 #hours #qr-hours {
   display: block;
-  width: 20%;
-  margin: auto;
+  width: 200px;
+  padding-top: 20px;
+  margin: 0 auto;
 }
 
 /* Events Page Content Area */
@@ -429,7 +430,7 @@ h3 {
 }
 
 .container .s-lc-ea-noe {
-  color: white;
+  color: rgb(255, 255, 255);
   line-height: 40px;
 }
 .container ul#lwe {
@@ -437,11 +438,11 @@ h3 {
   list-style-type: none;
   padding: 0;
   margin: 0 0 40px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .container li.lwe {
   width: 100%;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   font-size: 18px;
   margin-bottom: 2px;
   padding: 6px 12px 8px;
@@ -456,13 +457,13 @@ h3 {
 }
 .container li.lwe .lwn0 {
   float: right;
-  background-color: #ff6633;
+  background-color: rgb(255, 102, 51);
   padding: 2px 16px;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 400;
   margin: 3px 0 0 0;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .container li.lwe .lwl a {
   color: #001d3b;
@@ -477,7 +478,7 @@ h3 {
 
 /* Classes Page Content Area */
 .container .eventTitle {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 34px;
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
@@ -488,8 +489,8 @@ h3 {
   margin: 14px 0 12px;
 }
 .container .s-lc-ea-tb {
-  background-color: white;
-  color: black;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 18px;
   font-weight: normal;
   margin: 0 0 2px;

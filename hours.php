@@ -8,7 +8,7 @@
   include ("./includes/mainnav.html");
 ?>
 
-<div class="container col-lg-12 container-margin" id="started">
+<div class="container col-lg-12 container-margin" id="hours">
  
 	<div class="col-lg-12">
         <div class="col-lg-12">
