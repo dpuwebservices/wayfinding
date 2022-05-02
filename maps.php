@@ -14,8 +14,8 @@
 			Tool for image mapping. http://imagemap-generator.dariodomi.de/-->
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="one">
-				<img src="images/maps/firstfloor.png" width="1500" height="1132" usemap="#first" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1132">
+				<img src="images/maps/firstfloor.png" width="1500" height="1062" usemap="#first" class="max-maps">
+				<img class="mapoverlay" width="1500" height="1062">
 
           <map name="first" id="first">
             <area shape="rect" coords="1084,41,1231,139" href="#/" title="supplimentalinstruction" alt="Supplimental Instruction" id="1_supplemental">
