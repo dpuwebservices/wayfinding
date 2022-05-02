@@ -17,6 +17,7 @@ body, html {
   background: #001d3b;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  padding: 0 60px;
 }
 
 a {
