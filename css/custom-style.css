@@ -65,12 +65,12 @@ h3 {
   font-family: "Open Sans Condensed", sans-serif;
   margin-left: -3px;
   display: block;
-  font-size: 34px;
+  font-size: 28px;
 }
 .nav-lg-title .title-header h2 {
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  line-height: 16px;
+  line-height: 14px;
 }
 .nav-lg-title .title-header h2 i {
   font-style: normal;
