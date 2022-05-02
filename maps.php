@@ -11,7 +11,7 @@
 <div class="container col-lg-12 container-margin">
 	<div class="col-lg-9">
 			<!--Image map tutorial. http://jquer.in/responsive/rwdimagemaps/
-			Tool for image mapping. http://imagemap-generator.dariodomi.de/-->
+			Tool for image mapping. https://imagemap.org/-->
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="one">
 				<img src="images/maps/firstfloor.png" width="1500" height="1062" usemap="#first" class="max-maps">
