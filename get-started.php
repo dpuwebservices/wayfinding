@@ -38,10 +38,13 @@
                 </ul>            
 
             <p>The closest one is in <span class="highlight">room 205 </span> in the Schmitt Academic Center.</p> 	
+            <p class="update">Last updated: May 4, 10am</p>
 		</div>
 	</div>
 
 </div>
+
+
 
 <!-- JavaScript plugins (requires jQuery) -->
 <script src="js/bootstrap.min.js" type="text/javascript"></script>

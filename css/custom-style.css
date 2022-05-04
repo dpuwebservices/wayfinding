@@ -5,6 +5,12 @@
   font-weight: 900;
 }
 
+.update {
+  color: gray;
+  font-size: 10px;
+  padding-top: 20px;
+}
+
 /* Breakpoints */
 * {
   box-sizing: border-box;
