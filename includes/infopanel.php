@@ -1,5 +1,5 @@
 
-	<div class="col-lg-3" id="mapLinks">
+	<div class="col-lg-4" id="mapLinks">
 		<div id="info-panel">
 			<img id="close-img" class="close-image" src="images/maps/close-icon.png"/>
 			<p id="info-text"></p>

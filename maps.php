@@ -9,7 +9,7 @@
 ?>
 
 <div class="container col-lg-12 container-margin">
-	<div class="col-lg-9">
+	<div class="col-lg-8">
 			<!--Image map tutorial. http://jquer.in/responsive/rwdimagemaps/
 			Tool for image mapping. https://imagemap.org/-->
 		<div class="row maps-center">
