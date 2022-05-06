@@ -4,7 +4,7 @@ var year = Today.getYear()
 var month = Today.getMonth()
 var date = Today.getDate()
 var day = Today.getDay()
-var monthArray = new Array("Jan.", "Feb.", "Mar.", "Apr.", "May.", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec.");
+var monthArray = new Array("Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "Sept.", "Oct.", "Nov.", "Dec.");
 var dayArray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 hours = Today.getHours(),
     minutes = Today.getMinutes();
@@ -19,5 +19,7 @@ if (hours >= 12) {
 if (hours == 0) {
     hours = 12;
 }
-curInfo = dayArray[day] + ", " + monthArray[month] + " " + date + "&nbsp;&nbsp;|&nbsp;&nbsp;" + hours + ":" + minutes + " " + suffix;
+// curInfo = dayArray[day] + ", " + monthArray[month] + " " + date + "&nbsp;&nbsp;|&nbsp;&nbsp;" + hours + ":" + minutes + " " + suffix;
+// Don't display time -- too much refreshing. Perhaps rewrite to show live
+curInfo = dayArray[day] + ", " + monthArray[month] + " " + date;
 document.write(curInfo);
