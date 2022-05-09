@@ -413,10 +413,10 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
         ul {
             margin-top: 6px;
             li {
-                line-height: 19px;
+                line-height: 14px;
             }
             a {
-                font-size: $font-size-base - 1; // ~15px
+                font-size: 12px; // ~15px
             }
         }
     }
