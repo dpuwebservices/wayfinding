@@ -368,7 +368,7 @@ h3 {
 }
 
 #info-by-floor, #directory {
-  padding: 20px 16px;
+  padding: 10px 16px;
 }
 #info-by-floor .panel, #directory .panel {
   border: 0;
@@ -378,10 +378,16 @@ h3 {
   border: 1px solid #d9d9d9;
   border-radius: 4px;
 }
+#info-by-floor .panel-title h4, #directory .panel-title h4 {
+  padding: 0;
+}
 #info-by-floor .panel-title a, #directory .panel-title a {
   font-weight: bold;
   color: rgb(0, 0, 0);
   display: block;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0;
 }
 #info-by-floor .panel-title a:hover, #directory .panel-title a:hover {
   color: rgb(255, 102, 51);
