@@ -1,1 +1,0 @@
-These files are used by the Public Web Browser app and need to be loaded into the PWB directory of the wayfinding machines. 
