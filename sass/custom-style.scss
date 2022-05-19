@@ -78,21 +78,26 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
     .title-header {
         float: left;
         width: 40%;
+        font-family: $headerFont;
         h1 {
             font-weight: 600;
-            font-family: $headerFont;
             margin-left: -3px;
             display:block;
             font-size:28px;
         }
         h2 {
+            display: inline-block;
             text-transform: uppercase;
             letter-spacing: 0.12em;
-            line-height: 14px;
-            i {
-                font-style: normal;
-                font-size: $font-size-h2 - 4px;
-            }
+            line-height: 16px;
+            font-style: normal;
+            font-size: 16px;
+        }
+
+        .datetime {
+            display:inline-block;
+            margin:0 0 0 20px;
+            font-size: 14px;
         }
     }
     color: $white; 
@@ -101,11 +106,6 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
     padding: 10px 0 10px 0;
     width: 94%;
     border-bottom: 1px solid rgba($white, .4);
-
-    .datetime {
-        // margin:0 0 0 20px;
-        display:inline-block;
-    }
 
 }
 

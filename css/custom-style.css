@@ -66,25 +66,26 @@ h3 {
 .nav-lg-title .title-header {
   float: left;
   width: 40%;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 .nav-lg-title .title-header h1 {
   font-weight: 600;
-  font-family: "Open Sans Condensed", sans-serif;
   margin-left: -3px;
   display: block;
   font-size: 28px;
 }
 .nav-lg-title .title-header h2 {
+  display: inline-block;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  line-height: 14px;
-}
-.nav-lg-title .title-header h2 i {
+  line-height: 16px;
   font-style: normal;
-  font-size: 12px;
+  font-size: 16px;
 }
-.nav-lg-title .datetime {
+.nav-lg-title .title-header .datetime {
   display: inline-block;
+  margin: 0 0 0 20px;
+  font-size: 14px;
 }
 
 /* Status Bar */
