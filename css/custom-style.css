@@ -22,7 +22,7 @@ body, html {
   margin: 0;
   background: #001d3b;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   padding: 0 10px;
 }
 
@@ -36,15 +36,15 @@ map area {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 600;
 }
@@ -95,7 +95,7 @@ h3 {
   display: inline-block;
   width: 100%;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
   padding: 0;
   text-transform: uppercase;
   letter-spacing: 0.11em;
@@ -125,13 +125,13 @@ h3 {
 }
 #status-bar #weather h2 {
   margin: 0;
-  font-size: 15px;
+  font-size: 13px;
   padding: 3px 0 0;
 }
 #status-bar #weather h2 i {
   color: rgb(255, 255, 255);
   font-family: weather;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 24px;
   height: 28px;
   display: inline-block;
@@ -178,7 +178,7 @@ h3 {
 .navbar li a {
   text-shadow: none;
   color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   padding: 8px 0;
   float: right;
@@ -328,7 +328,7 @@ h3 {
   border-radius: 0;
   margin: 0 !important;
   padding: 10px 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 #mapLinks .nav-tabs li.active a,
 #mapLinks .nav-tabs li.active a:hover,
@@ -398,7 +398,7 @@ h3 {
   color: white;
 }
 #started img {
-  max-width: 200px;
+  max-width: 150px;
   margin: 40px 0 0 20px;
 }
 #started h4 {
@@ -458,14 +458,14 @@ h3 {
 .container li.lwe {
   width: 100%;
   background-color: rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 2px;
   padding: 6px 12px 8px;
 }
 .container li.lwe .lwn a {
   color: black;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
 }
 .container li.lwe .lwn a:hover {
   text-decoration: none;
@@ -474,7 +474,7 @@ h3 {
   float: right;
   background-color: rgb(255, 102, 51);
   padding: 2px 16px;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
   font-weight: 400;
   margin: 3px 0 0 0;
@@ -485,7 +485,7 @@ h3 {
   background-color: rgba(204, 204, 204, 0.2);
   padding: 4px 14px;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 13px;
 }
 .container li.lwe .lwl a:hover {
   text-decoration: none;
@@ -494,7 +494,7 @@ h3 {
 /* Classes Page Content Area */
 .container .eventTitle {
   color: rgb(255, 255, 255);
-  font-size: 34px;
+  font-size: 32px;
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: bold;
   margin: 0 0 10px;
@@ -506,7 +506,7 @@ h3 {
 .container .s-lc-ea-tb {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   margin: 0 0 2px;
   width: 100%;
@@ -522,7 +522,7 @@ h3 {
 .container .s-lc-ea-tb a {
   color: black;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 .container .s-lc-ea-tb a:hover {
   text-decoration: none;
