@@ -35,6 +35,7 @@
 		"guestcomputers":		["", ["1_guestcomputers.png","2_guestcomputers.png", "3_guestcomputers.png", "4_guestcomputers.png"]],
         "1_instruction": 		["<p><strong>Library Instruction</strong><br /><br />Library Instruction works with faculty to create customized research instruction sessions based on the needs of courses and assignments. The goal of the instruction program is to help students develop the critical thinking and information literacy skills necessary to conduct effective library research.</p>", ["1_instruction.png"]],
         "1_laptoplockers": 		["", ["1_laptoplockers.png"]],
+        "1_newbooks": 		["", ["1_newbooks.png"]],
 		"1_popup": 	["<b>Library Partners Pop-Up Desk</b><br/><br/>Ask us about reserving this space for your organization!", ["1_popup.png"]],
         "1_recreational": 		["", ["1_recreational.png"]],
         "1_researchhelpdesk": 		["<b>Research Help Desk</b><br/><br/>Research Librarians and Peer Research Tutors help you explore your topic and show you how to search effectively for books, articles and other information (like statistics) in library databases and the web. <br><br>Researchers can ask for in-depth help, or just get assistance finding a single item.", ["1_researchhelpdesk.png"]],

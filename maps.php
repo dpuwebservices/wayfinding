@@ -32,6 +32,7 @@
             <area shape="rect" coords="653,216,874,390" href="#/" title="group study center" alt="Group Study Zone" id="groupstudyzones">            
             <area shape="rect" coords="1193,306,1406,639" href="#/" title="group study east" alt="Group Study Zone" id="groupstudyzones">            
             <area shape="rect" coords="1348,905,1428,1034" href="#/" title="gallery" alt="Richardson Art Gallery" id="1_gallery">                 
+            <area shape="rect" coords="751,684,647,620" href="#/" title="gallery" alt="New Books" id="1_newbooks">                 
         </map>
 
 			</div>
