@@ -15,7 +15,7 @@
             <h3 class="text-center eventTitle">Get Started</h3>
         </div>
 		<div class="col-lg-3">
-			<h4>Connect to Internet</h4>  
+			<h4>Connect to the Internet</h4>  
 <p>Before you do anything else... <br><br></p>
             <img src="images/wifi.png">
 		</div>
