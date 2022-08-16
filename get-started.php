@@ -14,17 +14,23 @@
         <div class="col-lg-12">
             <h3 class="text-center eventTitle">Get Started</h3>
         </div>
-		<div class="col-lg-4">
+		<div class="col-lg-3">
 			<h4>Connect to Internet</h4>  
-<p>Before you do anything else...</p>
+<p>Before you do anything else... <br><br></p>
             <img src="images/wifi.png">
 		</div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
 			<h4 class="">Print</h4>  	
             <p>Print from one of our computers, or from your own:</p>
             <img src="images/print.png">
 		</div>
-        <div class="col-lg-4">
+        <div class="col-lg-3">
+			<h4>Take a Self-Guided Tour</h4>  
+<p>Find out what's available at the Richardson Library:</p>
+            <img src="images/tourJTR.png">
+		</div>
+
+        <div class="col-lg-3">
 			<h4 class="">Need Help?</h4> 
             <p>Visit a <span class="highlight">Genius Squad</span> location. They can assist with things like:</p>
 
