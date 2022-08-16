@@ -411,6 +411,9 @@ h3 {
 #started .highlight {
   color: #ff6633;
 }
+#started .force {
+  height: 60px;
+}
 
 /* Hours Page Content Area */
 #hours {

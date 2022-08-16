@@ -1,4 +1,4 @@
 nbproject*
 *.DS_Store*
 *.sass-cache*
-css/*.map*
+*/*css.map*

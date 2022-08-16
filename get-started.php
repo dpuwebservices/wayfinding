@@ -16,17 +16,17 @@
         </div>
 		<div class="col-lg-3">
 			<h4>Connect to the Internet</h4>  
-<p>Before you do anything else... <br><br></p>
+<p class="force">Before you do anything else...</p>
             <img src="images/wifi.png">
 		</div>
         <div class="col-lg-3">
 			<h4 class="">Print</h4>  	
-            <p>Print from one of our computers, or from your own:</p>
+            <p class="force">Print from one of our computers, or from your own:</p>
             <img src="images/print.png">
 		</div>
         <div class="col-lg-3">
 			<h4>Take a Self-Guided Tour</h4>  
-<p>Find out what's available at the Richardson Library:</p>
+<p class="force">Find out what's available at the Richardson Library:</p>
             <img src="images/tourJTR.png">
 		</div>
 
