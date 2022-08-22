@@ -65,7 +65,7 @@
 			</div>
 
 			<div class="col-lg-6 nopadding max-maps" id="four">
-				<img src="images/maps/fourthfloor.png" width="1500" height="1000" usemap="#fourth" class="max-maps">
+				<img src="images/fourthfloor.png" width="1500" height="1000" usemap="#fourth" class="max-maps">
 				<img class="mapoverlay" width="1500" height="1000">
                 <map name="fourth" id="fourth">
 					<area shape="rect" coords="59,304,125,371" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
