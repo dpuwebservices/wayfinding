@@ -68,12 +68,11 @@
 				<img src="images/fourthfloor.png" width="1500" height="1000" usemap="#fourth" class="max-maps">
 				<img class="mapoverlay" width="1500" height="1000">
                 <map name="fourth" id="fourth">
-					<area shape="rect" coords="59,304,125,371" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
-            <area shape="rect" coords="49,220,261,289" href="#/" title="4_audiovideo" alt="Media Room" id="4_audiovideo">
-                    <area shape="rect" coords="58,391,123,457" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
-                    <area shape="rect" coords="1363,392,1433,550" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">                    
-                    <area shape="rect" coords="1363,705,1432,805" href="#/" title="4_stvincent" alt="St Vincent de Paul Room" id="4_stvincent">
-                    <area shape="rect" coords="492,766,985,861" href="#/" title="Balconies" alt="Balconies" id="quietstudyzones">                    
+                  <area shape="rect" coords="49,220,261,289" href="#/" title="4_audiovideo" alt="Media Room" id="4_audiovideo">
+                  <area shape="rect" coords="1316,213,1444,552" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
+                  <area shape="rect" coords="48,302,215,461" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
+                  <area shape="rect" coords="1363,705,1432,805" href="#/" title="4_stvincent" alt="St Vincent de Paul Room" id="4_stvincent">
+                  <area shape="rect" coords="492,766,985,861" href="#/" title="Balconies" alt="Balconies" id="quietstudyzones">                    
                 </map>
 			</div>
 		</div>
