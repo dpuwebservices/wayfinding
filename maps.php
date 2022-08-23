@@ -37,7 +37,7 @@
 			</div>
 
 			<div class="col-lg-6 nopadding max-maps" id="two">
-				<img src="images/maps/secondfloor.png" width="1500" height="1016" usemap="#second" class="max-maps">
+				<img src="images/secondfloor.png" width="1500" height="1016" usemap="#second" class="max-maps">
 				<img class="mapoverlay" width="1500" height="1016">
 				<map name="second" id="second">
                     <area shape="rect" coords="511,195,971,642" href="#/" title="core" alt="CoRE – Collaborative Research Environment" id="2_core">
