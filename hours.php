@@ -27,7 +27,8 @@
                     <script src="https://libcal.depaul.edu/api_hours_today.php?iid=123&lid=12626&format=js&systemTime=0&context=object"> </script>
                 </div>
             </div>
-            &nbsp;
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
             <h4 class="text-center eventTitle">View More Hours</h4>
             <img id="qr-hours" src="images/hours.png">
 		</div>
