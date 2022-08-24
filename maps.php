@@ -14,7 +14,7 @@
 			Tool for image mapping. https://imagemap.org/-->
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="one">
-				<img src="images/maps/firstfloor.png" width="1500" height="1062" usemap="#first" class="max-maps">
+				<img src="images/firstfloor.png" width="1500" height="1062" usemap="#first" class="max-maps">
 				<img class="mapoverlay" width="1500" height="1062">
 
           <map name="first" id="first">
