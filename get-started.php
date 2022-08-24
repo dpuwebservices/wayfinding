@@ -14,6 +14,11 @@
         <div class="col-lg-12">
             <h3 class="text-center eventTitle">Get Started</h3>
         </div>
+        <div class="col-lg-3">
+			<h4>Take a Self-Guided Tour</h4>  
+<p class="force">Find out what's available at the Richardson Library:</p>
+            <img src="images/tourJTR.png">
+		</div>        
 		<div class="col-lg-3">
 			<h4>Connect to the Internet</h4>  
 <p class="force">Before you do anything else...</p>
@@ -23,11 +28,6 @@
 			<h4 class="">Print</h4>  	
             <p class="force">Print from one of our computers, or from your own:</p>
             <img src="images/print.png">
-		</div>
-        <div class="col-lg-3">
-			<h4>Take a Self-Guided Tour</h4>  
-<p class="force">Find out what's available at the Richardson Library:</p>
-            <img src="images/tourJTR.png">
 		</div>
 
         <div class="col-lg-3">
