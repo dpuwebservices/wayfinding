@@ -25,8 +25,7 @@
             <area shape="rect" coords="151,310,385,445"  href="#/" title="accessservices" alt="Access Services" id="1_circulationdesk">
             <area shape="rect" coords="913,542,1078,648" href="#/" title="popup" alt="Pop Up Desk" id="1_popup">
             <area shape="rect" coords="220,181,428,289" href="#/" title="researchhelp" alt="Research Help Desk" id="1_researchhelpdesk">
-            <area shape="rect" coords="384,38,510,121" href="#/" title="researchhelp" alt="Research Help Desk" id="1_researchhelpdesk">
-            <area shape="rect" coords="542,35,992,121" href="#/" title="groupstudy1" alt="Group Study Tables" id="groupstudyrooms">
+            <area shape="rect" coords="363,22,996,104" href="#/" title="groupstudy1" alt="Group Study Tables" id="groupstudyrooms">
             <area shape="rect" coords="461,449,667,609" href="#/" title="group study west" alt="Group Study Zone" 
             id="groupstudyzones">            
             <area shape="rect" coords="653,216,874,390" href="#/" title="group study center" alt="Group Study Zone" id="groupstudyzones">            
