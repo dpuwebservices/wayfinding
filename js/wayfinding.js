@@ -22,7 +22,7 @@
 		"printers":				["", ["1_printcenter.png", "2_printcenter.png"]],
 		"reference":				["", ["2_reference.png"]],
 		"quietstudyzones": 		["<strong>Quiet Study Zones</strong><br/><br/>The third and fourth floors are for quiet study.  Whispering only--talking and group work are not permitted. ", ["3_quietstudyzone.png", "4_quietstudyzone.png"]],
-		"1_103": 			["", ["1_103.png"]],
+		"1_103": 			["<p><strong>Room 103</strong></p><p>This Zoom+ room is reserved for library instruction and library events. Limited booking may be available to faculty and staff for campus events and other purposes.</p><p><strong>Instructions:</strong><br />To make a reservation, scan below, go to <span class=\"highlight\">libcal.depaul.edu</span>, or talk to a library staff member for assistance.<br><br> <img src=\"../images/meeting-rooms-qr-code.png\" width=\"150\" height=\"150\">", ["1_103.png"]],
 		"1_109": 			["", ["1_109.png"]],
 		"1_110": 			["", ["1_110.png"]],
 		"1_111": 			["", ["1_111.png"]],

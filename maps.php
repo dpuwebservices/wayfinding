@@ -20,7 +20,7 @@
           <map name="first" id="first">
             <area shape="rect" coords="1083,19,1229,120" href="#/" title="supplimentalinstruction" alt="Supplimental Instruction" id="1_supplemental">
             <area shape="rect" coords="1019,730,1156,845" href="#/" title="room 111" alt="Supplimental Instruction Room 111" id="1_supplemental">
-            <area shape="rect" coords="65,30,282,148" href="#/" title="room103" alt="Instruction Room 103" id="1_instruction">
+            <area shape="rect" coords="65,30,282,148" href="#/" title="room103" alt="Instruction Room 103" id="1_103">
             <area shape="rect" coords="1172,636,1444,802"  href="#/" title="rooms 109-11" alt="Instruction Rooms 109-110" id="1_instruction">          
             <area shape="rect" coords="151,310,385,445"  href="#/" title="accessservices" alt="Access Services" id="1_circulationdesk">
             <area shape="rect" coords="913,542,1078,648" href="#/" title="popup" alt="Pop Up Desk" id="1_popup">
