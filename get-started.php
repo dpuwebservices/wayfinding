@@ -21,7 +21,7 @@
 		</div>        
 		<div class="col-lg-3">
 			<h4>Connect to the Internet</h4>  
-<p class="force">Before you do anything else...</p>
+<p class="force">Get access to library resources using the Eduroam service:</p>
             <img src="images/wifi.png">
 		</div>
         <div class="col-lg-3">
