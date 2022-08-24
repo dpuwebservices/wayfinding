@@ -468,25 +468,34 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
 
 /* Hours Page Content Area */
 
-    #hours{ 
-        .hours-today{
-            width:600px; 
-            margin: 40px 0 0 0;
+    #hours { 
+        color:white;
+        font-weight:300;
+        .hours-col-loc{width:300px;}
+        table {
+            margin-left:80px;
+            font-size:130%;
         }
-        background: #001d3b;
+        .hours-col-loc{font-weight:400;}
 
-        th {color:#2f94fa;}
+        // .hours-today{
+        //     width:600px; 
+        //     margin: 40px 0 0 0;
+        // }
+        // background: #001d3b;
 
-        .hours-col-loc {width:400px;}
-        tr.loc12626 th{
-            color:white; 
-            font-size:24px;
-            padding: 0 0 20px 0;
-        }
-        .hours-col-time, .s-lc-time{
-            text-align:left;
-            color:white;
-        }
+        // th {color:#2f94fa;}
+
+        // .hours-col-loc {width:400px;}
+        // tr.loc12626 th{
+        //     color:white; 
+        //     font-size:24px;
+        //     padding: 0 0 20px 0;
+        // }
+        // .hours-col-time, .s-lc-time{
+        //     text-align:left;
+        //     color:white;
+        // }
 
         #qr-hours{
             display: block;
@@ -494,8 +503,21 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
             padding-top: 10px;
             margin: 0 auto;
             }
+
+        .loc12626 {
+            height:50px;
+        .hours-col-loc{
+
+            font-size:140%
+        }
+        .s-lc-time, {
+            color:$orange;
+            font-size:140%
+        }        
+        }
         
     }
+
 /* Events Page Content Area */
 
 

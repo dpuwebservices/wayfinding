@@ -14,11 +14,12 @@
         <div class="col-lg-12">
             &nbsp;
         </div>
-		<div class="col-lg-4">
-&nbsp;
-		</div>
-        <div class="col-lg-4">
-            <h3 class="text-center eventTitle">Today's Hours</h3>
+        <div class="col-lg-3">
+        &nbsp;
+</div>
+        <div class="col-lg-6">
+            <p class="text-center eventTitle">Today's Hours</p>
+            <p>&nbsp;</p>
             <div class="hours-content">
                 <div id="hours" class="tab-pane active">
                     <div id="api_hours_today_iid123_lid12626"></div>
@@ -29,12 +30,13 @@
             </div>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-            <h4 class="text-center eventTitle">View More Hours</h4>
+            <p class="text-center eventTitle">View More Hours</p>
             <img id="qr-hours" src="images/hours.png">
 		</div>
-        <div class="col-lg-4">	
+        <div class="col-lg-3">
             &nbsp;
-		</div>
+</div>
+
 	</div>
 
 </div>
