@@ -44,7 +44,7 @@
                     <area shape="rect" coords="56,292,150,450" href="#/" title="studios" alt="Media Studios" id="2_studios">
                     <area shape="rect" coords="153,33,242,159" href="#/" title="206" alt="Room 206" id="2_206">
                     <area shape="rect" coords="254,29,470,166" href="#/" title="207" alt="IRoom 207" id="2_207">
-                    <area shape="rect" coords="1360,195,1428,610" href="#/" title="researchinformation" alt="Research & Instruction Services" id="2_researchinformation">
+                    <area shape="rect" coords="1360,195,1428,610" href="#/" title="riae" alt="Research & Instruction Services" id="2_riae">
                     <area shape="rect" coords="523,659,635,723" href="#/" title="solobooths" alt="Solo Booths" id="2_solobooths">
                     <area shape="rect" coords="185,191,470,339" href="#/" title="theforum" alt="The Forum" id="2_theforum">
                     <area shape="rect" coords="576,33,979,111" href="#/" title="groupstudy2" alt="Group Study Tables" id="groupstudyrooms">
