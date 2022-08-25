@@ -40,7 +40,8 @@
 				<img class="mapoverlay" width="1500" height="1016">
 				<map name="second" id="second">
                     <area shape="rect" coords="511,195,971,642" href="#/" title="core" alt="CoRE – Collaborative Research Environment" id="2_core">
-                    <area shape="rect" coords="54,270,146,575" href="#/" title="studios" alt="Studios A-G" id="2_studios">
+                    <area shape="rect" coords="57,455,154,539" href="#/" title="makerhub" alt="Maker Hub" id="2_makerhub">
+                    <area shape="rect" coords="56,292,150,450" href="#/" title="studios" alt="Media Studios" id="2_studios">
                     <area shape="rect" coords="153,33,242,159" href="#/" title="206" alt="Room 206" id="2_206">
                     <area shape="rect" coords="254,29,470,166" href="#/" title="207" alt="IRoom 207" id="2_207">
                     <area shape="rect" coords="1360,195,1428,610" href="#/" title="researchinformation" alt="Research & Instruction Services" id="2_researchinformation">
