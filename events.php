@@ -10,8 +10,11 @@
 
 <div class="container col-lg-12 container-margin">
 	<div class="col-lg-9">
-		<div class="col-lg-9 maps-center clearfix">
-			<h3 class="eventTitle">Library Events</h3>  	
+	<div class="col-lg-12">
+	<h3 class="eventTitle">Library Events</h3>  
+	<p>&nbsp;</p>
+	</div>
+		<div class="col-lg-9 maps-center clearfix">	
 				<script type="text/javascript"
 					src="https://events.depaul.edu/widget/view?venues=richardson_library_304&days=365&num=10&hideimage=true&style=none&format=js">
 				</script>
