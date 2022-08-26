@@ -56,7 +56,7 @@
 
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="three">
-				<img src="images/maps/thirdfloor.png" width="1500" height="1016" usemap="#third" class="max-maps">
+				<img src="images/thirdfloor.png" width="1500" height="1016" usemap="#third" class="max-maps">
 				<img class="mapoverlay" width="1500" height="1016">
           <map name="third" id="third">
             <area shape="rect" coords="58,745,248,842" href="#/" title="jtr300" alt="Room 300" id="3_300room">
