@@ -15,6 +15,7 @@ info_map = {
 	"bathrooms": ["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
 	"computers": ["Lab computers are available on the first and second floors. Some have attached scanners as well.", ["1_computers.png", "2_computerlabs.png"]],
 	"copycenters": ["", ["1_copycenter.png", "2_copycenter.png"]],
+	"microfilm": ["", ["2_copycenter.png"]],
 	"groupstudyzones": ["<p><strong>Collaborative Areas / Group Study Zones </strong></p> <p>Talking and group work are permitted on on the first and second floors. The third and fourth floors are for quiet study, with the exception of the group study rooms.", ["1_groupstudyzone.png", "2_groupstudyzone.png"]],
 	"1_assistivetechnology": ["", ["1_assistivetechnology.png"]],
 	"groupstudyrooms": ["<b>Group Study Rooms and Work Tables</b><br/><br/>The DePaul Library supports group study by providing a variety of spaces and technologies. Your group can reserve a room for studying in a group, or collaborate on a project by sharing share computer screens at one of our group work tables. <br> <br><b>Instructions:</b><br/>Reservable for up to two hours. To make a reservation, scan below, go to <span class=\"highlight\">libcal.depaul.edu</span>, or talk to a library staff member for assistance.<br/><br/><b>Max Capacity:</b><br/>10 People<br/><br/> <img src=\"https://libservices.org/wayfinding/images/group-study-qr-code.png\" width=\"150\" height=\"150\">", ["1_groupstudy.png", "2_groupstudy.png", "3_groupstudy.png", "4_groupstudy.png"]],
