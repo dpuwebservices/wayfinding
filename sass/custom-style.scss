@@ -81,9 +81,8 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
         font-family: $headerFont;
         h1 {
             font-weight: 600;
-            margin-left: -3px;
-            display:block;
-            font-size:28px;
+            display: block;
+            font-size:22px;
         }
         h2 {
             display: inline-block;
@@ -98,12 +97,13 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
             display:inline-block;
             margin:0 0 0 20px;
             font-size: 14px;
+            margin: 0 0 0 20px;
         }
     }
     color: $white; 
-    margin:0 auto 20px;
+    margin:10px 0 0 50px;
     float:none; 
-    padding: 10px 0 10px 0;
+    padding:0;
     width: 94%;
     border-bottom: 1px solid rgba($white, .4);
 
@@ -197,7 +197,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
             color: $white;
             font-size: $font-size-base;
             font-weight: bold;
-            padding: 8px 0;
+            padding: 4px 0;
             float:right;
                 
             i {
