@@ -14,10 +14,10 @@
         <div class="col-lg-12">
             &nbsp;
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-2">
         &nbsp;
 </div>
-        <div class="col-lg-6">
+        <div class="col-lg-8">
             <p class="text-center eventTitle">Today's Hours</p>
             <p>&nbsp;</p>
             <div class="hours-content">
@@ -33,7 +33,7 @@
             <p class="text-center eventTitle">View More Hours</p>
             <img id="qr-hours" src="images/hours.png">
 		</div>
-        <div class="col-lg-3">
+        <div class="col-lg-2">
             &nbsp;
 </div>
 
