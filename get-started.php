@@ -53,7 +53,7 @@
 
 
 <!-- JavaScript plugins (requires jQuery) -->
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js"></script>
 <script type="text/jscript"> 
 	$(document).ready(function() {
 
@@ -84,7 +84,7 @@
 	});
 </script>
     
-<script type="text/javascript">
+<script>
 setTimeout(function(){var a=document.createElement("script");
 var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/1884.js?"+Math.floor(new Date().getTime()/3600000);

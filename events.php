@@ -15,8 +15,7 @@
 	<p>&nbsp;</p>
 	</div>
 		<div class="col-lg-9 maps-center clearfix">	
-				<script type="text/javascript"
-					src="https://events.depaul.edu/widget/view?venues=richardson_library_304&days=365&num=10&hideimage=true&style=none&format=js">
+				<script src="https://events.depaul.edu/widget/view?venues=richardson_library_304&days=365&num=10&hideimage=true&style=none&format=js">
 				</script>
 		</div>
 	</div>
@@ -32,7 +31,7 @@
 </div>
 
 <!-- JavaScript plugins (requires jQuery) -->
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js"></script>
 <script type="text/jscript"> 
 	$(document).ready(function() {
 
