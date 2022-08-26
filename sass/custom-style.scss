@@ -507,7 +507,7 @@ h3 {font-size: $font-size-h3; font-family: $headerFont; font-weight: 600}
         font-size: $font-size-h3 + 14px; // ~34px
         font-family: $headerFont;
         font-weight: bold;
-        margin:0 0 10px;
+        margin: 30px 0 0 0;
     }
     .s-lc-ea-h3 {
         color: lighten($gray, 10%);
