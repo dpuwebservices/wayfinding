@@ -1,13 +1,27 @@
 <div id="directory" class="tab-pane active">
     <div class="panel-group" id="accordion-dir">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion-dir" href="#collapseComputers">Computers and Printers</a>
+          </h4>
+        </div>
+        <div id="collapseComputers" class="panel-collapse collapse in">
+          <ul>
+              <li class="li"><a href="#/" onClick="show_info_panel('2_solobooths');">Solo Booths</a></li>
+              <li class="li"><a href="#/" onClick="show_info_panel('4_stvincent');">St. Vincent DePaul Room (Room 417)</a> </li>
+              <li class="li"><a href="#/" onClick="show_info_panel('onlineclass');">"Zoom-Friendly" Zones</a></li>
+          </ul>
+
+        </div>
+      </div>      
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion-dir" href="#collapseSpaces">
-              Spaces</a>
+              <a data-toggle="collapse" data-parent="#accordion-dir" href="#collapseSpaces">Spaces</a>
             </h4>
           </div>
-          <div id="collapseSpaces" class="panel-collapse collapse in">
+          <div id="collapseSpaces" class="panel-collapse collapse">
             <ul>
                 <li class="li"><a href="#/" onClick="show_info_panel('1_admin');">Administrative Offices</a></li>
                 <li class="li"><a href="#/" onClick="show_info_panel('4_audiovideo');">Audio-Video Viewing & Listening</a></li>
@@ -45,8 +59,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion-dir" href="#collapseServices">
-              Services</a>
+              <a data-toggle="collapse" data-parent="#accordion-dir" href="#collapseServices">Services</a>
             </h4>
           </div>
           <div id="collapseServices" class="panel-collapse collapse">
@@ -70,8 +83,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion-dir" href="#collapseCollectons">
-              Collections</a>
+              <a data-toggle="collapse" data-parent="#accordion-dir" href="#collapseCollectons">Collections</a>
             </h4>
           </div>
           <div id="collapseCollectons" class="panel-collapse collapse">
