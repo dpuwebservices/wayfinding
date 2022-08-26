@@ -13,7 +13,7 @@ $("#four .mapoverlay").hide();
 // To change what text is displayed, edit or add it here.
 info_map = {
 	"bathrooms": ["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
-	"computers": ["", ["1_computers.png", "2_computerlabs.png"]],
+	"computers": ["Lab computers are available on the first and second floors. Some have attached scanners as well.", ["1_computers.png", "2_computerlabs.png"]],
 	"copycenters": ["", ["1_copycenter.png", "2_copycenter.png"]],
 	"groupstudyzones": ["<p><strong>Collaborative Areas / Group Study Zones </strong></p> <p>Talking and group work are permitted on on the first and second floors. The third and fourth floors are for quiet study, with the exception of the group study rooms.", ["1_groupstudyzone.png", "2_groupstudyzone.png"]],
 	"1_assistivetechnology": ["", ["1_assistivetechnology.png"]],
