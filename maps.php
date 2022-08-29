@@ -28,8 +28,8 @@
             <area shape="rect" coords="363,22,996,104" href="#/" title="groupstudy1" alt="Group Study Tables" id="groupstudyrooms">
             <area shape="rect" coords="461,449,667,609" href="#/" title="group study west" alt="Group Study Zone" 
             id="groupstudyzones">            
-            <area shape="rect" coords="653,216,874,390" href="#/" title="group study center" alt="Group Study Zone" id="groupstudyzones">            
-            <area shape="rect" coords="1193,306,1406,639" href="#/" title="group study east" alt="Group Study Zone" id="groupstudyzones">            
+            <area shape="rect" coords="653,216,874,390" href="#/" title="computer lab" alt="Computer Lab" id="computers">            
+            <area shape="rect" coords="1193,306,1406,639" href="#/" title="computer lab" alt="Computer Lab" id="computers">            
             <area shape="rect" coords="1348,905,1428,1034" href="#/" title="gallery" alt="Richardson Art Gallery" id="1_gallery">                 
         </map>
 
