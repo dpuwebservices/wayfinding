@@ -14,7 +14,7 @@ $("#four .mapoverlay").hide();
 info_map = {
 	"bathrooms": ["", ["1_bathrooms.png", "2_bathrooms.png", "3_bathrooms.png", "4_bathrooms.png"]],
 	"scanners": ["<p>Scanners are also available at several lab computers on the first and second floors.</p>", ["1_printcenter.png"]],
-	"computers": ["Lab computers are available on the first and second floors. Some have attached scanners as well.", ["1_computers.png", "2_computerlabs.png"]],
+	"computers": ["<strong>Computers</strong><br><br>Lab computers are available on the first and second floors. These contain the standart suite of software needed for coursework, including the Adobe products. Some computers have attached scanners as well.", ["1_computers.png", "2_computerlabs.png"]],
 	"copycenters": ["", ["1_copycenter.png", "2_copycenter.png"]],
 	"microfilm": ["", ["2_copycenter.png"]],
 	"bwprinters": ["", ["1_printcenter.png", "2_bwprinter.png"]],
