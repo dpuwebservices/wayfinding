@@ -48,6 +48,7 @@
                     <area shape="rect" coords="1360,195,1428,610" href="#/" title="riae" alt="Research & Instruction Services" id="2_riae">
                     <area shape="rect" coords="523,659,635,723" href="#/" title="solobooths" alt="Solo Booths" id="2_solobooths">
                     <area shape="rect" coords="185,191,470,339" href="#/" title="theforum" alt="The Forum" id="2_theforum">
+                    <area shape="rect" coords="57,208,156,282" href="#/" title="provost" alt="Provost office" id="2_provost">
                     <area shape="rect" coords="576,33,979,111" href="#/" title="groupstudy2" alt="Group Study Tables" id="groupstudyrooms">
                     <area shape="rect" coords="47,669,265,842" href="#/" title="group study west" alt="Group Study Zone" id="groupstudyzones">                      
                 </map>

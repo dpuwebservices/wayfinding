@@ -60,6 +60,7 @@ info_map = {
 	"2_audiovisual": ["", ["2_audiovisual.png"]],
 	"2_printcenter": ["", ["2_printcenter.png"]],
 	"2_recreational": ["", ["2_recreational.png"]],
+	"2_provost": ["<b>Office of the Provost:</b><br/><br/>Salma Ghanem, PhD", ["2_provost.png"]],
 	"2_solobooths": ["<b>Solo Booths</b><br/><br/>Individual spaces ideal for private phone conversation, video conferencing, or quiet contemplation.</p><p>Located on the 2nd floor.</p> <br> <br><b>Instructions:</b><br/>Reservable for up to two hours. To make a reservation, scan below, go to <span class=\"highlight\">libcal.depaul.edu</span>, or talk to a library staff member for assistance. <br/><br/> <img src=\"https://libservices.org/wayfinding/images/group-study-qr-code.png\" width=\"150\" height=\"150\">", ["2_solobooths.png"]],
 	"1_selfcheckout": ["", ["1_selfcheckout.png"]],
 	"2_riae": ["<b>Research & Instruction Services</b><br/><br/>Research and Instruction Librarians help researchers explore their topics. Research and Instruction librarians also work directly with faculty and students in classes with assignments which require locating and using information in books, articles and other formats. The best way to reach them is at the Research Help Desk, online via chat/IM (“Ask a Librarian”) and by appointment.", ["2_riae.png"]],
