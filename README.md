@@ -19,16 +19,16 @@ NOTE: When running on local machine, enlarge screen to 133% to better mimic actu
 - /css - stylesheets for wayfinding (may need to go through and figure out which ones we actually use)
 - /fonts - fonts we use (may need to go through and figure out which ones we actually use)
 - /images - images used for wayfinding
-- - /\_notes - dwsync metadata (presumably dwsync is used for syncing with a local directory somewhere)
-- - /maps - map images
-- - - /\_notes - dwsync metadata
-- - - [#]\_[location].png - Overlay for [location] on [#] floor (for when someone clicks on a location to get information about it)
+  - /\_notes - dwsync metadata (presumably dwsync is used for syncing with a local directory somewhere)
+  - /maps - map images
+    - /\_notes - dwsync metadata
+    - [#]\_[location].png - Overlay for [location] on [#] floor (for when someone clicks on a location to get information about it)
 - /includes - modular html for wayfinding pages
-- - head.html - <head> stanza
-- - info-directory.html - directory menu of library locations/features organized by function
-- - info-floor.html - directory menu organized by floor
-- - infopanel.php - sidebar content
-- - mainnav.html - top nav menu
-- - /js - javascript files for wayfinding (may need to go through and figure out which ones we actually use)
-- - - wayfinding.js - custom js containing sidebar text for various locations on the floor plans corresponding to an image map of clickable areas on each floor's floorplan
-- - /sass - sass file for custom-style.css
+  - head.html - <head> stanza
+  - info-directory.html - directory menu of library locations/features organized by function
+  - info-floor.html - directory menu organized by floor
+  - infopanel.php - sidebar content
+  - mainnav.html - top nav menu
+  - /js - javascript files for wayfinding (may need to go through and figure out which ones we actually use)
+    - wayfinding.js - custom js containing sidebar text for various locations on the floor plans corresponding to an image map of clickable areas on each floor's floorplan
+  - /sass - sass file for custom-style.css
