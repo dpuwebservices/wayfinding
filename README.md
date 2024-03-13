@@ -6,6 +6,10 @@ The files in the \_PWB-files folder are used by the Public Web Browser app and n
 
 NOTE: When running on local machine, enlarge screen to 133% to better mimic actual display
 
+# Updates
+
+Wayfinding Screen: Documentation & Procedures in Digital Services Wiki
+
 # Files
 
 - classes.php - queries LibCal for today's Library classes
