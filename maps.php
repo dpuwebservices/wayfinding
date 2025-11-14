@@ -1,4 +1,8 @@
 <?php 
+  $floor = "all";
+  if (isset($_GET["floor"]) && ($_GET["floor"] == "first" || $_GET["floor"] == "second" || $_GET["floor"] == "third" || $_GET["floor"] == "fourth")) {
+    $floor = htmlspecialchars($_GET["floor"]);
+  }
   include ("./includes/head.html");
 ?>
 
@@ -9,82 +13,199 @@
 ?>
 
 <div class="container col-lg-12 container-margin">
-	<div class="col-lg-8">
+  			<ul class="nav nav-tabs">
+				<li <?php if ($floor == "all") { ?> class="active" <?php } ?>><a href="./maps.php?floor=all">All Floors</a></li>
+        <li <?php if ($floor == "first") { ?> class="active" <?php } ?>><a href="./maps.php?floor=first">1st Floor</a></li>
+        <li <?php if ($floor == "second") { ?> class="active" <?php } ?>><a href="./maps.php?floor=second">2nd Floor</a></li>
+        <li <?php if ($floor == "third") { ?> class="active" <?php } ?>><a href="./maps.php?floor=third">3rd Floor</a></li>
+        <li <?php if ($floor == "fourth") { ?> class="active" <?php } ?>><a href="./maps.php?floor=fourth">4th Floor</a></li>
+			</ul>
+
+	<div id="mapArea"class="col-lg-8">
 			<!--Image map tutorial. http://jquer.in/responsive/rwdimagemaps/
 			Tool for image mapping. https://imagemap.org/-->
 		<div class="row maps-center">
+<?php if ($floor == "all") { ?>
 			<div class="col-lg-6 nopadding max-maps" id="one">
-				<img src="images/firstfloor.png" width="1500" height="1062" usemap="#first" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1062">
 
-          <map name="first" id="first">
-            <area shape="rect" coords="1083,19,1229,120" href="#/" title="supplimentalinstruction" alt="Supplimental Instruction" id="1_supplemental">
-            <area shape="rect" coords="1019,730,1156,845" href="#/" title="room 111" alt="Supplimental Instruction Room 111" id="1_supplemental">
-            <area shape="rect" coords="65,30,282,148" href="#/" title="room103" alt="Instruction Room 103" id="1_103">
-            <area shape="rect" coords="1172,636,1444,802"  href="#/" title="rooms 109-11" alt="Instruction Rooms 109-110" id="1_instruction">          
-            <area shape="rect" coords="151,310,385,445"  href="#/" title="accessservices" alt="Access Services" id="1_circulationdesk">
-            <area shape="rect" coords="913,542,1078,648" href="#/" title="popup" alt="Pop Up Desk" id="1_popup">
-            <area shape="rect" coords="220,181,428,289" href="#/" title="researchhelp" alt="Research Help Desk" id="1_researchhelpdesk">
-            <area shape="rect" coords="363,22,996,104" href="#/" title="groupstudy1" alt="Group Study Tables" id="groupstudyrooms">
-            <area shape="rect" coords="461,449,667,609" href="#/" title="group study west" alt="Group Study Zone" 
-            id="groupstudyzones">            
-            <area shape="rect" coords="653,216,874,390" href="#/" title="computer lab" alt="Computer Lab" id="computers">            
-            <area shape="rect" coords="1193,306,1406,639" href="#/" title="computer lab" alt="Computer Lab" id="computers">            
-            <area shape="rect" coords="1348,905,1428,1034" href="#/" title="gallery" alt="Richardson Art Gallery" id="1_gallery">                 
-        </map>
-
+<?php
+  header('Content-Type: image/svg+xml');
+  echo file_get_contents('./maps/jtr_1.svg');
+?>
+        <script type="text/javascript">
+          const firstFloorLink = document.querySelector('#one svg');
+          firstFloorLink.addEventListener('click', function(event) {
+            window.open('https://libservices.org/wayfinding/maps.php?floor=first');
+          });
+        </script>
 			</div>
 
 			<div class="col-lg-6 nopadding max-maps" id="two">
-				<img src="images/secondfloor.png" width="1500" height="1016" usemap="#second" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1016">
-				<map name="second" id="second">
-                    <area shape="rect" coords="511,195,971,642" href="#/" title="core" alt="CoRE – Collaborative Research Environment" id="2_core">
-                    <area shape="rect" coords="998,722,1162,832" href="#/" title="computers" alt="Computer Lab" id="computers">
-                    <area shape="rect" coords="57,455,154,539" href="#/" title="makerhub" alt="Maker Hub" id="2_makerhub">
-                    <area shape="rect" coords="56,292,150,450" href="#/" title="studios" alt="Media Studios" id="2_studios">
-                    <area shape="rect" coords="153,33,242,159" href="#/" title="206" alt="Room 206" id="2_206">
-                    <area shape="rect" coords="254,29,470,166" href="#/" title="207" alt="IRoom 207" id="2_207">
-                    <area shape="rect" coords="1360,195,1428,610" href="#/" title="riae" alt="Research & Instruction Services" id="2_riae">
-                    <area shape="rect" coords="523,659,635,723" href="#/" title="solobooths" alt="Solo Booths" id="2_solobooths">
-                    <area shape="rect" coords="185,191,470,339" href="#/" title="theforum" alt="The Forum" id="2_theforum">
-                    <area shape="rect" coords="57,208,156,282" href="#/" title="provost" alt="Provost office" id="2_provost">
-                    <area shape="rect" coords="576,33,979,111" href="#/" title="groupstudy2" alt="Group Study Tables" id="groupstudyrooms">
-                    <area shape="rect" coords="47,669,265,842" href="#/" title="group study west" alt="Group Study Zone" id="groupstudyzones">                      
-                </map>
+<?php
+  header('Content-Type: image/svg+xml');
+  echo file_get_contents('./maps/jtr_2.svg');
+?>
+        <script type="text/javascript">
+          const secondFloorLink = document.querySelector('#two svg');
+          secondFloorLink.addEventListener('click', function(event) {
+            window.open('https://libservices.org/wayfinding/maps.php?floor=second');
+          });
+        </script>
 			</div>
 		</div>
 
 		<div class="row maps-center">
 			<div class="col-lg-6 nopadding max-maps" id="three">
-				<img src="images/thirdfloor.png" width="1500" height="1016" usemap="#third" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1016">
-          <map name="third" id="third">
-            <area shape="rect" coords="58,745,248,842" href="#/" title="jtr300" alt="Room 300" id="3_300room">
-            <area shape="rect" coords="1246,749,1436,844" href="#/" title="specialcollections" alt="Special Collections" id="3_specialcollections">
-            <area shape="rect" coords="1225,210,1438,366" href="#/" title="groupstudy3" alt="Group Study Rooms" id="groupstudyrooms">
-            <area shape="rect" coords="461,742,1037,844" href="#/" title="O'Neil Reading Room" alt="O'Neil Reading Room" id="quietstudyzones">
-          </map>
+<?php
+  header('Content-Type: image/svg+xml');
+  echo file_get_contents('./maps/jtr_3.svg');
+?>
+        <script type="text/javascript">
+          const thirdFloorLink = document.querySelector('#three svg');
+          thirdFloorLink.addEventListener('click', function(event) {
+            window.open('https://libservices.org/wayfinding/maps.php?floor=third');
+          });
+        </script>
 			</div>
 
 			<div class="col-lg-6 nopadding max-maps" id="four">
-				<img src="images/fourthfloor.png" width="1500" height="1000" usemap="#fourth" class="max-maps">
-				<img class="mapoverlay" width="1500" height="1000">
-                <map name="fourth" id="fourth">
-                  <area shape="rect" coords="49,220,261,289" href="#/" title="4_audiovideo" alt="Media Room" id="4_audiovideo">
-                  <area shape="rect" coords="1316,213,1444,552" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
-                  <area shape="rect" coords="48,302,215,461" href="#/" title="groupstudy4" alt="Group Study Rooms" id="groupstudyrooms">
-                  <area shape="rect" coords="1363,705,1432,805" href="#/" title="4_stvincent" alt="St Vincent de Paul Room" id="4_stvincent">
-                  <area shape="rect" coords="492,766,985,861" href="#/" title="Balconies" alt="Balconies" id="quietstudyzones">                    
-                </map>
+<?php
+  header('Content-Type: image/svg+xml');
+  echo file_get_contents('./maps/jtr_4.svg');
+?>
+        <script type="text/javascript">
+          const fourthFloorLink = document.querySelector('#four svg');
+          fourthFloorLink.addEventListener('click', function(event) {
+            window.open('https://libservices.org/wayfinding/maps.php?floor=fourth');
+          });
+        </script>
 			</div>
+<?php  } else { 
+  if ($floor == "first") {
+    header('Content-Type: image/svg+xml');
+    echo file_get_contents('./maps/jtr_1.svg');
+  } elseif ($floor == "second") {
+    header('Content-Type: image/svg+xml');
+    echo file_get_contents('./maps/jtr_2.svg');
+  } elseif ($floor == "third") {
+    header('Content-Type: image/svg+xml');
+    echo file_get_contents('./maps/jtr_3.svg');
+  } else {
+    header('Content-Type: image/svg+xml');
+    echo file_get_contents('./maps/jtr_4.svg');
+  }
+} ?>
 		</div>
 	</div> <!--End of maps-->
+	<div class="col-lg-4" id="mapLinks">
 
+		<div id="directory-container">
+
+
+			<div class="tab-content">
+
+      
+<div id="directory" class="tab-pane active">
+  <div class="panel-group" id="accordion-dir">
+     <div class="panel panel-default">
+        <div class="panel-heading">
+           <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion-dir" href="#collapseDirectory">Directory</a>
+           </h4>
+        </div>
+        <div id="collapseDirectory" class="panel-collapse collapse in">
+           <ul>
 <?php 
-  include ("./includes/infopanel.php");
-?>
+$filePath = './includes/directory_list.txt';
+$directoryArray = [];
+if(file_exists($filePath) && is_readable($filePath)) {
+  $fh = fopen($filePath, 'r');
+  if ($fh !== false) {
+    while (($row = fgetcsv($fh, 0, ';')) !== false) {
+      $item_arr = explode(",", $row[2]);
+      if ($floor == "first") {
+        if ($row[0] == "First Floor") {
+          $directoryArray[$row[1]] = $item_arr;            
+        }
+      } elseif ($floor == "second") {
+        if ($row[0] == "Second Floor") {
+          $directoryArray[$row[1]] = $item_arr;            
+        }
+      } elseif ($floor == "third") {
+        if ($row[0] == "Third Floor") {
+          $directoryArray[$row[1]] = $item_arr;            
+        }
+      } elseif ($floor == "fourth") {
+        if ($row[0] == "Fourth Floor") {
+          $directoryArray[$row[1]] = $item_arr;            
+        }
+      } else {
+        if(array_key_exists($row[1], $directoryArray)) {
+          foreach($item_arr as $item) {
+            array_push($directoryArray[$row[1]], $item);
+          }
+        } else {
+          $directoryArray[$row[1]] = $item_arr;            
+        }
+      }
+    }
+    fclose($fh);
+  }
+}
 
+ksort($directoryArray);
+
+foreach ($directoryArray as $label => $id_list) {
+  $id_string = "[";
+  foreach ($id_list as $item) {
+    $id_string .= $item . ",";
+  }
+  $id_string = substr($id_string, 0, -1);
+  $id_string .= "]";
+  echo "<li class=\"li\"><a href=\"#/\" onClick=\"light_up(". $id_string . ");\">". $label ."</a></li>\n";
+}
+?>
+           </ul>
+        </div>
+      </div>
+  </div>
+
+</div>
+
+      
+
+			</div>
+		</div>
+
+	</div> <!--End of panel-->
+<?php if ($floor == "all") { ?>
+<div id="legend-all" class="col-lg-12">
+    <ul>
+      <li>AED <img src="images/icons/aed.svg" /></li>
+      <li>All Gender Restroom <img src="images/icons/restroom-accessible.svg" /></li>
+      <li>Bookdrop <img src="images/icons/bookdrop.svg" /></li>
+      <li>Charging Station <img src="images/icons/charger.svg" /></li>
+      <li>Church Model <img src="images/icons/church.svg" /></li>
+      <li>Collaboration Area <img src="images/icons/collab.svg" /></li>
+      <li>Computers <img src="images/icons/computer.svg" /></li>
+      <li>Copier <img src="images/icons/copier.svg" /></li>
+      <li>Display <img src="images/icons/display.svg" /></li>
+      <li>Elevator <img src="images/icons/elevator.svg" /></li>
+      <li>Fire Exit <img src="images/icons/exit.svg" /></li>
+      <li>Guest Computers <img src="images/icons/kiosk.svg" /></li>
+      <li>ID Required <img src="images/icons/id.svg" /></li>
+      <li>Information <img src="images/icons/info.svg" /></li>
+      <li>Meditation/Prayer <img src="images/icons/meditation.svg" /></li>
+      <li>Microform Reader <img src="images/icons/film.svg" /></li>
+      <li>Printer <img src="images/icons/printer.svg" /></li>
+      <li>Quiet Study <img src="images/icons/quiet.svg" /></li>
+      <li>Restrooms <img src="images/icons/restroom-w.svg" /><img src="images/icons/restroom-m.svg" /></li>
+      <li>Scanner <img src="images/icons/scanner.svg" /></li>
+      <li>Self Checkout <img src="images/icons/selfcheck.svg" /></li>
+      <li>Water Fountain <img src="images/icons/fountain.svg" /></li>
+    </ul>
+</div>
+<?php } ?>
 </div> <!--/close container-->
 <script src="js/wayfinding.js"></script>
 <script>

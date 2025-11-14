@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic%7COpen+Sans+Condensed:300,700,300italic");
-
-.max-maps .map-legend {
-  display: none;
-}
 /* Typography */
 /* Colors */
 .highlight {
@@ -251,7 +247,7 @@ h3 {
 }
 
 .container-margin .maps-center>svg {
-  max-height: 580px;
+  max-height: 680px;
 }
 
 .container-margin .max-maps {
@@ -261,7 +257,6 @@ h3 {
 
 .container-margin .max-maps>svg {
   max-height: 330px;
-  margin-bottom: -45px;
 }
 
 .container-margin .mapoverlay {

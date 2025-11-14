@@ -3,6 +3,7 @@
 .max-maps .map-legend {
   display: none;
 }
+
 /* Typography */
 /* Colors */
 .highlight {
@@ -255,13 +256,13 @@ h3 {
 }
 
 .container-margin .max-maps {
-  max-height: 330px;
+  max-height: 290px;
   vertical-align: middle;
 }
 
 .container-margin .max-maps>svg {
-  max-height: 330px;
-  margin-bottom: -45px;
+  max-height: 325px;
+  padding-left: 10px;
 }
 
 .container-margin .mapoverlay {
@@ -294,8 +295,13 @@ h3 {
 
 /* Side Panels */
 #mapLinks {
-  padding-right: 0;
+  /* padding-right: 0; */
   padding-left: 0;
+  margin-bottom: 12px;
+}
+
+#mapLinks .panel-group {
+  margin-bottom: 0;
 }
 
 #mapLinks #info-panel {
@@ -345,9 +351,9 @@ h3 {
   font-weight: bold;
 }
 #mapLinks .tab-content {
-  position: absolute;
+  /* position: absolute; */
   background-color: rgb(255, 255, 255);
-  width: 95%;
+  /* width: 95%; */
   z-index: 0;
 }
 #mapLinks .tab-content .info {
@@ -362,11 +368,11 @@ h3 {
   margin-top: 6px;
 }
 #mapLinks .tab-content ul li {
-  line-height: 14px;
-  padding-bottom: 2px;
+  line-height: 11px;
+  padding-bottom: 4px;
 }
 #mapLinks .tab-content ul a {
-  font-size: 12px;
+  font-size: 11px;
 }
 
 #info-by-floor, #directory {
@@ -396,6 +402,34 @@ h3 {
   color: rgb(255, 102, 51);
   text-decoration: none;
 }
+
+#legend-all {
+  clear: both;
+  padding-left: 0;
+}
+
+#legend-all ul {
+  list-style: none;
+  background-color: #d3d3d3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5px 10px;
+  padding: 5px;
+}
+
+#legend-all ul li {
+  width: 140px;
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#legend-all ul li img {
+  width: 15px;
+}
+
 
 #started {
   color: white;

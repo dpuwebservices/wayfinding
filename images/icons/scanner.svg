@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="4.8620462mm"
+   height="4.9267011mm"
+   viewBox="0 0 4.8620462 4.9267011"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="scanner.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.71891835"
+     inkscape:cx="9.0413605"
+     inkscape:cy="9.0413605"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-102.65833,-146.05)">
+    <g
+       id="g44"
+       inkscape:label="scanner-0"
+       style="display:inline"
+       transform="matrix(0.26458333,0,0,0.26458333,67.608127,158.421)">
+      <rect
+         x="132.68063"
+         y="-46.549122"
+         width="17.96142"
+         height="18.205784"
+         ry="9.1028919"
+         id="rect2240"
+         style="display:inline;fill:#003da5;fill-opacity:1;stroke:#ffffff;stroke-width:0.414818;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         d="m 146.69167,-33.281175 v -0.729594 h 0.7287 v 0.729594 z m -1.23009,0 v -0.729594 h 0.7287 v 0.729594 z m -1.23029,0 v -0.729594 h 0.7287 v 0.729594 z m -6.53896,-2.229154 h 7.93831 v -0.813577 h -7.93831 z m -3.10859,0.268333 v 3.216263 h 1.26437 v 0.491744 h 2.40153 v -0.491744 h 6.82333 v 0.491744 h 2.40154 v -0.491744 h 1.26444 v -3.216263 H 135.8549 l 9.0212,-7.490349 -0.51721,-0.626126 z"
+         id="path2813"
+         style="display:inline;fill:#ffffff;fill-rule:evenodd;stroke-width:0.0199187" />
+    </g>
+  </g>
+</svg>
