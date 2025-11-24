@@ -22,7 +22,7 @@ NOTE: When running on local machine, enlarge screen to 133% to better mimic actu
 - maps.php - displays interactive floor plans
 - README.md - this file
 - /\_PWB-files - contains configuration files for Public Web Browser app
-- /css - stylesheets for wayfinding (may need to go through and figure out which ones we actually use)
+- /css - stylesheets for wayfinding
 - /fonts - fonts we use (may need to go through and figure out which ones we actually use)
 - /images - images used for wayfinding
   - /\_notes - dwsync metadata (presumably dwsync is used for syncing with a local directory somewhere)
