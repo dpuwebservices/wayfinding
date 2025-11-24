@@ -21,7 +21,7 @@ NOTE: When running on local machine, enlarge screen to 133% to better mimic actu
 - index.html - redirects to maps.php
 - maps.php - displays interactive floor plans
 - README.md - this file
-- /\_PWB-files - contains configuration files for Public Web Browser app (need to be updated - KE 2025-11-20)
+- /\_PWB-files - contains configuration files for Public Web Browser app
 - /css - stylesheets for wayfinding (may need to go through and figure out which ones we actually use)
 - /fonts - fonts we use (may need to go through and figure out which ones we actually use)
 - /images - images used for wayfinding
