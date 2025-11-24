@@ -1,16 +1,18 @@
 # WayFinding
 
-This is the 2021/22 version of the Wayfinding display map for DePaul JTR Library.
+This is the 2025 version (in progress) of the Wayfinding display map for DePaul JTR Library.
 
-(NOTE: We need to upload the most recent PWB files if we still have access to them - KE 2025-11-20)The files in the \_PWB-files folder are used by the Public Web Browser app and need to be loaded into the PWB directory of the wayfinding machines. Changes made to the wayfinding site (https://libservices.org/wayfinding/)will not be reflected until PWB is interrupted and restarted (Ctrl-Alt-Shift + Insert, then enter override keyword).
+(Local note: Further local documentation is available in the Digital Services Wiki)
+
+## Dependencies
+- Public Web Browser (https://www.teamsoftwaresolutions.com/)
+- Windows Kiosk Mode (https://learn.microsoft.com/en-us/windows/configuration/kiosk/)
+
+The files in the \_PWB-files folder are used by the Public Web Browser app and need to be loaded into the PWB directory of the wayfinding machines. Changes made to the wayfinding site (https://libservices.org/wayfinding/)will not be reflected until PWB is interrupted and restarted (Ctrl-Alt-Shift + Insert, then enter override keyword).
 
 NOTE: When running on local machine, enlarge screen to 133% to better mimic actual display
 
-# Updates
-
-Wayfinding Screen: Documentation & Procedures in Digital Services Wiki
-
-# Files
+## Files
 
 - classes.php - queries LibCal for today's Library classes
 - events.php - queries events.depaul.edu for today's events in the Library
