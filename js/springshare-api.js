@@ -1,6 +1,6 @@
 const authObj = {
-  client_id: "137",
-  client_secret: "46c67a254ed49cb5332c12b6f4a6d2a5",
+  client_id: "[your client id]",
+  client_secret: "[your client secret]",
   grant_type: "client_credentials"
 };
 
